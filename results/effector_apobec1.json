@@ -1,0 +1,27 @@
+{
+  "chain": "A",
+  "terminus": "c_terminal",
+  "junction_residue": 1229,
+  "active_site_residue": 1301,
+  "modelled_residues": [
+    1015,
+    1236
+  ],
+  "body_residues": [
+    1015,
+    1229
+  ],
+  "resolved_tail": 7,
+  "tail_cutoff": 1.5,
+  "active_site_offset": [
+    5.19,
+    -32.58,
+    1.02
+  ],
+  "offset_magnitude": 33.01,
+  "radius_of_gyration": 16.96,
+  "bounding_radius": 25.93,
+  "body_radius": 16.96,
+  "accession": "6X91",
+  "effector": "apobec1"
+}

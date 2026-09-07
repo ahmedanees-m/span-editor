@@ -1,0 +1,105 @@
+{
+  "reference": "6I1K",
+  "other": "5XUS",
+  "aligned_pairs": 1172,
+  "core_rmsd": 5.99,
+  "amino_terminus_separation": 5.73,
+  "distances_to_the_displaced_strand": [
+    {
+      "index": 1,
+      "reference": 45.5,
+      "other": 44.8,
+      "change": -0.7
+    },
+    {
+      "index": 2,
+      "reference": 39.0,
+      "other": 37.7,
+      "change": -1.3
+    },
+    {
+      "index": 3,
+      "reference": 35.5,
+      "other": 34.1,
+      "change": -1.4
+    },
+    {
+      "index": 4,
+      "reference": 33.2,
+      "other": 31.8,
+      "change": -1.5
+    },
+    {
+      "index": 5,
+      "reference": 32.5,
+      "other": 31.2,
+      "change": -1.3
+    },
+    {
+      "index": 6,
+      "reference": 34.9,
+      "other": 34.2,
+      "change": -0.7
+    },
+    {
+      "index": 7,
+      "reference": 38.9,
+      "other": 38.4,
+      "change": -0.4
+    },
+    {
+      "index": 8,
+      "reference": 38.5,
+      "other": 38.7,
+      "change": 0.2
+    },
+    {
+      "index": 9,
+      "reference": 38.4,
+      "other": 38.2,
+      "change": -0.1
+    },
+    {
+      "index": 10,
+      "reference": 40.0,
+      "other": 40.2,
+      "change": 0.3
+    },
+    {
+      "index": 11,
+      "reference": 35.9,
+      "other": 36.5,
+      "change": 0.6
+    },
+    {
+      "index": 12,
+      "reference": 39.8,
+      "other": 41.0,
+      "change": 1.2
+    },
+    {
+      "index": 13,
+      "reference": 44.0,
+      "other": 45.8,
+      "change": 1.8
+    },
+    {
+      "index": 19,
+      "reference": 51.2,
+      "other": 55.0,
+      "change": 3.8
+    },
+    {
+      "index": 20,
+      "reference": 52.7,
+      "other": 56.7,
+      "change": 4.0
+    },
+    {
+      "index": 21,
+      "reference": 56.1,
+      "other": 60.2,
+      "change": 4.2
+    }
+  ]
+}

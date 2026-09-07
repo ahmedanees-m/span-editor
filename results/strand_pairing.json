@@ -1,0 +1,494 @@
+{
+  "threshold": 12.0,
+  "structures": {
+    "5F9R": {
+      "displaced_chain": "D",
+      "target_chain": "C",
+      "rows": [
+        {
+          "residue": 12,
+          "base": "DA",
+          "nearest_target_residue": 25,
+          "distance": 14.8,
+          "paired": false
+        },
+        {
+          "residue": 13,
+          "base": "DT",
+          "nearest_target_residue": 24,
+          "distance": 14.07,
+          "paired": false
+        },
+        {
+          "residue": 14,
+          "base": "DG",
+          "nearest_target_residue": 24,
+          "distance": 14.63,
+          "paired": false
+        },
+        {
+          "residue": 15,
+          "base": "DA",
+          "nearest_target_residue": 23,
+          "distance": 14.12,
+          "paired": false
+        },
+        {
+          "residue": 16,
+          "base": "DG",
+          "nearest_target_residue": 23,
+          "distance": 10.94,
+          "paired": true
+        },
+        {
+          "residue": 17,
+          "base": "DA",
+          "nearest_target_residue": 23,
+          "distance": 12.24,
+          "paired": false
+        },
+        {
+          "residue": 18,
+          "base": "DC",
+          "nearest_target_residue": 23,
+          "distance": 18.46,
+          "paired": false
+        },
+        {
+          "residue": 19,
+          "base": "DG",
+          "nearest_target_residue": 10,
+          "distance": 18.61,
+          "paired": false
+        },
+        {
+          "residue": 20,
+          "base": "DC",
+          "nearest_target_residue": 10,
+          "distance": 10.78,
+          "paired": true
+        },
+        {
+          "residue": 21,
+          "base": "DT",
+          "nearest_target_residue": 10,
+          "distance": 10.25,
+          "paired": true
+        },
+        {
+          "residue": 22,
+          "base": "DG",
+          "nearest_target_residue": 10,
+          "distance": 10.43,
+          "paired": true
+        },
+        {
+          "residue": 23,
+          "base": "DG",
+          "nearest_target_residue": 9,
+          "distance": 8.92,
+          "paired": true
+        },
+        {
+          "residue": 24,
+          "base": "DC",
+          "nearest_target_residue": 8,
+          "distance": 8.54,
+          "paired": true
+        },
+        {
+          "residue": 25,
+          "base": "DG",
+          "nearest_target_residue": 8,
+          "distance": 8.7,
+          "paired": true
+        },
+        {
+          "residue": 26,
+          "base": "DA",
+          "nearest_target_residue": 7,
+          "distance": 8.43,
+          "paired": true
+        },
+        {
+          "residue": 27,
+          "base": "DT",
+          "nearest_target_residue": 6,
+          "distance": 6.42,
+          "paired": true
+        },
+        {
+          "residue": 28,
+          "base": "DT",
+          "nearest_target_residue": 5,
+          "distance": 6.96,
+          "paired": true
+        },
+        {
+          "residue": 29,
+          "base": "DA",
+          "nearest_target_residue": 4,
+          "distance": 8.47,
+          "paired": true
+        },
+        {
+          "residue": 30,
+          "base": "DG",
+          "nearest_target_residue": 2,
+          "distance": 8.68,
+          "paired": true
+        }
+      ],
+      "paired_residues": [
+        16,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "resolved_bubble_residues": [
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19
+      ],
+      "currently_pinned": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "pinned_but_in_the_bubble": [
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19
+      ]
+    },
+    "6I1K": {
+      "displaced_chain": "D",
+      "target_chain": "C",
+      "rows": [
+        {
+          "residue": -8,
+          "base": "DA",
+          "nearest_target_residue": 10,
+          "distance": 7.48,
+          "paired": true
+        },
+        {
+          "residue": -7,
+          "base": "DG",
+          "nearest_target_residue": 9,
+          "distance": 7.54,
+          "paired": true
+        },
+        {
+          "residue": -6,
+          "base": "DT",
+          "nearest_target_residue": 8,
+          "distance": 8.25,
+          "paired": true
+        },
+        {
+          "residue": -5,
+          "base": "DC",
+          "nearest_target_residue": 6,
+          "distance": 9.36,
+          "paired": true
+        },
+        {
+          "residue": -4,
+          "base": "DC",
+          "nearest_target_residue": 5,
+          "distance": 8.97,
+          "paired": true
+        },
+        {
+          "residue": -3,
+          "base": "DT",
+          "nearest_target_residue": 5,
+          "distance": 8.2,
+          "paired": true
+        },
+        {
+          "residue": -2,
+          "base": "DT",
+          "nearest_target_residue": 4,
+          "distance": 7.18,
+          "paired": true
+        },
+        {
+          "residue": -1,
+          "base": "DT",
+          "nearest_target_residue": 3,
+          "distance": 7.15,
+          "paired": true
+        },
+        {
+          "residue": 0,
+          "base": "DA",
+          "nearest_target_residue": 3,
+          "distance": 9.13,
+          "paired": true
+        },
+        {
+          "residue": 1,
+          "base": "DT",
+          "nearest_target_residue": 0,
+          "distance": 13.7,
+          "paired": false
+        },
+        {
+          "residue": 2,
+          "base": "DC",
+          "nearest_target_residue": 0,
+          "distance": 17.07,
+          "paired": false
+        },
+        {
+          "residue": 3,
+          "base": "DT",
+          "nearest_target_residue": -2,
+          "distance": 19.82,
+          "paired": false
+        },
+        {
+          "residue": 4,
+          "base": "DA",
+          "nearest_target_residue": -4,
+          "distance": 20.58,
+          "paired": false
+        },
+        {
+          "residue": 5,
+          "base": "DA",
+          "nearest_target_residue": -5,
+          "distance": 19.65,
+          "paired": false
+        },
+        {
+          "residue": 6,
+          "base": "DT",
+          "nearest_target_residue": -5,
+          "distance": 16.2,
+          "paired": false
+        },
+        {
+          "residue": 7,
+          "base": "DT",
+          "nearest_target_residue": -5,
+          "distance": 15.33,
+          "paired": false
+        },
+        {
+          "residue": 8,
+          "base": "DT",
+          "nearest_target_residue": -6,
+          "distance": 16.69,
+          "paired": false
+        },
+        {
+          "residue": 9,
+          "base": "DT",
+          "nearest_target_residue": -6,
+          "distance": 21.53,
+          "paired": false
+        },
+        {
+          "residue": 10,
+          "base": "DC",
+          "nearest_target_residue": -6,
+          "distance": 23.85,
+          "paired": false
+        },
+        {
+          "residue": 11,
+          "base": "DC",
+          "nearest_target_residue": -7,
+          "distance": 24.58,
+          "paired": false
+        },
+        {
+          "residue": 12,
+          "base": "DA",
+          "nearest_target_residue": -7,
+          "distance": 25.83,
+          "paired": false
+        },
+        {
+          "residue": 13,
+          "base": "DT",
+          "nearest_target_residue": -24,
+          "distance": 21.57,
+          "paired": false
+        },
+        {
+          "residue": 19,
+          "base": "DT",
+          "nearest_target_residue": -21,
+          "distance": 11.42,
+          "paired": true
+        },
+        {
+          "residue": 20,
+          "base": "DA",
+          "nearest_target_residue": -21,
+          "distance": 10.52,
+          "paired": true
+        },
+        {
+          "residue": 21,
+          "base": "DG",
+          "nearest_target_residue": -21,
+          "distance": 10.5,
+          "paired": true
+        },
+        {
+          "residue": 22,
+          "base": "DA",
+          "nearest_target_residue": -21,
+          "distance": 9.11,
+          "paired": true
+        },
+        {
+          "residue": 23,
+          "base": "DA",
+          "nearest_target_residue": -22,
+          "distance": 8.33,
+          "paired": true
+        },
+        {
+          "residue": 24,
+          "base": "DC",
+          "nearest_target_residue": -22,
+          "distance": 8.66,
+          "paired": true
+        },
+        {
+          "residue": 25,
+          "base": "DT",
+          "nearest_target_residue": -23,
+          "distance": 8.03,
+          "paired": true
+        },
+        {
+          "residue": 26,
+          "base": "DA",
+          "nearest_target_residue": -24,
+          "distance": 7.49,
+          "paired": true
+        },
+        {
+          "residue": 27,
+          "base": "DT",
+          "nearest_target_residue": -25,
+          "distance": 7.62,
+          "paired": true
+        },
+        {
+          "residue": 28,
+          "base": "DG",
+          "nearest_target_residue": -26,
+          "distance": 8.34,
+          "paired": true
+        },
+        {
+          "residue": 29,
+          "base": "DC",
+          "nearest_target_residue": -27,
+          "distance": 7.68,
+          "paired": true
+        }
+      ],
+      "paired_residues": [
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "resolved_bubble_residues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "currently_pinned": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        20,
+        21
+      ],
+      "pinned_but_in_the_bubble": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    }
+  }
+}

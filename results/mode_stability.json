@@ -1,0 +1,2290 @@
+{
+  "parameter_sets": [
+    {
+      "subset": "training split, SpCas9-ABE8e plasmid",
+      "n_entries": 2,
+      "entries": [
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-10d"
+      ],
+      "capture_radius": 22.0,
+      "ssdna_persistence": 12.0,
+      "link_alpha": 740.568,
+      "loss": 0.015176
+    },
+    {
+      "subset": "every SpCas9 terminal fusion with a profile",
+      "n_entries": 4,
+      "entries": [
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-10d",
+        "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABEmax-HEK-Plasmid-10d"
+      ],
+      "capture_radius": 25.0,
+      "ssdna_persistence": 40.0,
+      "link_alpha": 90.474,
+      "loss": 0.09497
+    },
+    {
+      "subset": "ABE8e only",
+      "n_entries": 13,
+      "entries": [
+        "kissling-SpRY-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpRY-ABE8e-HEK-Plasmid-10d",
+        "kissling-SpRY-ABE8e-HEK-mRNA-02pmol",
+        "kissling-SpRY-ABE8e-HEK-mRNA-1pmol",
+        "kissling-SpRY-ABE8e-HEK-mRNA-5pmol",
+        "kissling-SpRY-ABE8e-AAVlibrary-AAV-6w",
+        "kissling-SpRY-ABE8e-AAVlibrary-AAV-12w",
+        "kissling-SpRY-ABE8e-LentiAAV",
+        "kissling-SpRY-ABE8e-LentiLNP",
+        "kissling-SpG-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpG-ABE8e-HEK-Plasmid-10d",
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-10d"
+      ],
+      "capture_radius": 21.0,
+      "ssdna_persistence": 10.0,
+      "link_alpha": 1492.496,
+      "loss": 0.468479
+    },
+    {
+      "subset": "ABEmax only",
+      "n_entries": 13,
+      "entries": [
+        "kissling-SpRY-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpRY-ABEmax-HEK-Plasmid-10d",
+        "kissling-SpRY-ABEmax-HEK-mRNA-02pmol",
+        "kissling-SpRY-ABEmax-HEK-mRNA-1pmol",
+        "kissling-SpRY-ABEmax-HEK-mRNA-5pmol",
+        "kissling-SpRY-ABEmax-AAVlibrary-AAV-6w",
+        "kissling-SpRY-ABEmax-AAVlibrary-AAV-12w",
+        "kissling-SpRY-ABEmax-LentiAAV",
+        "kissling-SpRY-ABEmax-LentiLNP",
+        "kissling-SpG-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpG-ABEmax-HEK-Plasmid-10d",
+        "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABEmax-HEK-Plasmid-10d"
+      ],
+      "capture_radius": 22.0,
+      "ssdna_persistence": 8.0,
+      "link_alpha": 367.466,
+      "loss": 0.37073
+    },
+    {
+      "subset": "every profile entry",
+      "n_entries": 26,
+      "entries": [
+        "kissling-SpRY-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpRY-ABE8e-HEK-Plasmid-10d",
+        "kissling-SpRY-ABE8e-HEK-mRNA-02pmol",
+        "kissling-SpRY-ABE8e-HEK-mRNA-1pmol",
+        "kissling-SpRY-ABE8e-HEK-mRNA-5pmol",
+        "kissling-SpRY-ABE8e-AAVlibrary-AAV-6w",
+        "kissling-SpRY-ABE8e-AAVlibrary-AAV-12w",
+        "kissling-SpRY-ABE8e-LentiAAV",
+        "kissling-SpRY-ABE8e-LentiLNP",
+        "kissling-SpRY-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpRY-ABEmax-HEK-Plasmid-10d",
+        "kissling-SpRY-ABEmax-HEK-mRNA-02pmol",
+        "kissling-SpRY-ABEmax-HEK-mRNA-1pmol",
+        "kissling-SpRY-ABEmax-HEK-mRNA-5pmol",
+        "kissling-SpRY-ABEmax-AAVlibrary-AAV-6w",
+        "kissling-SpRY-ABEmax-AAVlibrary-AAV-12w",
+        "kissling-SpRY-ABEmax-LentiAAV",
+        "kissling-SpRY-ABEmax-LentiLNP",
+        "kissling-SpG-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpG-ABE8e-HEK-Plasmid-10d",
+        "kissling-SpG-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpG-ABEmax-HEK-Plasmid-10d",
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-10d",
+        "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABEmax-HEK-Plasmid-10d"
+      ],
+      "capture_radius": 21.0,
+      "ssdna_persistence": 8.0,
+      "link_alpha": 1492.496,
+      "loss": 0.975341
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-5d",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-10d",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-02pmol",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 5,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-1pmol",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 5,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-5pmol",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 5,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-6w",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 5,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-12w",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 5,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-LentiAAV",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-LentiLNP",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 5,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-5d",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-10d",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-02pmol",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-1pmol",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-5pmol",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-6w",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-12w",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-LentiAAV",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-LentiLNP",
+      "ortholog": "SpRY",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-5d",
+      "ortholog": "SpG",
+      "source_key": "kissling2025",
+      "observed_mode": 5,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-10d",
+      "ortholog": "SpG",
+      "source_key": "kissling2025",
+      "observed_mode": 5,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-5d",
+      "ortholog": "SpG",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-10d",
+      "ortholog": "SpG",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+      "ortholog": "SpCas9",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-10d",
+      "ortholog": "SpCas9",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+      "ortholog": "SpCas9",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-10d",
+      "ortholog": "SpCas9",
+      "source_key": "kissling2025",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "hnhx-ABEmax7.10",
+      "ortholog": "SpCas9",
+      "source_key": "hnhx2021",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "hnhx-ABEmax7.10-inserted",
+      "ortholog": "SpCas9",
+      "source_key": "hnhx2021",
+      "observed_mode": 10,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 19,
+          "window": [
+            5,
+            20
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 19,
+          "window": [
+            5,
+            20
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 19,
+          "window": [
+            5,
+            20
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 19,
+          "window": [
+            5,
+            20
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 19,
+          "window": [
+            5,
+            20
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        19,
+        19
+      ],
+      "mode_spread": 0
+    },
+    {
+      "entry_id": "komor-linker-16",
+      "ortholog": "SpCas9",
+      "source_key": "komor2016",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        5
+      ],
+      "mode_spread": 0
+    },
+    {
+      "entry_id": "bepigs-BE3",
+      "ortholog": "SpCas9",
+      "source_key": "bepigs2019",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        5
+      ],
+      "mode_spread": 0
+    },
+    {
+      "entry_id": "bepigs-pi-16",
+      "ortholog": "SpCas9",
+      "source_key": "bepigs2019",
+      "observed_mode": 9,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 11,
+          "window": [
+            8,
+            14
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 11,
+          "window": [
+            9,
+            12
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 11,
+          "window": [
+            7,
+            14
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 11,
+          "window": [
+            8,
+            12
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 11,
+          "window": [
+            7,
+            14
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        11,
+        11
+      ],
+      "mode_spread": 0
+    },
+    {
+      "entry_id": "huangcp-ABEmax",
+      "ortholog": "SpCas9",
+      "source_key": "huangcp",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            5,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "huangcp-CP1012-ABEmax",
+      "ortholog": "SpCas9",
+      "source_key": "huangcp",
+      "observed_mode": 8,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 6,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 5,
+          "window": [
+            4,
+            8
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "huangcp-CP1028-ABEmax",
+      "ortholog": "SpCas9",
+      "source_key": "huangcp",
+      "observed_mode": 8,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 10,
+          "window": [
+            8,
+            11
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 9,
+          "window": [
+            6,
+            12
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 10,
+          "window": [
+            7,
+            12
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 10,
+          "window": [
+            8,
+            11
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 10,
+          "window": [
+            8,
+            12
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        9,
+        10
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "huangcp-CP1041-ABEmax",
+      "ortholog": "SpCas9",
+      "source_key": "huangcp",
+      "observed_mode": 8,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 9,
+          "window": [
+            5,
+            11
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 8,
+          "window": [
+            5,
+            10
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 9,
+          "window": [
+            6,
+            11
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 10,
+          "window": [
+            7,
+            11
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 10,
+          "window": [
+            6,
+            11
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        8,
+        10
+      ],
+      "mode_spread": 2
+    },
+    {
+      "entry_id": "huangcp-CP1249-ABEmax",
+      "ortholog": "SpCas9",
+      "source_key": "huangcp",
+      "observed_mode": 8,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 10,
+          "window": [
+            8,
+            11
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 10,
+          "window": [
+            9,
+            12
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 10,
+          "window": [
+            8,
+            12
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 10,
+          "window": [
+            9,
+            11
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 10,
+          "window": [
+            8,
+            12
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        10,
+        10
+      ],
+      "mode_spread": 0
+    },
+    {
+      "entry_id": "tan2019-papap-5",
+      "ortholog": "SpCas9",
+      "source_key": "tan2019",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "tan2019-papapap-7",
+      "ortholog": "SpCas9",
+      "source_key": "tan2019",
+      "observed_mode": 6,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 6,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 6,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 6,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        5,
+        6
+      ],
+      "mode_spread": 1
+    },
+    {
+      "entry_id": "communbiol-dCas12a-A3A",
+      "ortholog": "Cas12a",
+      "source_key": "communbiol2022",
+      "observed_mode": 10,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 11,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 4,
+          "window": [
+            4,
+            5
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 11,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "ABEmax only": {
+          "mode": 11,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "every profile entry": {
+          "mode": 11,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        }
+      },
+      "mode_range": [
+        4,
+        11
+      ],
+      "mode_spread": 7
+    },
+    {
+      "entry_id": "communbiol-dCas12a-A3A-Y130F",
+      "ortholog": "Cas12a",
+      "source_key": "communbiol2022",
+      "observed_mode": 9,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 11,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 4,
+          "window": [
+            4,
+            5
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 11,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "ABEmax only": {
+          "mode": 11,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "every profile entry": {
+          "mode": 11,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        }
+      },
+      "mode_range": [
+        4,
+        11
+      ],
+      "mode_spread": 7
+    },
+    {
+      "entry_id": "communbiol-dCas12a-ABE8e",
+      "ortholog": "Cas12a",
+      "source_key": "communbiol2022",
+      "observed_mode": 10,
+      "modes": {
+        "training split, SpCas9-ABE8e plasmid": {
+          "mode": 4,
+          "window": [
+            3,
+            5
+          ],
+          "degenerate": false
+        },
+        "every SpCas9 terminal fusion with a profile": {
+          "mode": 4,
+          "window": [
+            3,
+            5
+          ],
+          "degenerate": false
+        },
+        "ABE8e only": {
+          "mode": 4,
+          "window": [
+            3,
+            5
+          ],
+          "degenerate": false
+        },
+        "ABEmax only": {
+          "mode": 4,
+          "window": [
+            3,
+            5
+          ],
+          "degenerate": false
+        },
+        "every profile entry": {
+          "mode": 4,
+          "window": [
+            3,
+            5
+          ],
+          "degenerate": false
+        }
+      },
+      "mode_range": [
+        4,
+        4
+      ],
+      "mode_spread": 0
+    }
+  ],
+  "median_mode_spread": 1,
+  "max_mode_spread": 7,
+  "unchanged": 6
+}

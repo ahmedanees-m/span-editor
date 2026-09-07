@@ -1,0 +1,55 @@
+{
+  "entries": 26,
+  "architectures": 6,
+  "contexts": 9,
+  "shape": {
+    "across_contexts": {
+      "n": 76,
+      "mean": 0.021355548758869598,
+      "median": 0.01573472171197472,
+      "max": 0.05606860005689992
+    },
+    "across_architectures": {
+      "n": 37,
+      "mean": 0.055162352702346054,
+      "median": 0.06603522742265448,
+      "max": 0.09358493774190657
+    }
+  },
+  "centre_shift": {
+    "across_contexts": {
+      "n": 76,
+      "mean": 0.13250643648077984,
+      "median": 0.09548780048862948,
+      "max": 0.5347094030339417
+    },
+    "across_architectures": {
+      "n": 37,
+      "mean": 0.1268608904772934,
+      "median": 0.10369285942723305,
+      "max": 0.4067812499977608
+    }
+  },
+  "peak_by_architecture": {
+    "SpRY-ABE8e": [
+      5,
+      6
+    ],
+    "SpRY-ABEmax": [
+      6
+    ],
+    "SpG-ABE8e": [
+      5
+    ],
+    "SpG-ABEmax": [
+      6
+    ],
+    "SpCas9-ABE8e": [
+      6
+    ],
+    "SpCas9-ABEmax": [
+      6
+    ]
+  },
+  "architecture_over_context": 2.5830454335403337
+}

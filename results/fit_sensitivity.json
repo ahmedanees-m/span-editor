@@ -1,0 +1,134 @@
+{
+  "frozen": {
+    "capture_radius": 22.0,
+    "ssdna_persistence": 22.0,
+    "link_alpha": 588.2841016079846
+  },
+  "subsets": [
+    {
+      "subset": "training split, SpCas9-ABE8e plasmid",
+      "n_entries": 2,
+      "entries": [
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-10d"
+      ],
+      "capture_radius": 22.0,
+      "ssdna_persistence": 12.0,
+      "link_alpha": 740.568,
+      "loss": 0.015176
+    },
+    {
+      "subset": "every SpCas9 terminal fusion with a profile",
+      "n_entries": 4,
+      "entries": [
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-10d",
+        "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABEmax-HEK-Plasmid-10d"
+      ],
+      "capture_radius": 25.0,
+      "ssdna_persistence": 40.0,
+      "link_alpha": 90.474,
+      "loss": 0.09497
+    },
+    {
+      "subset": "ABE8e only",
+      "n_entries": 13,
+      "entries": [
+        "kissling-SpRY-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpRY-ABE8e-HEK-Plasmid-10d",
+        "kissling-SpRY-ABE8e-HEK-mRNA-02pmol",
+        "kissling-SpRY-ABE8e-HEK-mRNA-1pmol",
+        "kissling-SpRY-ABE8e-HEK-mRNA-5pmol",
+        "kissling-SpRY-ABE8e-AAVlibrary-AAV-6w",
+        "kissling-SpRY-ABE8e-AAVlibrary-AAV-12w",
+        "kissling-SpRY-ABE8e-LentiAAV",
+        "kissling-SpRY-ABE8e-LentiLNP",
+        "kissling-SpG-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpG-ABE8e-HEK-Plasmid-10d",
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-10d"
+      ],
+      "capture_radius": 21.0,
+      "ssdna_persistence": 10.0,
+      "link_alpha": 1492.496,
+      "loss": 0.468479
+    },
+    {
+      "subset": "ABEmax only",
+      "n_entries": 13,
+      "entries": [
+        "kissling-SpRY-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpRY-ABEmax-HEK-Plasmid-10d",
+        "kissling-SpRY-ABEmax-HEK-mRNA-02pmol",
+        "kissling-SpRY-ABEmax-HEK-mRNA-1pmol",
+        "kissling-SpRY-ABEmax-HEK-mRNA-5pmol",
+        "kissling-SpRY-ABEmax-AAVlibrary-AAV-6w",
+        "kissling-SpRY-ABEmax-AAVlibrary-AAV-12w",
+        "kissling-SpRY-ABEmax-LentiAAV",
+        "kissling-SpRY-ABEmax-LentiLNP",
+        "kissling-SpG-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpG-ABEmax-HEK-Plasmid-10d",
+        "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABEmax-HEK-Plasmid-10d"
+      ],
+      "capture_radius": 22.0,
+      "ssdna_persistence": 8.0,
+      "link_alpha": 367.466,
+      "loss": 0.37073
+    },
+    {
+      "subset": "every profile entry",
+      "n_entries": 26,
+      "entries": [
+        "kissling-SpRY-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpRY-ABE8e-HEK-Plasmid-10d",
+        "kissling-SpRY-ABE8e-HEK-mRNA-02pmol",
+        "kissling-SpRY-ABE8e-HEK-mRNA-1pmol",
+        "kissling-SpRY-ABE8e-HEK-mRNA-5pmol",
+        "kissling-SpRY-ABE8e-AAVlibrary-AAV-6w",
+        "kissling-SpRY-ABE8e-AAVlibrary-AAV-12w",
+        "kissling-SpRY-ABE8e-LentiAAV",
+        "kissling-SpRY-ABE8e-LentiLNP",
+        "kissling-SpRY-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpRY-ABEmax-HEK-Plasmid-10d",
+        "kissling-SpRY-ABEmax-HEK-mRNA-02pmol",
+        "kissling-SpRY-ABEmax-HEK-mRNA-1pmol",
+        "kissling-SpRY-ABEmax-HEK-mRNA-5pmol",
+        "kissling-SpRY-ABEmax-AAVlibrary-AAV-6w",
+        "kissling-SpRY-ABEmax-AAVlibrary-AAV-12w",
+        "kissling-SpRY-ABEmax-LentiAAV",
+        "kissling-SpRY-ABEmax-LentiLNP",
+        "kissling-SpG-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpG-ABE8e-HEK-Plasmid-10d",
+        "kissling-SpG-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpG-ABEmax-HEK-Plasmid-10d",
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABE8e-HEK-Plasmid-10d",
+        "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+        "kissling-SpCas9-ABEmax-HEK-Plasmid-10d"
+      ],
+      "capture_radius": 21.0,
+      "ssdna_persistence": 8.0,
+      "link_alpha": 1492.496,
+      "loss": 0.975341
+    }
+  ],
+  "spread": {
+    "capture_radius": {
+      "min": 21.0,
+      "max": 25.0,
+      "frozen": 22.0
+    },
+    "ssdna_persistence": {
+      "min": 8.0,
+      "max": 40.0,
+      "frozen": 22.0
+    },
+    "link_alpha": {
+      "min": 90.474,
+      "max": 1492.496,
+      "frozen": 588.2841016079846
+    }
+  }
+}

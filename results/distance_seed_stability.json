@@ -1,0 +1,141 @@
+{
+  "seeds": [
+    "20260101",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "summary": {
+    "20260101": {
+      "all entries": {
+        "label": "all entries",
+        "n": 40,
+        "publications": 7,
+        "mean": 2.7,
+        "lower": 0.833,
+        "upper": 4.467,
+        "excludes_zero": true
+      },
+      "SpCas9 family": {
+        "label": "SpCas9 family",
+        "n": 37,
+        "publications": 6,
+        "mean": 2.416,
+        "lower": 1.379,
+        "upper": 3.453,
+        "excludes_zero": true
+      },
+      "Cas12a": {
+        "label": "Cas12a",
+        "n": 3,
+        "publications": 1,
+        "mean": 6.203
+      }
+    },
+    "1": {
+      "all entries": {
+        "label": "all entries",
+        "n": 40,
+        "publications": 7,
+        "mean": 2.7,
+        "lower": 0.833,
+        "upper": 4.467,
+        "excludes_zero": true
+      },
+      "SpCas9 family": {
+        "label": "SpCas9 family",
+        "n": 37,
+        "publications": 6,
+        "mean": 2.416,
+        "lower": 1.379,
+        "upper": 3.453,
+        "excludes_zero": true
+      },
+      "Cas12a": {
+        "label": "Cas12a",
+        "n": 3,
+        "publications": 1,
+        "mean": 6.203
+      }
+    },
+    "2": {
+      "all entries": {
+        "label": "all entries",
+        "n": 40,
+        "publications": 7,
+        "mean": 1.601,
+        "lower": -1.526,
+        "upper": 4.728,
+        "excludes_zero": false
+      },
+      "SpCas9 family": {
+        "label": "SpCas9 family",
+        "n": 37,
+        "publications": 6,
+        "mean": 1.228,
+        "lower": -0.693,
+        "upper": 3.149,
+        "excludes_zero": false
+      },
+      "Cas12a": {
+        "label": "Cas12a",
+        "n": 3,
+        "publications": 1,
+        "mean": 6.203
+      }
+    },
+    "3": {
+      "all entries": {
+        "label": "all entries",
+        "n": 40,
+        "publications": 7,
+        "mean": 0.649,
+        "lower": -4.761,
+        "upper": 6.059,
+        "excludes_zero": false
+      },
+      "SpCas9 family": {
+        "label": "SpCas9 family",
+        "n": 37,
+        "publications": 6,
+        "mean": 0.199,
+        "lower": -3.339,
+        "upper": 3.737,
+        "excludes_zero": false
+      },
+      "Cas12a": {
+        "label": "Cas12a",
+        "n": 3,
+        "publications": 1,
+        "mean": 6.203
+      }
+    },
+    "4": {
+      "all entries": {
+        "label": "all entries",
+        "n": 40,
+        "publications": 7,
+        "mean": 1.601,
+        "lower": -1.526,
+        "upper": 4.728,
+        "excludes_zero": false
+      },
+      "SpCas9 family": {
+        "label": "SpCas9 family",
+        "n": 37,
+        "publications": 6,
+        "mean": 1.228,
+        "lower": -0.693,
+        "upper": 3.149,
+        "excludes_zero": false
+      },
+      "Cas12a": {
+        "label": "Cas12a",
+        "n": 3,
+        "publications": 1,
+        "mean": 6.203
+      }
+    }
+  }
+}

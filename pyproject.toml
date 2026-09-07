@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "span-editor"
+version = "0.1.0"
+description = "Geometric model of effector tethering in R-loop genome editors"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Anees Ahmed Mahaboob Ali", email = "ahmedaneesm@gmail.com" }]
+keywords = ["base editing", "CRISPR", "polymer physics", "editing window"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "numpy>=1.24",
+    "biotite>=0.40",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+analysis = ["scipy>=1.10", "matplotlib>=3.7", "pandas>=2.0"]
+dev = ["pytest>=7.4", "pytest-cov>=4.1"]
+
+[project.urls]
+Repository = "https://github.com/ahmedanees-m/span-editor"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "src"]
+filterwarnings = ["error::RuntimeWarning"]

@@ -1,0 +1,4207 @@
+{
+  "threshold": 0.5,
+  "target_surviving": 3000,
+  "seed": 4,
+  "tolerance": 8,
+  "parameters": {
+    "capture_radius": 22.0,
+    "ssdna_persistence": 22.0,
+    "link_alpha": 588.2841016079846
+  },
+  "reference_entry": "hnhx-ABEmax7.10",
+  "sites": [
+    "c_terminal",
+    "cp1012",
+    "cp1028",
+    "cp1041",
+    "cp1249",
+    "cp1300",
+    "hnh_amino",
+    "hnh_carboxy",
+    "n_terminal",
+    "pi_amino",
+    "pi_carboxy",
+    "ruvc_amino",
+    "ruvc_carboxy"
+  ],
+  "lengths": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48
+  ],
+  "compositions": [
+    "xten",
+    "polyproline",
+    "helical"
+  ],
+  "grid": [
+    {
+      "site": "c_terminal",
+      "composition": "xten",
+      "length": 4,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "c_terminal",
+      "composition": "xten",
+      "length": 8,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "c_terminal",
+      "composition": "xten",
+      "length": 12,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "c_terminal",
+      "composition": "xten",
+      "length": 16,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "c_terminal",
+      "composition": "xten",
+      "length": 24,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "c_terminal",
+      "composition": "xten",
+      "length": 32,
+      "buildable": true,
+      "mode": 3,
+      "window": [
+        3,
+        3
+      ],
+      "width": 1
+    },
+    {
+      "site": "c_terminal",
+      "composition": "xten",
+      "length": 48,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "c_terminal",
+      "composition": "polyproline",
+      "length": 4,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "c_terminal",
+      "composition": "polyproline",
+      "length": 8,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "c_terminal",
+      "composition": "polyproline",
+      "length": 12,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "c_terminal",
+      "composition": "polyproline",
+      "length": 16,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "c_terminal",
+      "composition": "polyproline",
+      "length": 24,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "c_terminal",
+      "composition": "polyproline",
+      "length": 32,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        10
+      ],
+      "width": 2
+    },
+    {
+      "site": "c_terminal",
+      "composition": "polyproline",
+      "length": 48,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        10,
+        10
+      ],
+      "width": 1
+    },
+    {
+      "site": "c_terminal",
+      "composition": "helical",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of helical-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "c_terminal",
+      "composition": "helical",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of helical-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "c_terminal",
+      "composition": "helical",
+      "length": 12,
+      "buildable": false,
+      "reason": "every conformation of helical-12 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "c_terminal",
+      "composition": "helical",
+      "length": 16,
+      "buildable": false,
+      "reason": "every conformation of helical-16 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "c_terminal",
+      "composition": "helical",
+      "length": 24,
+      "buildable": false,
+      "reason": "every conformation of helical-24 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "c_terminal",
+      "composition": "helical",
+      "length": 32,
+      "buildable": false,
+      "reason": "every conformation of helical-32 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "c_terminal",
+      "composition": "helical",
+      "length": 48,
+      "buildable": false,
+      "reason": "every conformation of helical-48 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1012",
+      "composition": "xten",
+      "length": 4,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        8
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1012",
+      "composition": "xten",
+      "length": 8,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        8
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1012",
+      "composition": "xten",
+      "length": 12,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        3,
+        9
+      ],
+      "width": 7
+    },
+    {
+      "site": "cp1012",
+      "composition": "xten",
+      "length": 16,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        9
+      ],
+      "width": 6
+    },
+    {
+      "site": "cp1012",
+      "composition": "xten",
+      "length": 24,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        8
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1012",
+      "composition": "xten",
+      "length": 32,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        8
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1012",
+      "composition": "xten",
+      "length": 48,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        8
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1012",
+      "composition": "polyproline",
+      "length": 4,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        8
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1012",
+      "composition": "polyproline",
+      "length": 8,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        3,
+        9
+      ],
+      "width": 7
+    },
+    {
+      "site": "cp1012",
+      "composition": "polyproline",
+      "length": 12,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        9
+      ],
+      "width": 6
+    },
+    {
+      "site": "cp1012",
+      "composition": "polyproline",
+      "length": 16,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        5,
+        9
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1012",
+      "composition": "polyproline",
+      "length": 24,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        5,
+        8
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1012",
+      "composition": "polyproline",
+      "length": 32,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        6,
+        10
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1012",
+      "composition": "polyproline",
+      "length": 48,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        6,
+        10
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1012",
+      "composition": "helical",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of helical-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1012",
+      "composition": "helical",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of helical-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1012",
+      "composition": "helical",
+      "length": 12,
+      "buildable": false,
+      "reason": "every conformation of helical-12 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1012",
+      "composition": "helical",
+      "length": 16,
+      "buildable": false,
+      "reason": "every conformation of helical-16 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1012",
+      "composition": "helical",
+      "length": 24,
+      "buildable": false,
+      "reason": "every conformation of helical-24 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1012",
+      "composition": "helical",
+      "length": 32,
+      "buildable": false,
+      "reason": "every conformation of helical-32 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1012",
+      "composition": "helical",
+      "length": 48,
+      "buildable": false,
+      "reason": "every conformation of helical-48 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1028",
+      "composition": "xten",
+      "length": 4,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        8,
+        11
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1028",
+      "composition": "xten",
+      "length": 8,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        12
+      ],
+      "width": 6
+    },
+    {
+      "site": "cp1028",
+      "composition": "xten",
+      "length": 12,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        6,
+        12
+      ],
+      "width": 7
+    },
+    {
+      "site": "cp1028",
+      "composition": "xten",
+      "length": 16,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        12
+      ],
+      "width": 6
+    },
+    {
+      "site": "cp1028",
+      "composition": "xten",
+      "length": 24,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        11
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1028",
+      "composition": "xten",
+      "length": 32,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        11
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1028",
+      "composition": "xten",
+      "length": 48,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        6,
+        11
+      ],
+      "width": 6
+    },
+    {
+      "site": "cp1028",
+      "composition": "polyproline",
+      "length": 4,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        8,
+        11
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1028",
+      "composition": "polyproline",
+      "length": 8,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        11
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1028",
+      "composition": "polyproline",
+      "length": 12,
+      "buildable": true,
+      "mode": 8,
+      "window": [
+        5,
+        10
+      ],
+      "width": 6
+    },
+    {
+      "site": "cp1028",
+      "composition": "polyproline",
+      "length": 16,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        5,
+        12
+      ],
+      "width": 8
+    },
+    {
+      "site": "cp1028",
+      "composition": "polyproline",
+      "length": 24,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        7,
+        12
+      ],
+      "width": 6
+    },
+    {
+      "site": "cp1028",
+      "composition": "polyproline",
+      "length": 32,
+      "buildable": true,
+      "mode": 5,
+      "window": [
+        4,
+        10
+      ],
+      "width": 7
+    },
+    {
+      "site": "cp1028",
+      "composition": "polyproline",
+      "length": 48,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        10,
+        11
+      ],
+      "width": 2
+    },
+    {
+      "site": "cp1028",
+      "composition": "helical",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of helical-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1028",
+      "composition": "helical",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of helical-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1028",
+      "composition": "helical",
+      "length": 12,
+      "buildable": false,
+      "reason": "every conformation of helical-12 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1028",
+      "composition": "helical",
+      "length": 16,
+      "buildable": false,
+      "reason": "every conformation of helical-16 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1028",
+      "composition": "helical",
+      "length": 24,
+      "buildable": false,
+      "reason": "every conformation of helical-24 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1028",
+      "composition": "helical",
+      "length": 32,
+      "buildable": false,
+      "reason": "every conformation of helical-32 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1028",
+      "composition": "helical",
+      "length": 48,
+      "buildable": false,
+      "reason": "every conformation of helical-48 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1041",
+      "composition": "xten",
+      "length": 4,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        6,
+        9
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1041",
+      "composition": "xten",
+      "length": 8,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        5,
+        11
+      ],
+      "width": 7
+    },
+    {
+      "site": "cp1041",
+      "composition": "xten",
+      "length": 12,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        4,
+        11
+      ],
+      "width": 8
+    },
+    {
+      "site": "cp1041",
+      "composition": "xten",
+      "length": 16,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        4,
+        11
+      ],
+      "width": 8
+    },
+    {
+      "site": "cp1041",
+      "composition": "xten",
+      "length": 24,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        4,
+        11
+      ],
+      "width": 8
+    },
+    {
+      "site": "cp1041",
+      "composition": "xten",
+      "length": 32,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        4,
+        10
+      ],
+      "width": 7
+    },
+    {
+      "site": "cp1041",
+      "composition": "xten",
+      "length": 48,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        5,
+        10
+      ],
+      "width": 6
+    },
+    {
+      "site": "cp1041",
+      "composition": "polyproline",
+      "length": 4,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        5,
+        9
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1041",
+      "composition": "polyproline",
+      "length": 8,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        4,
+        10
+      ],
+      "width": 7
+    },
+    {
+      "site": "cp1041",
+      "composition": "polyproline",
+      "length": 12,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        10
+      ],
+      "width": 7
+    },
+    {
+      "site": "cp1041",
+      "composition": "polyproline",
+      "length": 16,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        5,
+        9
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1041",
+      "composition": "polyproline",
+      "length": 24,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        5,
+        8
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1041",
+      "composition": "polyproline",
+      "length": 32,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        5,
+        8
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1041",
+      "composition": "polyproline",
+      "length": 48,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        4,
+        9
+      ],
+      "width": 6
+    },
+    {
+      "site": "cp1041",
+      "composition": "helical",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of helical-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1041",
+      "composition": "helical",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of helical-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1041",
+      "composition": "helical",
+      "length": 12,
+      "buildable": false,
+      "reason": "every conformation of helical-12 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1041",
+      "composition": "helical",
+      "length": 16,
+      "buildable": false,
+      "reason": "every conformation of helical-16 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1041",
+      "composition": "helical",
+      "length": 24,
+      "buildable": false,
+      "reason": "every conformation of helical-24 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1041",
+      "composition": "helical",
+      "length": 32,
+      "buildable": false,
+      "reason": "every conformation of helical-32 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1041",
+      "composition": "helical",
+      "length": 48,
+      "buildable": false,
+      "reason": "every conformation of helical-48 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1249",
+      "composition": "xten",
+      "length": 4,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        9,
+        12
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1249",
+      "composition": "xten",
+      "length": 8,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3
+    },
+    {
+      "site": "cp1249",
+      "composition": "xten",
+      "length": 12,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        9,
+        12
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1249",
+      "composition": "xten",
+      "length": 16,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        9,
+        12
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1249",
+      "composition": "xten",
+      "length": 24,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        12
+      ],
+      "width": 6
+    },
+    {
+      "site": "cp1249",
+      "composition": "xten",
+      "length": 32,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        6,
+        12
+      ],
+      "width": 7
+    },
+    {
+      "site": "cp1249",
+      "composition": "xten",
+      "length": 48,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        12
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1249",
+      "composition": "polyproline",
+      "length": 4,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        10,
+        12
+      ],
+      "width": 3
+    },
+    {
+      "site": "cp1249",
+      "composition": "polyproline",
+      "length": 8,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3
+    },
+    {
+      "site": "cp1249",
+      "composition": "polyproline",
+      "length": 12,
+      "buildable": true,
+      "mode": 8,
+      "window": [
+        6,
+        10
+      ],
+      "width": 5
+    },
+    {
+      "site": "cp1249",
+      "composition": "polyproline",
+      "length": 16,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        6,
+        9
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1249",
+      "composition": "polyproline",
+      "length": 24,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3
+    },
+    {
+      "site": "cp1249",
+      "composition": "polyproline",
+      "length": 32,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        8,
+        10
+      ],
+      "width": 3
+    },
+    {
+      "site": "cp1249",
+      "composition": "polyproline",
+      "length": 48,
+      "buildable": true,
+      "mode": 8,
+      "window": [
+        6,
+        9
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1249",
+      "composition": "helical",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of helical-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1249",
+      "composition": "helical",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of helical-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1249",
+      "composition": "helical",
+      "length": 12,
+      "buildable": false,
+      "reason": "every conformation of helical-12 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1249",
+      "composition": "helical",
+      "length": 16,
+      "buildable": false,
+      "reason": "every conformation of helical-16 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1249",
+      "composition": "helical",
+      "length": 24,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "cp1249",
+      "composition": "helical",
+      "length": 32,
+      "buildable": false,
+      "reason": "every conformation of helical-32 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1249",
+      "composition": "helical",
+      "length": 48,
+      "buildable": false,
+      "reason": "every conformation of helical-48 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1300",
+      "composition": "xten",
+      "length": 4,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        9,
+        10
+      ],
+      "width": 2
+    },
+    {
+      "site": "cp1300",
+      "composition": "xten",
+      "length": 8,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3
+    },
+    {
+      "site": "cp1300",
+      "composition": "xten",
+      "length": 12,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        10
+      ],
+      "width": 2
+    },
+    {
+      "site": "cp1300",
+      "composition": "xten",
+      "length": 16,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        10,
+        11
+      ],
+      "width": 2
+    },
+    {
+      "site": "cp1300",
+      "composition": "xten",
+      "length": 24,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        12
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1300",
+      "composition": "xten",
+      "length": 32,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        10
+      ],
+      "width": 2
+    },
+    {
+      "site": "cp1300",
+      "composition": "xten",
+      "length": 48,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        8,
+        10
+      ],
+      "width": 3
+    },
+    {
+      "site": "cp1300",
+      "composition": "polyproline",
+      "length": 4,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        10
+      ],
+      "width": 2
+    },
+    {
+      "site": "cp1300",
+      "composition": "polyproline",
+      "length": 8,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        10,
+        12
+      ],
+      "width": 3
+    },
+    {
+      "site": "cp1300",
+      "composition": "polyproline",
+      "length": 12,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3
+    },
+    {
+      "site": "cp1300",
+      "composition": "polyproline",
+      "length": 16,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3
+    },
+    {
+      "site": "cp1300",
+      "composition": "polyproline",
+      "length": 24,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        8,
+        10
+      ],
+      "width": 3
+    },
+    {
+      "site": "cp1300",
+      "composition": "polyproline",
+      "length": 32,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        8,
+        10
+      ],
+      "width": 3
+    },
+    {
+      "site": "cp1300",
+      "composition": "polyproline",
+      "length": 48,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        6,
+        9
+      ],
+      "width": 4
+    },
+    {
+      "site": "cp1300",
+      "composition": "helical",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of helical-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1300",
+      "composition": "helical",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of helical-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1300",
+      "composition": "helical",
+      "length": 12,
+      "buildable": false,
+      "reason": "every conformation of helical-12 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1300",
+      "composition": "helical",
+      "length": 16,
+      "buildable": false,
+      "reason": "every conformation of helical-16 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1300",
+      "composition": "helical",
+      "length": 24,
+      "buildable": false,
+      "reason": "every conformation of helical-24 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1300",
+      "composition": "helical",
+      "length": 32,
+      "buildable": false,
+      "reason": "every conformation of helical-32 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "cp1300",
+      "composition": "helical",
+      "length": 48,
+      "buildable": false,
+      "reason": "every conformation of helical-48 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "xten",
+      "length": 4,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        8,
+        11
+      ],
+      "width": 4
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "xten",
+      "length": 8,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        8,
+        11
+      ],
+      "width": 4
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "xten",
+      "length": 12,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        8,
+        12
+      ],
+      "width": 5
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "xten",
+      "length": 16,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        8,
+        11
+      ],
+      "width": 4
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "xten",
+      "length": 24,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        12
+      ],
+      "width": 4
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "xten",
+      "length": 32,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "xten",
+      "length": 48,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        12
+      ],
+      "width": 4
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "polyproline",
+      "length": 4,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        8,
+        12
+      ],
+      "width": 5
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "polyproline",
+      "length": 8,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "polyproline",
+      "length": 12,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "polyproline",
+      "length": 16,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        8,
+        10
+      ],
+      "width": 3
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "polyproline",
+      "length": 24,
+      "buildable": true,
+      "mode": 8,
+      "window": [
+        7,
+        12
+      ],
+      "width": 6
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "polyproline",
+      "length": 32,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        5,
+        9
+      ],
+      "width": 5
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "polyproline",
+      "length": 48,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        6,
+        8
+      ],
+      "width": 3
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "helical",
+      "length": 4,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        9,
+        9
+      ],
+      "width": 1
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "helical",
+      "length": 8,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        9,
+        10
+      ],
+      "width": 2
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "helical",
+      "length": 12,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        8,
+        10
+      ],
+      "width": 3
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "helical",
+      "length": 16,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        8,
+        11
+      ],
+      "width": 4
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "helical",
+      "length": 24,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        8,
+        11
+      ],
+      "width": 4
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "helical",
+      "length": 32,
+      "buildable": true,
+      "mode": 8,
+      "window": [
+        8,
+        9
+      ],
+      "width": 2
+    },
+    {
+      "site": "hnh_amino",
+      "composition": "helical",
+      "length": 48,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        6,
+        8
+      ],
+      "width": 3
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "xten",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of xten-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "xten",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of xten-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "xten",
+      "length": 12,
+      "buildable": false,
+      "reason": "every conformation of xten-12 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "xten",
+      "length": 16,
+      "buildable": false,
+      "reason": "every conformation of xten-16 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "xten",
+      "length": 24,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "xten",
+      "length": 32,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "xten",
+      "length": 48,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "polyproline",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of polyproline-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "polyproline",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of polyproline-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "polyproline",
+      "length": 12,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        10,
+        10
+      ],
+      "width": 1
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "polyproline",
+      "length": 16,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        10
+      ],
+      "width": 2
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "polyproline",
+      "length": 24,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "polyproline",
+      "length": 32,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "polyproline",
+      "length": 48,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "helical",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of helical-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "helical",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of helical-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "helical",
+      "length": 12,
+      "buildable": false,
+      "reason": "every conformation of helical-12 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "helical",
+      "length": 16,
+      "buildable": false,
+      "reason": "every conformation of helical-16 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "helical",
+      "length": 24,
+      "buildable": false,
+      "reason": "every conformation of helical-24 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "helical",
+      "length": 32,
+      "buildable": false,
+      "reason": "every conformation of helical-32 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "hnh_carboxy",
+      "composition": "helical",
+      "length": 48,
+      "buildable": false,
+      "reason": "every conformation of helical-48 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "n_terminal",
+      "composition": "xten",
+      "length": 4,
+      "buildable": true,
+      "mode": 5,
+      "window": [
+        5,
+        6
+      ],
+      "width": 2
+    },
+    {
+      "site": "n_terminal",
+      "composition": "xten",
+      "length": 8,
+      "buildable": true,
+      "mode": 5,
+      "window": [
+        5,
+        6
+      ],
+      "width": 2
+    },
+    {
+      "site": "n_terminal",
+      "composition": "xten",
+      "length": 12,
+      "buildable": true,
+      "mode": 5,
+      "window": [
+        5,
+        6
+      ],
+      "width": 2
+    },
+    {
+      "site": "n_terminal",
+      "composition": "xten",
+      "length": 16,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        7
+      ],
+      "width": 4
+    },
+    {
+      "site": "n_terminal",
+      "composition": "xten",
+      "length": 24,
+      "buildable": true,
+      "mode": 5,
+      "window": [
+        4,
+        7
+      ],
+      "width": 4
+    },
+    {
+      "site": "n_terminal",
+      "composition": "xten",
+      "length": 32,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        7
+      ],
+      "width": 4
+    },
+    {
+      "site": "n_terminal",
+      "composition": "xten",
+      "length": 48,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        5,
+        7
+      ],
+      "width": 3
+    },
+    {
+      "site": "n_terminal",
+      "composition": "polyproline",
+      "length": 4,
+      "buildable": true,
+      "mode": 5,
+      "window": [
+        5,
+        6
+      ],
+      "width": 2
+    },
+    {
+      "site": "n_terminal",
+      "composition": "polyproline",
+      "length": 8,
+      "buildable": true,
+      "mode": 5,
+      "window": [
+        4,
+        7
+      ],
+      "width": 4
+    },
+    {
+      "site": "n_terminal",
+      "composition": "polyproline",
+      "length": 12,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        7
+      ],
+      "width": 4
+    },
+    {
+      "site": "n_terminal",
+      "composition": "polyproline",
+      "length": 16,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        8
+      ],
+      "width": 5
+    },
+    {
+      "site": "n_terminal",
+      "composition": "polyproline",
+      "length": 24,
+      "buildable": true,
+      "mode": 8,
+      "window": [
+        5,
+        8
+      ],
+      "width": 4
+    },
+    {
+      "site": "n_terminal",
+      "composition": "polyproline",
+      "length": 32,
+      "buildable": true,
+      "mode": 5,
+      "window": [
+        4,
+        5
+      ],
+      "width": 2
+    },
+    {
+      "site": "n_terminal",
+      "composition": "polyproline",
+      "length": 48,
+      "buildable": true,
+      "mode": 5,
+      "window": [
+        3,
+        8
+      ],
+      "width": 6
+    },
+    {
+      "site": "n_terminal",
+      "composition": "helical",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of helical-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "n_terminal",
+      "composition": "helical",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of helical-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "n_terminal",
+      "composition": "helical",
+      "length": 12,
+      "buildable": false,
+      "reason": "every conformation of helical-12 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "n_terminal",
+      "composition": "helical",
+      "length": 16,
+      "buildable": false,
+      "reason": "every conformation of helical-16 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "n_terminal",
+      "composition": "helical",
+      "length": 24,
+      "buildable": false,
+      "reason": "every conformation of helical-24 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "n_terminal",
+      "composition": "helical",
+      "length": 32,
+      "buildable": false,
+      "reason": "every conformation of helical-32 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "n_terminal",
+      "composition": "helical",
+      "length": 48,
+      "buildable": false,
+      "reason": "every conformation of helical-48 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_amino",
+      "composition": "xten",
+      "length": 4,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3
+    },
+    {
+      "site": "pi_amino",
+      "composition": "xten",
+      "length": 8,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        9,
+        12
+      ],
+      "width": 4
+    },
+    {
+      "site": "pi_amino",
+      "composition": "xten",
+      "length": 12,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        9,
+        12
+      ],
+      "width": 4
+    },
+    {
+      "site": "pi_amino",
+      "composition": "xten",
+      "length": 16,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        8,
+        12
+      ],
+      "width": 5
+    },
+    {
+      "site": "pi_amino",
+      "composition": "xten",
+      "length": 24,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        8,
+        11
+      ],
+      "width": 4
+    },
+    {
+      "site": "pi_amino",
+      "composition": "xten",
+      "length": 32,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        8,
+        12
+      ],
+      "width": 5
+    },
+    {
+      "site": "pi_amino",
+      "composition": "xten",
+      "length": 48,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        8,
+        11
+      ],
+      "width": 4
+    },
+    {
+      "site": "pi_amino",
+      "composition": "polyproline",
+      "length": 4,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3
+    },
+    {
+      "site": "pi_amino",
+      "composition": "polyproline",
+      "length": 8,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3
+    },
+    {
+      "site": "pi_amino",
+      "composition": "polyproline",
+      "length": 12,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        8,
+        11
+      ],
+      "width": 4
+    },
+    {
+      "site": "pi_amino",
+      "composition": "polyproline",
+      "length": 16,
+      "buildable": true,
+      "mode": 8,
+      "window": [
+        6,
+        10
+      ],
+      "width": 5
+    },
+    {
+      "site": "pi_amino",
+      "composition": "polyproline",
+      "length": 24,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        6,
+        8
+      ],
+      "width": 3
+    },
+    {
+      "site": "pi_amino",
+      "composition": "polyproline",
+      "length": 32,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        5,
+        12
+      ],
+      "width": 8
+    },
+    {
+      "site": "pi_amino",
+      "composition": "polyproline",
+      "length": 48,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        5,
+        8
+      ],
+      "width": 4
+    },
+    {
+      "site": "pi_amino",
+      "composition": "helical",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of helical-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_amino",
+      "composition": "helical",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of helical-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_amino",
+      "composition": "helical",
+      "length": 12,
+      "buildable": false,
+      "reason": "every conformation of helical-12 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_amino",
+      "composition": "helical",
+      "length": 16,
+      "buildable": false,
+      "reason": "every conformation of helical-16 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_amino",
+      "composition": "helical",
+      "length": 24,
+      "buildable": false,
+      "reason": "every conformation of helical-24 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_amino",
+      "composition": "helical",
+      "length": 32,
+      "buildable": false,
+      "reason": "every conformation of helical-32 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_amino",
+      "composition": "helical",
+      "length": 48,
+      "buildable": false,
+      "reason": "every conformation of helical-48 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "xten",
+      "length": 4,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        12
+      ],
+      "width": 4
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "xten",
+      "length": 8,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "xten",
+      "length": 12,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        9,
+        12
+      ],
+      "width": 4
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "xten",
+      "length": 16,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        8,
+        12
+      ],
+      "width": 5
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "xten",
+      "length": 24,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        12
+      ],
+      "width": 6
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "xten",
+      "length": 32,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        8,
+        12
+      ],
+      "width": 5
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "xten",
+      "length": 48,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        6,
+        12
+      ],
+      "width": 7
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "polyproline",
+      "length": 4,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        9,
+        12
+      ],
+      "width": 4
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "polyproline",
+      "length": 8,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        8,
+        12
+      ],
+      "width": 5
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "polyproline",
+      "length": 12,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        12
+      ],
+      "width": 6
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "polyproline",
+      "length": 16,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        6,
+        10
+      ],
+      "width": 5
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "polyproline",
+      "length": 24,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        5,
+        9
+      ],
+      "width": 5
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "polyproline",
+      "length": 32,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        4,
+        10
+      ],
+      "width": 7
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "polyproline",
+      "length": 48,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        5,
+        9
+      ],
+      "width": 5
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "helical",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of helical-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "helical",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of helical-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "helical",
+      "length": 12,
+      "buildable": false,
+      "reason": "every conformation of helical-12 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "helical",
+      "length": 16,
+      "buildable": false,
+      "reason": "every conformation of helical-16 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "helical",
+      "length": 24,
+      "buildable": false,
+      "reason": "every conformation of helical-24 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "helical",
+      "length": 32,
+      "buildable": false,
+      "reason": "every conformation of helical-32 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "pi_carboxy",
+      "composition": "helical",
+      "length": 48,
+      "buildable": false,
+      "reason": "every conformation of helical-48 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "xten",
+      "length": 4,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        12
+      ],
+      "width": 6
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "xten",
+      "length": 8,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        12
+      ],
+      "width": 6
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "xten",
+      "length": 12,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        6,
+        12
+      ],
+      "width": 7
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "xten",
+      "length": 16,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        12
+      ],
+      "width": 6
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "xten",
+      "length": 24,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        11
+      ],
+      "width": 5
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "xten",
+      "length": 32,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        5,
+        11
+      ],
+      "width": 7
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "xten",
+      "length": 48,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        5,
+        11
+      ],
+      "width": 7
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "polyproline",
+      "length": 4,
+      "buildable": true,
+      "mode": 11,
+      "window": [
+        7,
+        12
+      ],
+      "width": 6
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "polyproline",
+      "length": 8,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        12
+      ],
+      "width": 6
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "polyproline",
+      "length": 12,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        7,
+        11
+      ],
+      "width": 5
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "polyproline",
+      "length": 16,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        5,
+        10
+      ],
+      "width": 6
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "polyproline",
+      "length": 24,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        5,
+        7
+      ],
+      "width": 3
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "polyproline",
+      "length": 32,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        5,
+        10
+      ],
+      "width": 6
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "polyproline",
+      "length": 48,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        8,
+        10
+      ],
+      "width": 3
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "helical",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of helical-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "helical",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of helical-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "helical",
+      "length": 12,
+      "buildable": false,
+      "reason": "every conformation of helical-12 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "helical",
+      "length": 16,
+      "buildable": false,
+      "reason": "every conformation of helical-16 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "helical",
+      "length": 24,
+      "buildable": false,
+      "reason": "every conformation of helical-24 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "helical",
+      "length": 32,
+      "buildable": false,
+      "reason": "every conformation of helical-32 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_amino",
+      "composition": "helical",
+      "length": 48,
+      "buildable": false,
+      "reason": "every conformation of helical-48 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "xten",
+      "length": 4,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        7,
+        12
+      ],
+      "width": 6
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "xten",
+      "length": 8,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        6,
+        12
+      ],
+      "width": 7
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "xten",
+      "length": 12,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        6,
+        12
+      ],
+      "width": 7
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "xten",
+      "length": 16,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        6,
+        12
+      ],
+      "width": 7
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "xten",
+      "length": 24,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        6,
+        12
+      ],
+      "width": 7
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "xten",
+      "length": 32,
+      "buildable": true,
+      "mode": 10,
+      "window": [
+        5,
+        12
+      ],
+      "width": 8
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "xten",
+      "length": 48,
+      "buildable": true,
+      "mode": 9,
+      "window": [
+        6,
+        12
+      ],
+      "width": 7
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "polyproline",
+      "length": 4,
+      "buildable": true,
+      "mode": 8,
+      "window": [
+        6,
+        12
+      ],
+      "width": 7
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "polyproline",
+      "length": 8,
+      "buildable": true,
+      "mode": 7,
+      "window": [
+        5,
+        10
+      ],
+      "width": 6
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "polyproline",
+      "length": 12,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        4,
+        8
+      ],
+      "width": 5
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "polyproline",
+      "length": 16,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        5,
+        7
+      ],
+      "width": 3
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "polyproline",
+      "length": 24,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        5,
+        7
+      ],
+      "width": 3
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "polyproline",
+      "length": 32,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        5,
+        12
+      ],
+      "width": 8
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "polyproline",
+      "length": 48,
+      "buildable": true,
+      "mode": 6,
+      "window": [
+        5,
+        7
+      ],
+      "width": 3
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "helical",
+      "length": 4,
+      "buildable": false,
+      "reason": "every conformation of helical-4 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "helical",
+      "length": 8,
+      "buildable": false,
+      "reason": "every conformation of helical-8 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "helical",
+      "length": 12,
+      "buildable": false,
+      "reason": "every conformation of helical-12 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "helical",
+      "length": 16,
+      "buildable": false,
+      "reason": "every conformation of helical-16 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "helical",
+      "length": 24,
+      "buildable": false,
+      "reason": "every conformation of helical-24 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "helical",
+      "length": 32,
+      "buildable": false,
+      "reason": "every conformation of helical-32 clashes with the editor, over 400000 chains"
+    },
+    {
+      "site": "ruvc_carboxy",
+      "composition": "helical",
+      "length": 48,
+      "buildable": false,
+      "reason": "every conformation of helical-48 clashes with the editor, over 400000 chains"
+    }
+  ],
+  "reachable": {
+    "3": [
+      "c_terminal/xten-32"
+    ],
+    "5": [
+      "cp1028/polyproline-32",
+      "n_terminal/xten-4",
+      "n_terminal/xten-8",
+      "n_terminal/xten-12",
+      "n_terminal/xten-24",
+      "n_terminal/polyproline-4",
+      "n_terminal/polyproline-8",
+      "n_terminal/polyproline-32",
+      "n_terminal/polyproline-48"
+    ],
+    "6": [
+      "cp1012/xten-4",
+      "cp1012/xten-8",
+      "cp1012/xten-12",
+      "cp1012/xten-16",
+      "cp1012/xten-24",
+      "cp1012/xten-32",
+      "cp1012/xten-48",
+      "cp1012/polyproline-4",
+      "cp1012/polyproline-8",
+      "cp1012/polyproline-12",
+      "cp1041/polyproline-12",
+      "cp1041/polyproline-16",
+      "cp1041/polyproline-24",
+      "hnh_amino/helical-48",
+      "n_terminal/xten-16",
+      "n_terminal/xten-32",
+      "n_terminal/xten-48",
+      "n_terminal/polyproline-12",
+      "n_terminal/polyproline-16",
+      "pi_amino/polyproline-24",
+      "pi_amino/polyproline-32",
+      "ruvc_amino/polyproline-16",
+      "ruvc_amino/polyproline-24",
+      "ruvc_carboxy/polyproline-12",
+      "ruvc_carboxy/polyproline-16",
+      "ruvc_carboxy/polyproline-24",
+      "ruvc_carboxy/polyproline-32",
+      "ruvc_carboxy/polyproline-48"
+    ],
+    "7": [
+      "cp1012/polyproline-16",
+      "cp1012/polyproline-24",
+      "cp1041/xten-4",
+      "cp1041/xten-8",
+      "cp1041/xten-12",
+      "cp1041/xten-16",
+      "cp1041/xten-24",
+      "cp1041/xten-32",
+      "cp1041/xten-48",
+      "cp1041/polyproline-4",
+      "cp1041/polyproline-8",
+      "cp1041/polyproline-32",
+      "cp1041/polyproline-48",
+      "cp1249/polyproline-16",
+      "cp1300/polyproline-48",
+      "hnh_amino/polyproline-32",
+      "hnh_amino/polyproline-48",
+      "pi_amino/polyproline-48",
+      "pi_carboxy/polyproline-24",
+      "pi_carboxy/polyproline-48",
+      "ruvc_amino/polyproline-32",
+      "ruvc_carboxy/polyproline-8"
+    ],
+    "8": [
+      "cp1028/polyproline-12",
+      "cp1249/polyproline-12",
+      "cp1249/polyproline-48",
+      "hnh_amino/polyproline-24",
+      "hnh_amino/helical-32",
+      "n_terminal/polyproline-24",
+      "pi_amino/polyproline-16",
+      "ruvc_carboxy/polyproline-4"
+    ],
+    "9": [
+      "cp1012/polyproline-32",
+      "cp1012/polyproline-48",
+      "cp1028/xten-48",
+      "cp1249/polyproline-32",
+      "cp1300/xten-4",
+      "cp1300/xten-48",
+      "cp1300/polyproline-24",
+      "cp1300/polyproline-32",
+      "hnh_amino/polyproline-16",
+      "hnh_amino/helical-4",
+      "hnh_amino/helical-8",
+      "hnh_amino/helical-12",
+      "hnh_amino/helical-16",
+      "hnh_amino/helical-24",
+      "pi_amino/polyproline-12",
+      "pi_carboxy/polyproline-16",
+      "pi_carboxy/polyproline-32",
+      "ruvc_amino/xten-32",
+      "ruvc_amino/xten-48",
+      "ruvc_amino/polyproline-12",
+      "ruvc_amino/polyproline-48",
+      "ruvc_carboxy/xten-48"
+    ],
+    "10": [
+      "c_terminal/xten-4",
+      "c_terminal/xten-8",
+      "c_terminal/xten-12",
+      "c_terminal/xten-16",
+      "c_terminal/xten-24",
+      "c_terminal/xten-48",
+      "c_terminal/polyproline-4",
+      "c_terminal/polyproline-8",
+      "c_terminal/polyproline-12",
+      "c_terminal/polyproline-16",
+      "c_terminal/polyproline-24",
+      "c_terminal/polyproline-32",
+      "c_terminal/polyproline-48",
+      "cp1028/xten-4",
+      "cp1028/xten-8",
+      "cp1028/xten-12",
+      "cp1028/xten-16",
+      "cp1028/xten-24",
+      "cp1028/xten-32",
+      "cp1028/polyproline-4",
+      "cp1028/polyproline-8",
+      "cp1028/polyproline-16",
+      "cp1249/xten-24",
+      "cp1249/xten-32",
+      "cp1249/xten-48",
+      "cp1249/polyproline-8",
+      "cp1249/helical-24",
+      "cp1300/xten-8",
+      "cp1300/xten-12",
+      "cp1300/xten-24",
+      "cp1300/xten-32",
+      "cp1300/polyproline-4",
+      "cp1300/polyproline-12",
+      "cp1300/polyproline-16",
+      "hnh_amino/xten-4",
+      "hnh_amino/xten-8",
+      "hnh_amino/xten-12",
+      "hnh_amino/xten-16",
+      "hnh_amino/xten-24",
+      "hnh_amino/xten-32",
+      "hnh_amino/xten-48",
+      "hnh_amino/polyproline-4",
+      "hnh_amino/polyproline-8",
+      "hnh_amino/polyproline-12",
+      "hnh_carboxy/xten-24",
+      "hnh_carboxy/xten-32",
+      "hnh_carboxy/xten-48",
+      "hnh_carboxy/polyproline-12",
+      "hnh_carboxy/polyproline-16",
+      "hnh_carboxy/polyproline-24",
+      "hnh_carboxy/polyproline-32",
+      "hnh_carboxy/polyproline-48",
+      "pi_amino/xten-4",
+      "pi_amino/xten-16",
+      "pi_amino/xten-24",
+      "pi_amino/xten-32",
+      "pi_amino/xten-48",
+      "pi_carboxy/xten-4",
+      "pi_carboxy/xten-8",
+      "pi_carboxy/xten-24",
+      "pi_carboxy/xten-32",
+      "pi_carboxy/xten-48",
+      "pi_carboxy/polyproline-12",
+      "ruvc_amino/xten-4",
+      "ruvc_amino/xten-8",
+      "ruvc_amino/xten-12",
+      "ruvc_amino/xten-16",
+      "ruvc_amino/xten-24",
+      "ruvc_amino/polyproline-8",
+      "ruvc_carboxy/xten-4",
+      "ruvc_carboxy/xten-8",
+      "ruvc_carboxy/xten-12",
+      "ruvc_carboxy/xten-16",
+      "ruvc_carboxy/xten-24",
+      "ruvc_carboxy/xten-32"
+    ],
+    "11": [
+      "cp1028/polyproline-24",
+      "cp1028/polyproline-48",
+      "cp1249/xten-4",
+      "cp1249/xten-8",
+      "cp1249/xten-12",
+      "cp1249/xten-16",
+      "cp1249/polyproline-4",
+      "cp1249/polyproline-24",
+      "cp1300/xten-16",
+      "cp1300/polyproline-8",
+      "pi_amino/xten-8",
+      "pi_amino/xten-12",
+      "pi_amino/polyproline-4",
+      "pi_amino/polyproline-8",
+      "pi_carboxy/xten-12",
+      "pi_carboxy/xten-16",
+      "pi_carboxy/polyproline-4",
+      "pi_carboxy/polyproline-8",
+      "ruvc_amino/polyproline-4"
+    ]
+  },
+  "unreachable_by_flexible": [
+    1,
+    2,
+    4,
+    8,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "unreachable_by_any": [
+    1,
+    2,
+    4,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "modal_length": 32,
+  "recovery": [
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-5d",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 6,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-10d",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 7,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-02pmol",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 5,
+      "observed_width": 4,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 4,
+      "nearest_mode": 5,
+      "error": 28,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-1pmol",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 5,
+      "observed_width": 5,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        16,
+        24,
+        32
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 4,
+      "nearest_mode": 5,
+      "error": 28,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-5pmol",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 5,
+      "observed_width": 5,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        16,
+        24,
+        32
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 4,
+      "nearest_mode": 5,
+      "error": 28,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-6w",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 5,
+      "observed_width": 5,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        16,
+        24,
+        32
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 4,
+      "nearest_mode": 5,
+      "error": 28,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-12w",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 5,
+      "observed_width": 5,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        16,
+        24,
+        32
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 4,
+      "nearest_mode": 5,
+      "error": 28,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-LentiAAV",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 6,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-LentiLNP",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 5,
+      "observed_width": 5,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        16,
+        24,
+        32
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 4,
+      "nearest_mode": 5,
+      "error": 28,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-5d",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-10d",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-02pmol",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-1pmol",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-5pmol",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-6w",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-12w",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-LentiAAV",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-LentiLNP",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-5d",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 5,
+      "observed_width": 5,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        16,
+        24,
+        32
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 4,
+      "nearest_mode": 5,
+      "error": 28,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-10d",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 5,
+      "observed_width": 6,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 4,
+      "nearest_mode": 5,
+      "error": 28,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-5d",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-10d",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 5,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        16,
+        24,
+        32
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-10d",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 6,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-10d",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "hnhx-ABEmax7.10",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 5,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        16,
+        24,
+        32
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "komor-linker-16",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 16,
+      "target_mode": 6,
+      "observed_width": 5,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        16,
+        24,
+        32
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 0,
+      "modal_error": 16
+    },
+    {
+      "entry_id": "bepigs-BE3",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 16,
+      "target_mode": 6,
+      "observed_width": 5,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        16,
+        24,
+        32
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 0,
+      "modal_error": 16
+    },
+    {
+      "entry_id": "huangcp-ABEmax",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 6,
+      "observed_width": 4,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        16,
+        24,
+        32,
+        48
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": true,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "huangcp-CP1012-ABEmax",
+      "site": "cp1012",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 8,
+      "observed_width": 9,
+      "consistent_lengths": [],
+      "consistent_lengths_with_width": [],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": false,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 4,
+      "nearest_mode": 6,
+      "error": 28,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "huangcp-CP1028-ABEmax",
+      "site": "cp1028",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 8,
+      "observed_width": 9,
+      "consistent_lengths": [
+        48
+      ],
+      "consistent_lengths_with_width": [],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": false,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 48,
+      "nearest_mode": 9,
+      "error": 16,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "huangcp-CP1041-ABEmax",
+      "site": "cp1041",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 8,
+      "observed_width": 9,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        12,
+        16,
+        24
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": true,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 4,
+      "nearest_mode": 7,
+      "error": 28,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "huangcp-CP1249-ABEmax",
+      "site": "cp1249",
+      "composition": "xten",
+      "published_length": 32,
+      "target_mode": 8,
+      "observed_width": 9,
+      "consistent_lengths": [],
+      "consistent_lengths_with_width": [],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": false,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 24,
+      "nearest_mode": 10,
+      "error": 8,
+      "modal_error": 0
+    },
+    {
+      "entry_id": "tan2019-papap-5",
+      "site": "n_terminal",
+      "composition": "polyproline",
+      "published_length": 5,
+      "target_mode": 6,
+      "observed_width": 3,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        8,
+        12,
+        32
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": false,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 12,
+      "nearest_mode": 6,
+      "error": 7,
+      "modal_error": 27
+    },
+    {
+      "entry_id": "tan2019-papapap-7",
+      "site": "n_terminal",
+      "composition": "polyproline",
+      "published_length": 7,
+      "target_mode": 6,
+      "observed_width": 2,
+      "consistent_lengths": [
+        4,
+        8,
+        12,
+        16,
+        32,
+        48
+      ],
+      "consistent_lengths_with_width": [
+        4,
+        32
+      ],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": false,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 12,
+      "nearest_mode": 6,
+      "error": 5,
+      "modal_error": 25
+    },
+    {
+      "entry_id": "communbiol-dCas12a-A3A",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 16,
+      "target_mode": 10,
+      "observed_width": 10,
+      "consistent_lengths": [],
+      "consistent_lengths_with_width": [],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": false,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 0,
+      "modal_error": 16
+    },
+    {
+      "entry_id": "communbiol-dCas12a-A3A-Y130F",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 16,
+      "target_mode": 9,
+      "observed_width": 6,
+      "consistent_lengths": [],
+      "consistent_lengths_with_width": [],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": false,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 0,
+      "modal_error": 16
+    },
+    {
+      "entry_id": "communbiol-dCas12a-ABE8e",
+      "site": "n_terminal",
+      "composition": "xten",
+      "published_length": 16,
+      "target_mode": 10,
+      "observed_width": 5,
+      "consistent_lengths": [],
+      "consistent_lengths_with_width": [],
+      "lengths_on_the_grid": 7,
+      "published_is_consistent": false,
+      "published_is_consistent_with_width": false,
+      "nearest_length": 16,
+      "nearest_mode": 6,
+      "error": 0,
+      "modal_error": 16
+    }
+  ],
+  "within_tolerance": 8,
+  "modal_within_tolerance": 32,
+  "published_among_consistent": 31,
+  "consistent_set_narrower_than_grid": 3,
+  "published_among_consistent_with_width": 25,
+  "consistent_set_narrower_with_width": 15
+}

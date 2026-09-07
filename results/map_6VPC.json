@@ -1,0 +1,71 @@
+{
+  "mapping": {
+    "accession": "6VPC",
+    "guide_chain": "A",
+    "strand_chain": "D",
+    "spacer": "GGTTCCACTTTCTTAGACTG",
+    "protospacer": "TGTTCCXCTTTCTTAGACTG",
+    "residue_range": [
+      20,
+      39
+    ],
+    "numbering": "pam_distal",
+    "pam_side": "3prime",
+    "pam": "AGG",
+    "spacer_matches": 18,
+    "index_one_at_first_residue": true,
+    "ordered_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      20
+    ],
+    "displaced_indices": [],
+    "reannealed_indices": [],
+    "modified_residues": {
+      "26": "8AZ"
+    },
+    "strand_residue_to_index": {
+      "20": 1,
+      "21": 2,
+      "22": 3,
+      "23": 4,
+      "24": 5,
+      "25": 6,
+      "26": 7,
+      "27": 8,
+      "28": 9,
+      "29": 10,
+      "30": 11,
+      "39": 20
+    }
+  },
+  "geometry": {
+    "available": true,
+    "distance_from_protein_centre": {
+      "1": 37.135459899902344,
+      "2": 34.13502883911133,
+      "3": 27.418209075927734,
+      "4": 29.124439239501953,
+      "5": 34.80588912963867,
+      "6": 41.86366271972656,
+      "7": 48.103736877441406,
+      "8": 42.53457260131836,
+      "9": 36.92182540893555,
+      "10": 33.599246978759766,
+      "11": 31.430294036865234,
+      "20": 21.622066497802734
+    },
+    "lowest_index": 1,
+    "highest_index": 20,
+    "pam_proximal_is_deeper": true
+  }
+}

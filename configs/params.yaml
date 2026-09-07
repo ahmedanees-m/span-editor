@@ -1,0 +1,53 @@
+# Search bounds and the conventions the fit runs under. This file is written by
+# hand. The fitted values themselves land in configs/fitted.yaml, which the fit
+# writes, so that machine output never overwrites the reasoning recorded here.
+# Both files are hashed into the fit record together.
+#
+# Three parameters are fitted. The ceiling is four; beyond that the model is
+# fitting noise. The values below are the starting point.
+
+fitted:
+  # Radius within which a sampled active site is treated as having captured the
+  # base at a protospacer position, in angstrom.
+  capture_radius: 8.0
+
+  # Persistence length of the displaced non-target strand, in angstrom.
+  ssdna_persistence: 15.0
+
+  # Steepness of the single global saturating link from capture probability to
+  # measured editing fraction. One value for the whole corpus: most held-out
+  # datasets contain no architecture from which a per-dataset scale could be
+  # estimated without refitting.
+  link_alpha: 1.0
+
+bounds:
+  # The lower end is set by what a capture criterion applied to a resting strand
+  # path has to admit. In 6VPC, where a base editor is caught mid-reaction, the
+  # sugar of the engaged nucleotide lies 6.75 angstrom from the catalytic zinc
+  # while the sugars of its immediate neighbours lie between 13.5 and 20.2. The
+  # act of engagement moves the sugar, so a radius measured against an unengaged
+  # path must be well above 6.75.
+  capture_radius: [6.0, 25.0]
+  ssdna_persistence: [5.0, 40.0]
+  link_alpha: [0.01, 100000.0]
+
+link:
+  # The saturation index is link_alpha times the largest capture probability in
+  # the training subset, and that peak is always taken at this radius, never at
+  # whichever radius the search is visiting. Fixing the reference keeps the
+  # index a property of the fit rather than of the grid it was found on.
+  reference_radius: 14.0      # angstrom, inside the range where occupancy resolves
+
+  # Below this value the link is close enough to linear that a normalised
+  # profile carries no information about its steepness, and a two-parameter
+  # model reporting a linear regime is preferable to a third parameter that is
+  # not identified.
+  linear_regime_below: 0.5
+
+  # How the reporting scale of a source is removed before profiles are
+  # compared. Dividing by the peak biases the fitted link toward the linear end
+  # by roughly one step of a grid with ratio 1.66; solving for the constant in
+  # closed form does not.
+  profile_scale: least_squares
+
+objective: profile_shape

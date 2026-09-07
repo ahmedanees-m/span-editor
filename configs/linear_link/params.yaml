@@ -1,0 +1,9 @@
+# Present only so that load_parameters finds fitted.yaml beside it. The search
+# bounds and conventions live in configs/params.yaml and are not repeated.
+fitted:
+  capture_radius: 8.0
+  ssdna_persistence: 15.0
+  link_alpha: 1.0
+link:
+  reference_radius: 14.0
+  linear_regime_below: 0.5

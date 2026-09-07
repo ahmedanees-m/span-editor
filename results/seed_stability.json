@@ -1,0 +1,2016 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "entries": [
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-5d",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.829842,
+          "effective_conformations": 8838.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.866311,
+          "effective_conformations": 8750.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.886133,
+          "effective_conformations": 8656.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.850908,
+          "effective_conformations": 8783.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.870534,
+          "effective_conformations": 8735.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        6,
+        5
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8838.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-10d",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.829842,
+          "effective_conformations": 8838.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.866311,
+          "effective_conformations": 8750.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.886133,
+          "effective_conformations": 8656.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.850908,
+          "effective_conformations": 8783.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.870534,
+          "effective_conformations": 8735.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        6,
+        5
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8838.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-02pmol",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 5,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.829842,
+          "effective_conformations": 8838.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.866311,
+          "effective_conformations": 8750.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.886133,
+          "effective_conformations": 8656.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.850908,
+          "effective_conformations": 8783.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.870534,
+          "effective_conformations": 8735.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        6,
+        5
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8838.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-1pmol",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 5,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.829842,
+          "effective_conformations": 8838.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.866311,
+          "effective_conformations": 8750.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.886133,
+          "effective_conformations": 8656.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.850908,
+          "effective_conformations": 8783.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.870534,
+          "effective_conformations": 8735.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        6,
+        5
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8838.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-5pmol",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 5,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.829842,
+          "effective_conformations": 8838.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.866311,
+          "effective_conformations": 8750.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.886133,
+          "effective_conformations": 8656.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.850908,
+          "effective_conformations": 8783.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.870534,
+          "effective_conformations": 8735.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        6,
+        5
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8838.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-6w",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 5,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.829842,
+          "effective_conformations": 8838.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.866311,
+          "effective_conformations": 8750.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.886133,
+          "effective_conformations": 8656.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.850908,
+          "effective_conformations": 8783.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.870534,
+          "effective_conformations": 8735.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        6,
+        5
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8838.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-12w",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 5,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.829842,
+          "effective_conformations": 8838.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.866311,
+          "effective_conformations": 8750.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.886133,
+          "effective_conformations": 8656.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.850908,
+          "effective_conformations": 8783.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.870534,
+          "effective_conformations": 8735.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        6,
+        5
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8838.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-LentiAAV",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.829842,
+          "effective_conformations": 8838.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.866311,
+          "effective_conformations": 8750.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.886133,
+          "effective_conformations": 8656.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.850908,
+          "effective_conformations": 8783.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.870534,
+          "effective_conformations": 8735.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        6,
+        5
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8838.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABE8e-LentiLNP",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 5,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.829842,
+          "effective_conformations": 8838.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.866311,
+          "effective_conformations": 8750.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.886133,
+          "effective_conformations": 8656.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.850908,
+          "effective_conformations": 8783.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.870534,
+          "effective_conformations": 8735.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        6,
+        5
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8838.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-5d",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-10d",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-02pmol",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-1pmol",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-5pmol",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-6w",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-12w",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-LentiAAV",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "kissling-SpRY-ABEmax-LentiLNP",
+      "source_key": "kissling2025",
+      "ortholog": "SpRY",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-5d",
+      "source_key": "kissling2025",
+      "ortholog": "SpG",
+      "observed_mode": 5,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.829842,
+          "effective_conformations": 8838.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.866311,
+          "effective_conformations": 8750.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.886133,
+          "effective_conformations": 8656.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.850908,
+          "effective_conformations": 8783.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.870534,
+          "effective_conformations": 8735.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        6,
+        5
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8838.0
+    },
+    {
+      "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-10d",
+      "source_key": "kissling2025",
+      "ortholog": "SpG",
+      "observed_mode": 5,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.829842,
+          "effective_conformations": 8838.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.866311,
+          "effective_conformations": 8750.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.886133,
+          "effective_conformations": 8656.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.850908,
+          "effective_conformations": 8783.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.870534,
+          "effective_conformations": 8735.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        6,
+        5
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8838.0
+    },
+    {
+      "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-5d",
+      "source_key": "kissling2025",
+      "ortholog": "SpG",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-10d",
+      "source_key": "kissling2025",
+      "ortholog": "SpG",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+      "source_key": "kissling2025",
+      "ortholog": "SpCas9",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.829842,
+          "effective_conformations": 8838.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.866311,
+          "effective_conformations": 8750.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.886133,
+          "effective_conformations": 8656.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.850908,
+          "effective_conformations": 8783.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.870534,
+          "effective_conformations": 8735.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        6,
+        5
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8838.0
+    },
+    {
+      "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-10d",
+      "source_key": "kissling2025",
+      "ortholog": "SpCas9",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.829842,
+          "effective_conformations": 8838.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.866311,
+          "effective_conformations": 8750.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.886133,
+          "effective_conformations": 8656.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.850908,
+          "effective_conformations": 8783.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.870534,
+          "effective_conformations": 8735.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        6,
+        5
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8838.0
+    },
+    {
+      "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+      "source_key": "kissling2025",
+      "ortholog": "SpCas9",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-10d",
+      "source_key": "kissling2025",
+      "ortholog": "SpCas9",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "hnhx-ABEmax7.10",
+      "source_key": "hnhx2021",
+      "ortholog": "SpCas9",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "hnhx-ABEmax7.10-inserted",
+      "source_key": "hnhx2021",
+      "ortholog": "SpCas9",
+      "observed_mode": 10,
+      "by_seed": {
+        "0": {
+          "mode": null,
+          "degenerate": true,
+          "peak": 1.0,
+          "effective_conformations": 723.2
+        },
+        "1": {
+          "mode": 15,
+          "degenerate": false,
+          "peak": 1.0,
+          "effective_conformations": 640.5
+        },
+        "2": {
+          "mode": null,
+          "degenerate": true,
+          "peak": 1.0,
+          "effective_conformations": 646.5
+        },
+        "3": {
+          "mode": 15,
+          "degenerate": false,
+          "peak": 1.0,
+          "effective_conformations": 696.3
+        },
+        "4": {
+          "mode": null,
+          "degenerate": true,
+          "peak": 1.0,
+          "effective_conformations": 657.7
+        }
+      },
+      "modes": [
+        15,
+        15
+      ],
+      "mode_spread": 0,
+      "degenerate_seeds": 3,
+      "effective_conformations": 723.2
+    },
+    {
+      "entry_id": "komor-linker-16",
+      "source_key": "komor2016",
+      "ortholog": "SpCas9",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.745396,
+          "effective_conformations": 8480.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.732208,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.76417,
+          "effective_conformations": 8452.0
+        },
+        "3": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.767997,
+          "effective_conformations": 8505.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.769012,
+          "effective_conformations": 8716.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "mode_spread": 0,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8480.0
+    },
+    {
+      "entry_id": "bepigs-BE3",
+      "source_key": "bepigs2019",
+      "ortholog": "SpCas9",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.745396,
+          "effective_conformations": 8480.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.732208,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.76417,
+          "effective_conformations": 8452.0
+        },
+        "3": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.767997,
+          "effective_conformations": 8505.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.769012,
+          "effective_conformations": 8716.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "mode_spread": 0,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8480.0
+    },
+    {
+      "entry_id": "bepigs-pi-16",
+      "source_key": "bepigs2019",
+      "ortholog": "SpCas9",
+      "observed_mode": 9,
+      "by_seed": {
+        "0": {
+          "mode": 11,
+          "degenerate": false,
+          "peak": 0.999937,
+          "effective_conformations": 1658.3
+        },
+        "1": {
+          "mode": 11,
+          "degenerate": false,
+          "peak": 0.999986,
+          "effective_conformations": 1677.4
+        },
+        "2": {
+          "mode": 11,
+          "degenerate": false,
+          "peak": 0.999969,
+          "effective_conformations": 1720.9
+        },
+        "3": {
+          "mode": 11,
+          "degenerate": false,
+          "peak": 0.999879,
+          "effective_conformations": 1714.9
+        },
+        "4": {
+          "mode": 11,
+          "degenerate": false,
+          "peak": 0.999999,
+          "effective_conformations": 1645.0
+        }
+      },
+      "modes": [
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "mode_spread": 0,
+      "degenerate_seeds": 0,
+      "effective_conformations": 1658.3
+    },
+    {
+      "entry_id": "huangcp-ABEmax",
+      "source_key": "huangcp",
+      "ortholog": "SpCas9",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.422791,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.495819,
+          "effective_conformations": 8451.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.438567,
+          "effective_conformations": 8473.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.393037,
+          "effective_conformations": 8489.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.425527,
+          "effective_conformations": 8398.0
+        }
+      },
+      "modes": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 1,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "huangcp-CP1012-ABEmax",
+      "source_key": "huangcp",
+      "ortholog": "SpCas9",
+      "observed_mode": 8,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.932786,
+          "effective_conformations": 4292.0
+        },
+        "1": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.953388,
+          "effective_conformations": 4292.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.90744,
+          "effective_conformations": 4223.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.940829,
+          "effective_conformations": 4314.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.921608,
+          "effective_conformations": 4361.0
+        }
+      },
+      "modes": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 0,
+      "degenerate_seeds": 0,
+      "effective_conformations": 4292.0
+    },
+    {
+      "entry_id": "huangcp-CP1028-ABEmax",
+      "source_key": "huangcp",
+      "ortholog": "SpCas9",
+      "observed_mode": 8,
+      "by_seed": {
+        "0": {
+          "mode": 10,
+          "degenerate": false,
+          "peak": 0.878338,
+          "effective_conformations": 8532.0
+        },
+        "1": {
+          "mode": 10,
+          "degenerate": false,
+          "peak": 0.861535,
+          "effective_conformations": 8544.0
+        },
+        "2": {
+          "mode": 10,
+          "degenerate": false,
+          "peak": 0.905654,
+          "effective_conformations": 8508.0
+        },
+        "3": {
+          "mode": 10,
+          "degenerate": false,
+          "peak": 0.861563,
+          "effective_conformations": 8418.0
+        },
+        "4": {
+          "mode": 10,
+          "degenerate": false,
+          "peak": 0.879074,
+          "effective_conformations": 8366.0
+        }
+      },
+      "modes": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "mode_spread": 0,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8532.0
+    },
+    {
+      "entry_id": "huangcp-CP1041-ABEmax",
+      "source_key": "huangcp",
+      "ortholog": "SpCas9",
+      "observed_mode": 8,
+      "by_seed": {
+        "0": {
+          "mode": 7,
+          "degenerate": false,
+          "peak": 0.946406,
+          "effective_conformations": 5073.0
+        },
+        "1": {
+          "mode": 7,
+          "degenerate": false,
+          "peak": 0.964818,
+          "effective_conformations": 5102.0
+        },
+        "2": {
+          "mode": 7,
+          "degenerate": false,
+          "peak": 0.961291,
+          "effective_conformations": 5266.0
+        },
+        "3": {
+          "mode": 7,
+          "degenerate": false,
+          "peak": 0.942233,
+          "effective_conformations": 5149.0
+        },
+        "4": {
+          "mode": 7,
+          "degenerate": false,
+          "peak": 0.928522,
+          "effective_conformations": 5237.0
+        }
+      },
+      "modes": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mode_spread": 0,
+      "degenerate_seeds": 0,
+      "effective_conformations": 5073.0
+    },
+    {
+      "entry_id": "huangcp-CP1249-ABEmax",
+      "source_key": "huangcp",
+      "ortholog": "SpCas9",
+      "observed_mode": 8,
+      "by_seed": {
+        "0": {
+          "mode": 10,
+          "degenerate": false,
+          "peak": 0.69512,
+          "effective_conformations": 9074.0
+        },
+        "1": {
+          "mode": 10,
+          "degenerate": false,
+          "peak": 0.641335,
+          "effective_conformations": 8865.0
+        },
+        "2": {
+          "mode": 10,
+          "degenerate": false,
+          "peak": 0.714206,
+          "effective_conformations": 9018.0
+        },
+        "3": {
+          "mode": 10,
+          "degenerate": false,
+          "peak": 0.593831,
+          "effective_conformations": 9096.0
+        },
+        "4": {
+          "mode": 10,
+          "degenerate": false,
+          "peak": 0.632221,
+          "effective_conformations": 9121.0
+        }
+      },
+      "modes": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "mode_spread": 0,
+      "degenerate_seeds": 0,
+      "effective_conformations": 9074.0
+    },
+    {
+      "entry_id": "tan2019-papap-5",
+      "source_key": "tan2019",
+      "ortholog": "SpCas9",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.527079,
+          "effective_conformations": 8320.0
+        },
+        "1": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.57172,
+          "effective_conformations": 8253.0
+        },
+        "2": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.466518,
+          "effective_conformations": 8382.0
+        },
+        "3": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.541438,
+          "effective_conformations": 8234.0
+        },
+        "4": {
+          "mode": 6,
+          "degenerate": false,
+          "peak": 0.57294,
+          "effective_conformations": 8178.0
+        }
+      },
+      "modes": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "mode_spread": 0,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8320.0
+    },
+    {
+      "entry_id": "tan2019-papapap-7",
+      "source_key": "tan2019",
+      "ortholog": "SpCas9",
+      "observed_mode": 6,
+      "by_seed": {
+        "0": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.67294,
+          "effective_conformations": 8679.0
+        },
+        "1": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.728141,
+          "effective_conformations": 8838.0
+        },
+        "2": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.719732,
+          "effective_conformations": 8965.0
+        },
+        "3": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.769569,
+          "effective_conformations": 8886.0
+        },
+        "4": {
+          "mode": 5,
+          "degenerate": false,
+          "peak": 0.71272,
+          "effective_conformations": 8737.0
+        }
+      },
+      "modes": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "mode_spread": 0,
+      "degenerate_seeds": 0,
+      "effective_conformations": 8679.0
+    },
+    {
+      "entry_id": "communbiol-dCas12a-A3A",
+      "source_key": "communbiol2022",
+      "ortholog": "Cas12a",
+      "observed_mode": 10,
+      "by_seed": {
+        "0": {
+          "mode": 4,
+          "degenerate": false,
+          "peak": 0.0649,
+          "effective_conformations": 8767.0
+        },
+        "1": {
+          "mode": 4,
+          "degenerate": false,
+          "peak": 0.183339,
+          "effective_conformations": 8714.0
+        },
+        "2": {
+          "mode": null,
+          "degenerate": true,
+          "peak": 0.0,
+          "effective_conformations": 8730.0
+        },
+        "3": {
+          "mode": 4,
+          "degenerate": false,
+          "peak": 0.12614,
+          "effective_conformations": 8726.0
+        },
+        "4": {
+          "mode": null,
+          "degenerate": true,
+          "peak": 0.0,
+          "effective_conformations": 8529.0
+        }
+      },
+      "modes": [
+        4,
+        4,
+        4
+      ],
+      "mode_spread": 0,
+      "degenerate_seeds": 2,
+      "effective_conformations": 8767.0
+    },
+    {
+      "entry_id": "communbiol-dCas12a-A3A-Y130F",
+      "source_key": "communbiol2022",
+      "ortholog": "Cas12a",
+      "observed_mode": 9,
+      "by_seed": {
+        "0": {
+          "mode": 4,
+          "degenerate": false,
+          "peak": 0.0649,
+          "effective_conformations": 8767.0
+        },
+        "1": {
+          "mode": 4,
+          "degenerate": false,
+          "peak": 0.183339,
+          "effective_conformations": 8714.0
+        },
+        "2": {
+          "mode": null,
+          "degenerate": true,
+          "peak": 0.0,
+          "effective_conformations": 8730.0
+        },
+        "3": {
+          "mode": 4,
+          "degenerate": false,
+          "peak": 0.12614,
+          "effective_conformations": 8726.0
+        },
+        "4": {
+          "mode": null,
+          "degenerate": true,
+          "peak": 0.0,
+          "effective_conformations": 8529.0
+        }
+      },
+      "modes": [
+        4,
+        4,
+        4
+      ],
+      "mode_spread": 0,
+      "degenerate_seeds": 2,
+      "effective_conformations": 8767.0
+    },
+    {
+      "entry_id": "communbiol-dCas12a-ABE8e",
+      "source_key": "communbiol2022",
+      "ortholog": "Cas12a",
+      "observed_mode": 10,
+      "by_seed": {
+        "0": {
+          "mode": 4,
+          "degenerate": false,
+          "peak": 0.108016,
+          "effective_conformations": 10293.0
+        },
+        "1": {
+          "mode": 4,
+          "degenerate": false,
+          "peak": 0.109198,
+          "effective_conformations": 10175.0
+        },
+        "2": {
+          "mode": 4,
+          "degenerate": false,
+          "peak": 0.160294,
+          "effective_conformations": 10102.0
+        },
+        "3": {
+          "mode": 4,
+          "degenerate": false,
+          "peak": 0.109911,
+          "effective_conformations": 10105.0
+        },
+        "4": {
+          "mode": 7,
+          "degenerate": false,
+          "peak": 0.055809,
+          "effective_conformations": 10244.0
+        }
+      },
+      "modes": [
+        4,
+        4,
+        4,
+        4,
+        7
+      ],
+      "mode_spread": 3,
+      "degenerate_seeds": 0,
+      "effective_conformations": 10293.0
+    }
+  ],
+  "median_mode_spread": 1,
+  "max_mode_spread": 3,
+  "mean_signed_offset_per_seed": {
+    "0": {
+      "n": 40,
+      "mean": -0.55,
+      "by_family": {
+        "SpCas9 family": -0.135,
+        "Cas12a": -5.667
+      }
+    },
+    "1": {
+      "n": 41,
+      "mean": -0.78,
+      "by_family": {
+        "SpCas9 family": -0.395,
+        "Cas12a": -5.667
+      }
+    },
+    "2": {
+      "n": 38,
+      "mean": -0.289,
+      "by_family": {
+        "SpCas9 family": -0.135,
+        "Cas12a": -6.0
+      }
+    },
+    "3": {
+      "n": 41,
+      "mean": -0.098,
+      "by_family": {
+        "SpCas9 family": 0.342,
+        "Cas12a": -5.667
+      }
+    },
+    "4": {
+      "n": 38,
+      "mean": -0.211,
+      "by_family": {
+        "SpCas9 family": -0.135,
+        "Cas12a": -3.0
+      }
+    }
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "ortholog": "Cas12a",
+  "threshold": 0.5,
+  "lengths": [
+    8,
+    16,
+    24,
+    48
+  ],
+  "parameters": {
+    "capture_radius": 22.0,
+    "ssdna_persistence": 22.0,
+    "link_alpha": 588.2841016079846
+  },
+  "entries": [
+    {
+      "entry_id": "communbiol-dCas12a-A3A",
+      "editor": "dCas12a-A3A",
+      "effector": "ha3a",
+      "structure": "6I1K",
+      "numbering": "pam_proximal",
+      "spacer_length": 21,
+      "linker_reported": true,
+      "buildable": true,
+      "band": [
+        {
+          "site": "n_terminal",
+          "length": 8,
+          "buildable": false,
+          "reason": "no position is captured at all"
+        },
+        {
+          "site": "n_terminal",
+          "length": 16,
+          "buildable": false,
+          "reason": "no position is captured at all"
+        },
+        {
+          "site": "n_terminal",
+          "length": 24,
+          "buildable": true,
+          "mode": 4,
+          "window": [
+            3,
+            5
+          ],
+          "width": 3,
+          "from_pam": [
+            3,
+            5
+          ]
+        },
+        {
+          "site": "n_terminal",
+          "length": 48,
+          "buildable": true,
+          "mode": 4,
+          "window": [
+            4,
+            5
+          ],
+          "width": 2,
+          "from_pam": [
+            4,
+            5
+          ]
+        },
+        {
+          "site": "c_terminal",
+          "length": 8,
+          "buildable": true,
+          "mode": 9,
+          "window": [
+            9,
+            9
+          ],
+          "width": 1,
+          "from_pam": [
+            9,
+            9
+          ]
+        },
+        {
+          "site": "c_terminal",
+          "length": 16,
+          "buildable": true,
+          "mode": 10,
+          "window": [
+            9,
+            12
+          ],
+          "width": 4,
+          "from_pam": [
+            9,
+            12
+          ]
+        },
+        {
+          "site": "c_terminal",
+          "length": 24,
+          "buildable": true,
+          "mode": 10,
+          "window": [
+            9,
+            11
+          ],
+          "width": 3,
+          "from_pam": [
+            9,
+            11
+          ]
+        },
+        {
+          "site": "c_terminal",
+          "length": 48,
+          "buildable": true,
+          "mode": 10,
+          "window": [
+            9,
+            12
+          ],
+          "width": 4,
+          "from_pam": [
+            9,
+            12
+          ]
+        }
+      ],
+      "mode_band": [
+        4,
+        10
+      ],
+      "window_band": [
+        3,
+        12
+      ],
+      "observed_window": [
+        6,
+        15
+      ],
+      "observed_from_pam": [
+        6,
+        15
+      ],
+      "overlap_at_each_setting": {
+        "n_terminal-24": 0.0,
+        "n_terminal-48": 0.0,
+        "c_terminal-8": 0.1,
+        "c_terminal-16": 0.4,
+        "c_terminal-24": 0.3,
+        "c_terminal-48": 0.4
+      },
+      "mode_inside_reported_window": {
+        "n_terminal-24": false,
+        "n_terminal-48": false,
+        "c_terminal-8": true,
+        "c_terminal-16": true,
+        "c_terminal-24": true,
+        "c_terminal-48": true
+      }
+    },
+    {
+      "entry_id": "communbiol-dCas12a-A3A-Y130F",
+      "editor": "dCas12a-A3A-Y130F",
+      "effector": "ha3a",
+      "structure": "6I1K",
+      "numbering": "pam_proximal",
+      "spacer_length": 21,
+      "linker_reported": true,
+      "buildable": true,
+      "band": [
+        {
+          "site": "n_terminal",
+          "length": 8,
+          "buildable": false,
+          "reason": "no position is captured at all"
+        },
+        {
+          "site": "n_terminal",
+          "length": 16,
+          "buildable": false,
+          "reason": "no position is captured at all"
+        },
+        {
+          "site": "n_terminal",
+          "length": 24,
+          "buildable": true,
+          "mode": 4,
+          "window": [
+            3,
+            5
+          ],
+          "width": 3,
+          "from_pam": [
+            3,
+            5
+          ]
+        },
+        {
+          "site": "n_terminal",
+          "length": 48,
+          "buildable": true,
+          "mode": 4,
+          "window": [
+            4,
+            5
+          ],
+          "width": 2,
+          "from_pam": [
+            4,
+            5
+          ]
+        },
+        {
+          "site": "c_terminal",
+          "length": 8,
+          "buildable": true,
+          "mode": 9,
+          "window": [
+            9,
+            9
+          ],
+          "width": 1,
+          "from_pam": [
+            9,
+            9
+          ]
+        },
+        {
+          "site": "c_terminal",
+          "length": 16,
+          "buildable": true,
+          "mode": 10,
+          "window": [
+            9,
+            12
+          ],
+          "width": 4,
+          "from_pam": [
+            9,
+            12
+          ]
+        },
+        {
+          "site": "c_terminal",
+          "length": 24,
+          "buildable": true,
+          "mode": 10,
+          "window": [
+            9,
+            11
+          ],
+          "width": 3,
+          "from_pam": [
+            9,
+            11
+          ]
+        },
+        {
+          "site": "c_terminal",
+          "length": 48,
+          "buildable": true,
+          "mode": 10,
+          "window": [
+            9,
+            12
+          ],
+          "width": 4,
+          "from_pam": [
+            9,
+            12
+          ]
+        }
+      ],
+      "mode_band": [
+        4,
+        10
+      ],
+      "window_band": [
+        3,
+        12
+      ],
+      "observed_window": [
+        6,
+        12
+      ],
+      "observed_from_pam": [
+        6,
+        12
+      ],
+      "overlap_at_each_setting": {
+        "n_terminal-24": 0.0,
+        "n_terminal-48": 0.0,
+        "c_terminal-8": 0.143,
+        "c_terminal-16": 0.571,
+        "c_terminal-24": 0.429,
+        "c_terminal-48": 0.571
+      },
+      "mode_inside_reported_window": {
+        "n_terminal-24": false,
+        "n_terminal-48": false,
+        "c_terminal-8": true,
+        "c_terminal-16": true,
+        "c_terminal-24": true,
+        "c_terminal-48": true
+      }
+    },
+    {
+      "entry_id": "communbiol-dCas12a-ABE8e",
+      "editor": "dCas12a-ABE8e",
+      "effector": "tada8e",
+      "structure": "6I1K",
+      "numbering": "pam_proximal",
+      "spacer_length": 21,
+      "linker_reported": true,
+      "buildable": true,
+      "band": [
+        {
+          "site": "n_terminal",
+          "length": 8,
+          "buildable": false,
+          "reason": "no position is captured at all"
+        },
+        {
+          "site": "n_terminal",
+          "length": 16,
+          "buildable": true,
+          "mode": 4,
+          "window": [
+            3,
+            5
+          ],
+          "width": 3,
+          "from_pam": [
+            3,
+            5
+          ]
+        },
+        {
+          "site": "n_terminal",
+          "length": 24,
+          "buildable": true,
+          "mode": 11,
+          "window": [
+            9,
+            11
+          ],
+          "width": 3,
+          "from_pam": [
+            9,
+            11
+          ]
+        },
+        {
+          "site": "n_terminal",
+          "length": 48,
+          "buildable": true,
+          "mode": 9,
+          "window": [
+            9,
+            11
+          ],
+          "width": 3,
+          "from_pam": [
+            9,
+            11
+          ]
+        },
+        {
+          "site": "c_terminal",
+          "length": 8,
+          "buildable": true,
+          "mode": 9,
+          "window": [
+            9,
+            11
+          ],
+          "width": 3,
+          "from_pam": [
+            9,
+            11
+          ]
+        },
+        {
+          "site": "c_terminal",
+          "length": 16,
+          "buildable": true,
+          "mode": 10,
+          "window": [
+            9,
+            12
+          ],
+          "width": 4,
+          "from_pam": [
+            9,
+            12
+          ]
+        },
+        {
+          "site": "c_terminal",
+          "length": 24,
+          "buildable": true,
+          "mode": 10,
+          "window": [
+            9,
+            12
+          ],
+          "width": 4,
+          "from_pam": [
+            9,
+            12
+          ]
+        },
+        {
+          "site": "c_terminal",
+          "length": 48,
+          "buildable": true,
+          "mode": 10,
+          "window": [
+            9,
+            12
+          ],
+          "width": 4,
+          "from_pam": [
+            9,
+            12
+          ]
+        }
+      ],
+      "mode_band": [
+        4,
+        11
+      ],
+      "window_band": [
+        3,
+        12
+      ],
+      "observed_window": [
+        8,
+        12
+      ],
+      "observed_from_pam": [
+        8,
+        12
+      ],
+      "overlap_at_each_setting": {
+        "n_terminal-16": 0.0,
+        "n_terminal-24": 0.6,
+        "n_terminal-48": 0.6,
+        "c_terminal-8": 0.6,
+        "c_terminal-16": 0.8,
+        "c_terminal-24": 0.8,
+        "c_terminal-48": 0.8
+      },
+      "mode_inside_reported_window": {
+        "n_terminal-16": false,
+        "n_terminal-24": true,
+        "n_terminal-48": true,
+        "c_terminal-8": true,
+        "c_terminal-16": true,
+        "c_terminal-24": true,
+        "c_terminal-48": true
+      }
+    }
+  ]
+}

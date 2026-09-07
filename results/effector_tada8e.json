@@ -1,0 +1,27 @@
+{
+  "chain": "F",
+  "terminus": "c_terminal",
+  "junction_residue": 159,
+  "active_site_residue": 201,
+  "modelled_residues": [
+    5,
+    160
+  ],
+  "body_residues": [
+    5,
+    159
+  ],
+  "resolved_tail": 1,
+  "tail_cutoff": 1.5,
+  "active_site_offset": [
+    15.98,
+    -12.23,
+    4.51
+  ],
+  "offset_magnitude": 20.62,
+  "radius_of_gyration": 13.97,
+  "bounding_radius": 21.35,
+  "body_radius": 13.97,
+  "accession": "6VPC",
+  "effector": "tada8e"
+}

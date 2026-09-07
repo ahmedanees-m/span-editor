@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: SPAN
+abstract: >-
+  A geometric model of effector tethering in R-loop genome editors. Editing
+  windows are computed from linker statistics, steric occlusion and R-loop
+  geometry, with parameters fitted on terminal-fusion SpCas9 architectures and
+  held fixed across orthologs.
+type: software
+version: 0.1.0
+license: MIT
+repository-code: https://github.com/ahmedanees-m/span-editor
+authors:
+  - family-names: Mahaboob Ali
+    given-names: Anees Ahmed
+    affiliation: School of Bio Sciences and Technology, VIT Vellore
+    email: ahmedaneesm@gmail.com
+  - family-names: Delhibabu
+    given-names: Radhakrishnan
+    affiliation: VIT Vellore
+  - family-names: Nelson
+    given-names: Everette Jacob Remington
+    affiliation: School of Bio Sciences and Technology, VIT Vellore

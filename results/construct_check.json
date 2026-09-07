@@ -1,0 +1,22 @@
+{
+  "plasmid": "addgene-plasmid-193640-sequence-421923.gbk",
+  "definition": "Expression of base editor dCas12a-A3A-Y130F in mammalian cells for base editing, along with non-fused EGFP fluorescence.",
+  "length": 9822,
+  "deaminase": {
+    "label": "human APOBEC3A",
+    "span": [
+      409,
+      1005
+    ],
+    "residues": 199
+  },
+  "deaminase_is_amino_terminal": true,
+  "block_after_the_deaminase": {
+    "residues": 1246,
+    "stop_codons": 0,
+    "opens_with": "SGSETPGTSESATPES",
+    "matches_xten_16": true,
+    "ortholog": "LbCas12a",
+    "ortholog_motif_at": 17
+  }
+}

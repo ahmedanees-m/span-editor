@@ -1,0 +1,212 @@
+{
+  "nominal_rejection": 0.050000000000000044,
+  "methods": [
+    "percentile",
+    "wild"
+  ],
+  "level": 0.95,
+  "entries_per_cluster": 5.0,
+  "base_rate": 0.45,
+  "icc": 0.3,
+  "trials": 600,
+  "bootstrap": 1500,
+  "seed": 20260101,
+  "rows": [
+    {
+      "method": "percentile",
+      "pairing": "independent",
+      "n_clusters": 6,
+      "rejection_at_zero_margin": 0.12833333333333333,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "percentile",
+      "pairing": "independent",
+      "n_clusters": 9,
+      "rejection_at_zero_margin": 0.09833333333333333,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "percentile",
+      "pairing": "independent",
+      "n_clusters": 12,
+      "rejection_at_zero_margin": 0.06166666666666667,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "percentile",
+      "pairing": "independent",
+      "n_clusters": 16,
+      "rejection_at_zero_margin": 0.07,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "percentile",
+      "pairing": "independent",
+      "n_clusters": 30,
+      "rejection_at_zero_margin": 0.065,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "percentile",
+      "pairing": "independent",
+      "n_clusters": 60,
+      "rejection_at_zero_margin": 0.05333333333333334,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "percentile",
+      "pairing": "independent",
+      "n_clusters": 100,
+      "rejection_at_zero_margin": 0.055,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "percentile",
+      "pairing": "comonotonic",
+      "n_clusters": 6,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    },
+    {
+      "method": "percentile",
+      "pairing": "comonotonic",
+      "n_clusters": 9,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    },
+    {
+      "method": "percentile",
+      "pairing": "comonotonic",
+      "n_clusters": 12,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    },
+    {
+      "method": "percentile",
+      "pairing": "comonotonic",
+      "n_clusters": 16,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    },
+    {
+      "method": "percentile",
+      "pairing": "comonotonic",
+      "n_clusters": 30,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    },
+    {
+      "method": "percentile",
+      "pairing": "comonotonic",
+      "n_clusters": 60,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    },
+    {
+      "method": "percentile",
+      "pairing": "comonotonic",
+      "n_clusters": 100,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    },
+    {
+      "method": "wild",
+      "pairing": "independent",
+      "n_clusters": 6,
+      "rejection_at_zero_margin": 0.06166666666666667,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "wild",
+      "pairing": "independent",
+      "n_clusters": 9,
+      "rejection_at_zero_margin": 0.04666666666666667,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "wild",
+      "pairing": "independent",
+      "n_clusters": 12,
+      "rejection_at_zero_margin": 0.04666666666666667,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "wild",
+      "pairing": "independent",
+      "n_clusters": 16,
+      "rejection_at_zero_margin": 0.058333333333333334,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "wild",
+      "pairing": "independent",
+      "n_clusters": 30,
+      "rejection_at_zero_margin": 0.051666666666666666,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "wild",
+      "pairing": "independent",
+      "n_clusters": 60,
+      "rejection_at_zero_margin": 0.04833333333333333,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "wild",
+      "pairing": "independent",
+      "n_clusters": 100,
+      "rejection_at_zero_margin": 0.055,
+      "degenerate_trials": 0.0
+    },
+    {
+      "method": "wild",
+      "pairing": "comonotonic",
+      "n_clusters": 6,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    },
+    {
+      "method": "wild",
+      "pairing": "comonotonic",
+      "n_clusters": 9,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    },
+    {
+      "method": "wild",
+      "pairing": "comonotonic",
+      "n_clusters": 12,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    },
+    {
+      "method": "wild",
+      "pairing": "comonotonic",
+      "n_clusters": 16,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    },
+    {
+      "method": "wild",
+      "pairing": "comonotonic",
+      "n_clusters": 30,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    },
+    {
+      "method": "wild",
+      "pairing": "comonotonic",
+      "n_clusters": 60,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    },
+    {
+      "method": "wild",
+      "pairing": "comonotonic",
+      "n_clusters": 100,
+      "rejection_at_zero_margin": 0.0,
+      "degenerate_trials": 1.0
+    }
+  ]
+}

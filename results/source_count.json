@@ -1,0 +1,69 @@
+{
+  "architecture_by_readout": {
+    "amplicon_sequencing": 11,
+    "functional_selection": 2,
+    "in_vitro_deamination": 1,
+    "plant_system": 1,
+    "sanger_deconvolution": 1
+  },
+  "architecture_confirmed": 6,
+  "architecture_curated": 6,
+  "architecture_sources": 16,
+  "architecture_to_retrieve": 0,
+  "architecture_verify_primary": 0,
+  "by_role": {
+    "architecture": 16,
+    "external": 5,
+    "profile": 7
+  },
+  "curated_keys": [
+    "komor2016",
+    "tan2019",
+    "bepigs2019",
+    "hnhx2021",
+    "huangcp",
+    "communbiol2022"
+  ],
+  "gate": 12,
+  "gate_met": false,
+  "keys": {
+    "architecture": [
+      "komor2016",
+      "koblan2018",
+      "tan2019",
+      "tan2020",
+      "bepigs2019",
+      "hnhx2021",
+      "huangcp",
+      "nme2inlay2023",
+      "li2018",
+      "plantcomm2023",
+      "communbiol2022",
+      "abenw1_2026",
+      "shi2026",
+      "kuang2021",
+      "zhao2022",
+      "iscb_family"
+    ],
+    "quantitative_core": [
+      "hnhx2021",
+      "huangcp",
+      "communbiol2022"
+    ]
+  },
+  "quantitative_core": 3,
+  "records_resolved": 24,
+  "total_sources": 28,
+  "uncurated": {
+    "abenw1_2026": "outside_the_model",
+    "iscb_family": "no_structure",
+    "koblan2018": "no_tether_variation",
+    "kuang2021": "not_open_access",
+    "li2018": "not_open_access",
+    "nme2inlay2023": "insertion_residues_unavailable",
+    "plantcomm2023": "linker_lengths_unavailable",
+    "shi2026": "not_open_access",
+    "tan2020": "effector_geometry_missing",
+    "zhao2022": "not_open_access"
+  }
+}

@@ -1,0 +1,1998 @@
+{
+  "seeds": [
+    20260101,
+    1,
+    2,
+    3,
+    4
+  ],
+  "summary": {
+    "20260101": {
+      "all entries": {
+        "label": "all entries",
+        "n": 41,
+        "publications": 7,
+        "mean": -0.707,
+        "lower": -1.248,
+        "upper": -0.172,
+        "excludes_zero": true
+      },
+      "SpCas9 family": {
+        "label": "SpCas9 family",
+        "n": 38,
+        "publications": 6,
+        "mean": -0.316,
+        "lower": -1.166,
+        "upper": 0.535,
+        "excludes_zero": false
+      },
+      "Cas12a": {
+        "label": "Cas12a",
+        "n": 3,
+        "publications": 1,
+        "mean": -5.667
+      }
+    },
+    "1": {
+      "all entries": {
+        "label": "all entries",
+        "n": 41,
+        "publications": 7,
+        "mean": -0.707,
+        "lower": -1.248,
+        "upper": -0.172,
+        "excludes_zero": true
+      },
+      "SpCas9 family": {
+        "label": "SpCas9 family",
+        "n": 38,
+        "publications": 6,
+        "mean": -0.316,
+        "lower": -1.166,
+        "upper": 0.535,
+        "excludes_zero": false
+      },
+      "Cas12a": {
+        "label": "Cas12a",
+        "n": 3,
+        "publications": 1,
+        "mean": -5.667
+      }
+    },
+    "2": {
+      "all entries": {
+        "label": "all entries",
+        "n": 41,
+        "publications": 7,
+        "mean": -0.341,
+        "lower": -0.998,
+        "upper": 0.309,
+        "excludes_zero": false
+      },
+      "SpCas9 family": {
+        "label": "SpCas9 family",
+        "n": 38,
+        "publications": 6,
+        "mean": 0.079,
+        "lower": -0.472,
+        "upper": 0.63,
+        "excludes_zero": false
+      },
+      "Cas12a": {
+        "label": "Cas12a",
+        "n": 3,
+        "publications": 1,
+        "mean": -5.667
+      }
+    },
+    "3": {
+      "all entries": {
+        "label": "all entries",
+        "n": 41,
+        "publications": 7,
+        "mean": -0.024,
+        "lower": -0.868,
+        "upper": 0.817,
+        "excludes_zero": false
+      },
+      "SpCas9 family": {
+        "label": "SpCas9 family",
+        "n": 38,
+        "publications": 6,
+        "mean": 0.421,
+        "lower": 0.1,
+        "upper": 0.742,
+        "excludes_zero": true
+      },
+      "Cas12a": {
+        "label": "Cas12a",
+        "n": 3,
+        "publications": 1,
+        "mean": -5.667
+      }
+    },
+    "4": {
+      "all entries": {
+        "label": "all entries",
+        "n": 41,
+        "publications": 7,
+        "mean": -0.341,
+        "lower": -0.998,
+        "upper": 0.309,
+        "excludes_zero": false
+      },
+      "SpCas9 family": {
+        "label": "SpCas9 family",
+        "n": 38,
+        "publications": 6,
+        "mean": 0.079,
+        "lower": -0.472,
+        "upper": 0.63,
+        "excludes_zero": false
+      },
+      "Cas12a": {
+        "label": "Cas12a",
+        "n": 3,
+        "publications": 1,
+        "mean": -5.667
+      }
+    }
+  },
+  "entries": {
+    "20260101": [
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-02pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-1pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-5pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-6w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-12w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-LentiAAV",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-LentiLNP",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-02pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-1pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-5pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-6w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-12w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-LentiAAV",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-LentiLNP",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "hnhx-ABEmax7.10",
+        "source_key": "hnhx2021",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "hnhx-ABEmax7.10-inserted",
+        "source_key": "hnhx2021",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 10,
+        "mode": 18,
+        "degenerate": false
+      },
+      {
+        "entry_id": "komor-linker-16",
+        "source_key": "komor2016",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "bepigs-BE3",
+        "source_key": "bepigs2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "bepigs-pi-16",
+        "source_key": "bepigs2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 9,
+        "mode": 11,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1012-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1028-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 10,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1041-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 7,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1249-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 10,
+        "degenerate": false
+      },
+      {
+        "entry_id": "tan2019-papap-5",
+        "source_key": "tan2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "tan2019-papapap-7",
+        "source_key": "tan2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-A3A",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 10,
+        "mode": 4,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-A3A-Y130F",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 9,
+        "mode": 4,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-ABE8e",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 10,
+        "mode": 4,
+        "degenerate": false
+      }
+    ],
+    "1": [
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-02pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-1pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-5pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-6w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-12w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-LentiAAV",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-LentiLNP",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-02pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-1pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-5pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-6w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-12w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-LentiAAV",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-LentiLNP",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "hnhx-ABEmax7.10",
+        "source_key": "hnhx2021",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "hnhx-ABEmax7.10-inserted",
+        "source_key": "hnhx2021",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 10,
+        "mode": 18,
+        "degenerate": false
+      },
+      {
+        "entry_id": "komor-linker-16",
+        "source_key": "komor2016",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "bepigs-BE3",
+        "source_key": "bepigs2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "bepigs-pi-16",
+        "source_key": "bepigs2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 9,
+        "mode": 11,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1012-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1028-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 10,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1041-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 7,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1249-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 10,
+        "degenerate": false
+      },
+      {
+        "entry_id": "tan2019-papap-5",
+        "source_key": "tan2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "tan2019-papapap-7",
+        "source_key": "tan2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-A3A",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 10,
+        "mode": 4,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-A3A-Y130F",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 9,
+        "mode": 4,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-ABE8e",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 10,
+        "mode": 4,
+        "degenerate": false
+      }
+    ],
+    "2": [
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-02pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-1pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-5pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-6w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-12w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-LentiAAV",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-LentiLNP",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-02pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-1pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-5pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-6w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-12w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-LentiAAV",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-LentiLNP",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "hnhx-ABEmax7.10",
+        "source_key": "hnhx2021",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "hnhx-ABEmax7.10-inserted",
+        "source_key": "hnhx2021",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 10,
+        "mode": 18,
+        "degenerate": false
+      },
+      {
+        "entry_id": "komor-linker-16",
+        "source_key": "komor2016",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "bepigs-BE3",
+        "source_key": "bepigs2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "bepigs-pi-16",
+        "source_key": "bepigs2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 9,
+        "mode": 11,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1012-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1028-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 10,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1041-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 7,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1249-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 10,
+        "degenerate": false
+      },
+      {
+        "entry_id": "tan2019-papap-5",
+        "source_key": "tan2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "tan2019-papapap-7",
+        "source_key": "tan2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-A3A",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 10,
+        "mode": 4,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-A3A-Y130F",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 9,
+        "mode": 4,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-ABE8e",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 10,
+        "mode": 4,
+        "degenerate": false
+      }
+    ],
+    "3": [
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-02pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-1pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-5pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-6w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-12w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-LentiAAV",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-LentiLNP",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-02pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-1pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-5pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-6w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-12w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-LentiAAV",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-LentiLNP",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "hnhx-ABEmax7.10",
+        "source_key": "hnhx2021",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "hnhx-ABEmax7.10-inserted",
+        "source_key": "hnhx2021",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 10,
+        "mode": 18,
+        "degenerate": false
+      },
+      {
+        "entry_id": "komor-linker-16",
+        "source_key": "komor2016",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "bepigs-BE3",
+        "source_key": "bepigs2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "bepigs-pi-16",
+        "source_key": "bepigs2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 9,
+        "mode": 11,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1012-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1028-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 10,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1041-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 7,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1249-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 10,
+        "degenerate": false
+      },
+      {
+        "entry_id": "tan2019-papap-5",
+        "source_key": "tan2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "tan2019-papapap-7",
+        "source_key": "tan2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-A3A",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 10,
+        "mode": 4,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-A3A-Y130F",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 9,
+        "mode": 4,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-ABE8e",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 10,
+        "mode": 4,
+        "degenerate": false
+      }
+    ],
+    "4": [
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-02pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-1pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-HEK-mRNA-5pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-6w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-AAVlibrary-AAV-12w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-LentiAAV",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABE8e-LentiLNP",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-02pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-1pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-HEK-mRNA-5pmol",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-6w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-AAVlibrary-AAV-12w",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-LentiAAV",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpRY-ABEmax-LentiLNP",
+        "source_key": "kissling2025",
+        "ortholog": "SpRY",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 5,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpG-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpG",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABE8e-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-5d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "kissling-SpCas9-ABEmax-HEK-Plasmid-10d",
+        "source_key": "kissling2025",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "hnhx-ABEmax7.10",
+        "source_key": "hnhx2021",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "hnhx-ABEmax7.10-inserted",
+        "source_key": "hnhx2021",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 10,
+        "mode": 18,
+        "degenerate": false
+      },
+      {
+        "entry_id": "komor-linker-16",
+        "source_key": "komor2016",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "bepigs-BE3",
+        "source_key": "bepigs2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "bepigs-pi-16",
+        "source_key": "bepigs2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 9,
+        "mode": 11,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1012-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1028-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 10,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1041-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 7,
+        "degenerate": false
+      },
+      {
+        "entry_id": "huangcp-CP1249-ABEmax",
+        "source_key": "huangcp",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 8,
+        "mode": 10,
+        "degenerate": false
+      },
+      {
+        "entry_id": "tan2019-papap-5",
+        "source_key": "tan2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 6,
+        "degenerate": false
+      },
+      {
+        "entry_id": "tan2019-papapap-7",
+        "source_key": "tan2019",
+        "ortholog": "SpCas9",
+        "family": "SpCas9 family",
+        "observed_mode": 6,
+        "mode": 5,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-A3A",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 10,
+        "mode": 4,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-A3A-Y130F",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 9,
+        "mode": 4,
+        "degenerate": false
+      },
+      {
+        "entry_id": "communbiol-dCas12a-ABE8e",
+        "source_key": "communbiol2022",
+        "ortholog": "Cas12a",
+        "family": "Cas12a",
+        "observed_mode": 10,
+        "mode": 4,
+        "degenerate": false
+      }
+    ]
+  }
+}

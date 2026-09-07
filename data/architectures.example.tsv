@@ -1,0 +1,12 @@
+# Synthetic rows. Every profile below was generated, not measured, and exists
+# only so that the pipeline, the baselines and the tests can be exercised before
+# curation. Nothing here may be used in an analysis that carries a claim.
+entry_id	source_key	editor	ortholog	anchor_site	linker_residues	linker_composition	effector	label	readout_class	tier	spacer_length	numbering	structure_id	split	panel	observed_profile
+demo-01	demo	demo-CBE-16	SpCas9	n_terminal	16	xten	apobec1	tether_varied	amplicon_sequencing	A	20	pam_distal	5F9R	fit	synthetic	3:0.20;4:0.55;5:0.90;6:1.00;7:0.75;8:0.35;9:0.12
+demo-02	demo	demo-CBE-24	SpCas9	n_terminal	24	xten	apobec1	tether_varied	amplicon_sequencing	A	20	pam_distal	5F9R	fit	synthetic	3:0.28;4:0.62;5:0.95;6:1.00;7:0.85;8:0.50;9:0.22
+demo-03	demo	demo-CBE-32	SpCas9	n_terminal	32	xten	apobec1	tether_varied	amplicon_sequencing	A	20	pam_distal	5F9R	fit	synthetic	3:0.35;4:0.70;5:1.00;6:0.98;7:0.90;8:0.62;9:0.34
+demo-04	demo	demo-CBE-8	SpCas9	n_terminal	8	xten	apobec1	tether_varied	amplicon_sequencing	A	20	pam_distal	5F9R	fit	synthetic	3:0.10;4:0.40;5:0.85;6:1.00;7:0.60;8:0.20;9:0.05
+demo-05	demo	demo-CBE-16-inlay	SpCas9	inlay_1054	16	xten	apobec1	scaffold_perturbed	amplicon_sequencing	A	20	pam_distal	5F9R	held_out	synthetic	4:0.30;5:0.70;6:1.00;7:0.88;8:0.45;9:0.18;10:0.06
+demo-06	demo	demo-ABE-32	SpCas9	n_terminal	32	xten	tada8e	effector_varied	amplicon_sequencing	A	20	pam_distal	5F9R	held_out	synthetic	3:0.30;4:0.68;5:1.00;6:0.96;7:0.84;8:0.55;9:0.30
+demo-07	demo	demo-Cas12a-16	Cas12a	n_terminal	16	xten	apobec1	tether_varied	amplicon_sequencing	B	23	pam_proximal	6I1K	held_out	synthetic	7:0.15;8:0.45;9:0.80;10:1.00;11:0.82;12:0.48;13:0.20
+demo-08	demo	demo-CBE-16-rigid	SpCas9	n_terminal	16	helical	apobec1	tether_varied	amplicon_sequencing	A	20	pam_distal	5F9R	held_out	synthetic	4:0.25;5:0.80;6:1.00;7:0.55;8:0.18;9:0.05;10:0.02

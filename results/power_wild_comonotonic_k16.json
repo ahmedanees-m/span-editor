@@ -1,0 +1,101 @@
+{
+  "design": {
+    "n_clusters": 16,
+    "entries_per_cluster": 5.0,
+    "base_rate": 0.45,
+    "icc": 0.3,
+    "pairing": "comonotonic"
+  },
+  "method": "wild",
+  "trials": 600,
+  "bootstrap": 1499,
+  "seed": 20260101,
+  "curve": [
+    {
+      "delta": 0.0,
+      "power": 0.0
+    },
+    {
+      "delta": 0.025,
+      "power": 0.04666666666666667
+    },
+    {
+      "delta": 0.05,
+      "power": 0.2816666666666667
+    },
+    {
+      "delta": 0.07500000000000001,
+      "power": 0.5283333333333333
+    },
+    {
+      "delta": 0.1,
+      "power": 0.7216666666666667
+    },
+    {
+      "delta": 0.125,
+      "power": 0.875
+    },
+    {
+      "delta": 0.15000000000000002,
+      "power": 0.955
+    },
+    {
+      "delta": 0.17500000000000002,
+      "power": 0.97
+    },
+    {
+      "delta": 0.2,
+      "power": 0.985
+    },
+    {
+      "delta": 0.225,
+      "power": 0.9933333333333333
+    },
+    {
+      "delta": 0.25,
+      "power": 0.9983333333333333
+    },
+    {
+      "delta": 0.275,
+      "power": 0.9966666666666667
+    },
+    {
+      "delta": 0.30000000000000004,
+      "power": 1.0
+    },
+    {
+      "delta": 0.325,
+      "power": 1.0
+    },
+    {
+      "delta": 0.35000000000000003,
+      "power": 1.0
+    },
+    {
+      "delta": 0.375,
+      "power": 1.0
+    },
+    {
+      "delta": 0.4,
+      "power": 1.0
+    },
+    {
+      "delta": 0.42500000000000004,
+      "power": 1.0
+    },
+    {
+      "delta": 0.45,
+      "power": 1.0
+    },
+    {
+      "delta": 0.47500000000000003,
+      "power": 1.0
+    },
+    {
+      "delta": 0.5,
+      "power": 1.0
+    }
+  ],
+  "rejection_at_zero_margin": 0.0,
+  "minimum_detectable_delta": 0.1127717391304348
+}

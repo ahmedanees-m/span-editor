@@ -1,0 +1,2486 @@
+{
+  "threshold": 0.5,
+  "reference_radius": 14.0,
+  "parameters": {
+    "capture_radius": 22.0,
+    "ssdna_persistence": 22.0,
+    "link_alpha": 588.2841016079846
+  },
+  "entries": [
+    {
+      "entry_id": "hnhx-ABEmax7.10",
+      "source_key": "hnhx2021",
+      "editor": "ABEmax7.10",
+      "anchor_site": "n_terminal",
+      "linker_residues": 32,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "none",
+      "readout_class": "amplicon_sequencing",
+      "occluding_spheres": 1508,
+      "chains_sampled": 160000,
+      "chains_surviving": 8532,
+      "effective_conformations": 8532.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.000993,
+      "saturation_index": 0.0191,
+      "mode": 5,
+      "window": [
+        5,
+        6
+      ],
+      "width": 2,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 1.0,
+      "window_over_all_positions": [
+        5,
+        6
+      ],
+      "window_after_link": [
+        4,
+        7
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          5,
+          6
+        ],
+        "5.0": [
+          4,
+          7
+        ],
+        "10.0": [
+          1,
+          1
+        ]
+      },
+      "observed_window": [
+        4,
+        8
+      ],
+      "observed_width": null,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.058,
+        "4": 0.4918,
+        "5": 1.0,
+        "6": 0.9389,
+        "7": 0.4903,
+        "8": 0.23,
+        "9": 0.0934,
+        "10": 0.0125,
+        "11": 0.0015,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.0,
+        "3": 0.058,
+        "4": 0.4918,
+        "5": 1.0,
+        "6": 0.9389,
+        "7": 0.4903,
+        "8": 0.23,
+        "9": 0.0934,
+        "10": 0.0125,
+        "11": 0.0015
+      },
+      "window_overlap": 0.4,
+      "centre_offset": -0.5
+    },
+    {
+      "entry_id": "hnhx-ABEmax7.10-dHNH",
+      "source_key": "hnhx2021",
+      "editor": "ABEmax7.10 dHNH",
+      "anchor_site": "n_terminal",
+      "linker_residues": 32,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "delta_hnh",
+      "label": "scaffold_perturbed",
+      "readout_class": "amplicon_sequencing",
+      "occluding_spheres": 1374,
+      "chains_sampled": 160000,
+      "chains_surviving": 8532,
+      "effective_conformations": 8532.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.000391,
+      "saturation_index": 0.007,
+      "mode": 6,
+      "window": [
+        4,
+        7
+      ],
+      "width": 4,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.5,
+      "window_over_all_positions": [
+        4,
+        7
+      ],
+      "window_after_link": [
+        4,
+        7
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          4,
+          7
+        ],
+        "5.0": [
+          5,
+          7
+        ],
+        "10.0": [
+          1,
+          1
+        ]
+      },
+      "observed_window": null,
+      "observed_width": null,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0543,
+        "4": 0.5079,
+        "5": 0.9951,
+        "6": 1.0,
+        "7": 0.6386,
+        "8": 0.2883,
+        "9": 0.1207,
+        "10": 0.0136,
+        "11": 0.0024,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.0,
+        "3": 0.0543,
+        "4": 0.5079,
+        "5": 0.9951,
+        "6": 1.0,
+        "7": 0.6386,
+        "8": 0.2883,
+        "9": 0.1207,
+        "10": 0.0136,
+        "11": 0.0024
+      }
+    },
+    {
+      "entry_id": "hnhx-ABEmax7.10-inserted",
+      "source_key": "hnhx2021",
+      "editor": "HNHx-ABEmax7.10",
+      "anchor_site": "hnh_amino",
+      "linker_residues": 3,
+      "return_site": "hnh_carboxy",
+      "return_residues": 3,
+      "scaffold_variant": "hnh_excised",
+      "label": "scaffold_perturbed",
+      "readout_class": "amplicon_sequencing",
+      "occluding_spheres": 1383,
+      "chains_sampled": 400000,
+      "chains_surviving": 2975,
+      "effective_conformations": 680.6,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": 0.0,
+      "peak_capture": 0.333512,
+      "saturation_index": 35.5166,
+      "mode": 8,
+      "window": [
+        7,
+        10
+      ],
+      "width": 4,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.625,
+      "window_over_all_positions": [
+        18,
+        20
+      ],
+      "window_after_link": [
+        5,
+        20
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          18,
+          20
+        ],
+        "5.0": [
+          17,
+          20
+        ],
+        "10.0": [
+          14,
+          20
+        ]
+      },
+      "observed_window": [
+        7,
+        14
+      ],
+      "observed_width": null,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0014,
+        "5": 0.0089,
+        "6": 0.0392,
+        "7": 0.1228,
+        "8": 0.2117,
+        "9": 0.2073,
+        "10": 0.1414,
+        "11": 0.0882,
+        "12": 0.0657,
+        "13": 0.1594,
+        "14": 0.3351,
+        "15": 0.287,
+        "16": 0.2666,
+        "17": 0.4164,
+        "18": 0.6681,
+        "19": 1.0,
+        "20": 0.723
+      },
+      "sampled_profile": {
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0068,
+        "5": 0.042,
+        "6": 0.1853,
+        "7": 0.5802,
+        "8": 1.0,
+        "9": 0.9792,
+        "10": 0.6679,
+        "11": 0.4167
+      },
+      "window_overlap": 0.5,
+      "centre_offset": -2.0
+    },
+    {
+      "entry_id": "hnhx-ABE8e-inserted",
+      "source_key": "hnhx2021",
+      "editor": "HNHx-ABE8e",
+      "anchor_site": "hnh_amino",
+      "linker_residues": 3,
+      "return_site": "hnh_carboxy",
+      "return_residues": 3,
+      "scaffold_variant": "hnh_excised",
+      "label": "scaffold_perturbed",
+      "readout_class": "amplicon_sequencing",
+      "occluding_spheres": 1383,
+      "chains_sampled": 400000,
+      "chains_surviving": 2975,
+      "effective_conformations": 680.6,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": 0.0,
+      "peak_capture": 0.333512,
+      "saturation_index": 35.5166,
+      "mode": 8,
+      "window": [
+        7,
+        10
+      ],
+      "width": 4,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.5,
+      "window_over_all_positions": [
+        18,
+        20
+      ],
+      "window_after_link": [
+        5,
+        20
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          18,
+          20
+        ],
+        "5.0": [
+          17,
+          20
+        ],
+        "10.0": [
+          14,
+          20
+        ]
+      },
+      "observed_window": null,
+      "observed_width": null,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0014,
+        "5": 0.0089,
+        "6": 0.0392,
+        "7": 0.1228,
+        "8": 0.2117,
+        "9": 0.2073,
+        "10": 0.1414,
+        "11": 0.0882,
+        "12": 0.0657,
+        "13": 0.1594,
+        "14": 0.3351,
+        "15": 0.287,
+        "16": 0.2666,
+        "17": 0.4164,
+        "18": 0.6681,
+        "19": 1.0,
+        "20": 0.723
+      },
+      "sampled_profile": {
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0068,
+        "5": 0.042,
+        "6": 0.1853,
+        "7": 0.5802,
+        "8": 1.0,
+        "9": 0.9792,
+        "10": 0.6679,
+        "11": 0.4167
+      }
+    },
+    {
+      "entry_id": "komor-linker-3",
+      "source_key": "komor2016",
+      "editor": "rAPOBEC1-dCas9",
+      "anchor_site": "n_terminal",
+      "linker_residues": 3,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "tether_varied",
+      "readout_class": "in_vitro_deamination",
+      "occluding_spheres": 1508,
+      "chains_sampled": 300000,
+      "chains_surviving": 8051,
+      "effective_conformations": 8051.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.000386,
+      "saturation_index": 0.0014,
+      "mode": 5,
+      "window": [
+        5,
+        6
+      ],
+      "width": 2,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.5,
+      "window_over_all_positions": [
+        5,
+        6
+      ],
+      "window_after_link": [
+        5,
+        6
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          5,
+          6
+        ],
+        "5.0": [
+          4,
+          6
+        ],
+        "10.0": [
+          1,
+          1
+        ]
+      },
+      "observed_window": null,
+      "observed_width": 3,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0396,
+        "3": 0.1642,
+        "4": 0.4348,
+        "5": 1.0,
+        "6": 0.8667,
+        "7": 0.2382,
+        "8": 0.0196,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.0396,
+        "3": 0.1642,
+        "4": 0.4348,
+        "5": 1.0,
+        "6": 0.8667,
+        "7": 0.2382,
+        "8": 0.0196,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.0
+      },
+      "width_error": -1
+    },
+    {
+      "entry_id": "komor-linker-16",
+      "source_key": "komor2016",
+      "editor": "rAPOBEC1-dCas9",
+      "anchor_site": "n_terminal",
+      "linker_residues": 16,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "tether_varied",
+      "readout_class": "in_vitro_deamination",
+      "occluding_spheres": 1508,
+      "chains_sampled": 160000,
+      "chains_surviving": 8529,
+      "effective_conformations": 8529.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.002229,
+      "saturation_index": 0.2003,
+      "mode": 5,
+      "window": [
+        3,
+        7
+      ],
+      "width": 5,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 1.0,
+      "window_over_all_positions": [
+        3,
+        7
+      ],
+      "window_after_link": [
+        3,
+        7
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          3,
+          7
+        ],
+        "5.0": [
+          3,
+          7
+        ],
+        "10.0": [
+          1,
+          1
+        ]
+      },
+      "observed_window": [
+        4,
+        8
+      ],
+      "observed_width": 5,
+      "capture_profile": {
+        "1": 0.1052,
+        "2": 0.134,
+        "3": 0.5316,
+        "4": 0.8648,
+        "5": 1.0,
+        "6": 0.9114,
+        "7": 0.5873,
+        "8": 0.3257,
+        "9": 0.101,
+        "10": 0.0267,
+        "11": 0.0009,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.134,
+        "3": 0.5316,
+        "4": 0.8648,
+        "5": 1.0,
+        "6": 0.9114,
+        "7": 0.5873,
+        "8": 0.3257,
+        "9": 0.101,
+        "10": 0.0267,
+        "11": 0.0009
+      },
+      "window_overlap": 0.667,
+      "centre_offset": -1.0,
+      "width_error": 0
+    },
+    {
+      "entry_id": "komor-linker-21",
+      "source_key": "komor2016",
+      "editor": "rAPOBEC1-dCas9",
+      "anchor_site": "n_terminal",
+      "linker_residues": 21,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "tether_varied",
+      "readout_class": "in_vitro_deamination",
+      "occluding_spheres": 1508,
+      "chains_sampled": 200000,
+      "chains_surviving": 8326,
+      "effective_conformations": 8326.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.002326,
+      "saturation_index": 0.1394,
+      "mode": 5,
+      "window": [
+        4,
+        7
+      ],
+      "width": 4,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.5,
+      "window_over_all_positions": [
+        4,
+        7
+      ],
+      "window_after_link": [
+        3,
+        7
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          4,
+          7
+        ],
+        "5.0": [
+          4,
+          7
+        ],
+        "10.0": [
+          1,
+          1
+        ]
+      },
+      "observed_window": null,
+      "observed_width": 6,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.054,
+        "3": 0.4276,
+        "4": 0.7606,
+        "5": 1.0,
+        "6": 0.9212,
+        "7": 0.5461,
+        "8": 0.251,
+        "9": 0.0882,
+        "10": 0.0306,
+        "11": 0.003,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.054,
+        "3": 0.4276,
+        "4": 0.7606,
+        "5": 1.0,
+        "6": 0.9212,
+        "7": 0.5461,
+        "8": 0.251,
+        "9": 0.0882,
+        "10": 0.0306,
+        "11": 0.003
+      },
+      "width_error": -2
+    },
+    {
+      "entry_id": "bepigs-BE3",
+      "source_key": "bepigs2019",
+      "editor": "BE3",
+      "anchor_site": "n_terminal",
+      "linker_residues": 16,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "none",
+      "readout_class": "sanger_deconvolution",
+      "occluding_spheres": 1508,
+      "chains_sampled": 160000,
+      "chains_surviving": 8529,
+      "effective_conformations": 8529.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.002229,
+      "saturation_index": 0.2003,
+      "mode": 5,
+      "window": [
+        3,
+        7
+      ],
+      "width": 5,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 1.0,
+      "window_over_all_positions": [
+        3,
+        7
+      ],
+      "window_after_link": [
+        3,
+        7
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          3,
+          7
+        ],
+        "5.0": [
+          3,
+          7
+        ],
+        "10.0": [
+          1,
+          1
+        ]
+      },
+      "observed_window": [
+        4,
+        8
+      ],
+      "observed_width": 5,
+      "capture_profile": {
+        "1": 0.1052,
+        "2": 0.134,
+        "3": 0.5316,
+        "4": 0.8648,
+        "5": 1.0,
+        "6": 0.9114,
+        "7": 0.5873,
+        "8": 0.3257,
+        "9": 0.101,
+        "10": 0.0267,
+        "11": 0.0009,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.134,
+        "3": 0.5316,
+        "4": 0.8648,
+        "5": 1.0,
+        "6": 0.9114,
+        "7": 0.5873,
+        "8": 0.3257,
+        "9": 0.101,
+        "10": 0.0267,
+        "11": 0.0009
+      },
+      "window_overlap": 0.667,
+      "centre_offset": -1.0,
+      "width_error": 0
+    },
+    {
+      "entry_id": "bepigs-pi-16",
+      "source_key": "bepigs2019",
+      "editor": "BE-PIGS",
+      "anchor_site": "pi_amino",
+      "linker_residues": 16,
+      "return_site": "pi_carboxy",
+      "return_residues": 32,
+      "scaffold_variant": "",
+      "label": "scaffold_perturbed",
+      "readout_class": "sanger_deconvolution",
+      "occluding_spheres": 1508,
+      "chains_sampled": 400000,
+      "chains_surviving": 4522,
+      "effective_conformations": 1626.6,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": 0.0,
+      "peak_capture": 0.015492,
+      "saturation_index": 0.6674,
+      "mode": 11,
+      "window": [
+        10,
+        11
+      ],
+      "width": 2,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.727,
+      "window_over_all_positions": [
+        10,
+        12
+      ],
+      "window_after_link": [
+        8,
+        13
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          10,
+          12
+        ],
+        "5.0": [
+          10,
+          12
+        ],
+        "10.0": [
+          12,
+          13
+        ]
+      },
+      "observed_window": [
+        4,
+        14
+      ],
+      "observed_width": 11,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0001,
+        "6": 0.004,
+        "7": 0.0338,
+        "8": 0.1431,
+        "9": 0.4502,
+        "10": 0.8483,
+        "11": 1.0,
+        "12": 0.6907,
+        "13": 0.0915,
+        "14": 0.0698,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0001,
+        "6": 0.004,
+        "7": 0.0338,
+        "8": 0.1431,
+        "9": 0.4502,
+        "10": 0.8483,
+        "11": 1.0
+      },
+      "window_overlap": 0.182,
+      "centre_offset": 1.5,
+      "width_error": -9
+    },
+    {
+      "entry_id": "bepigs-pi-8",
+      "source_key": "bepigs2019",
+      "editor": "BE-PIGS N8",
+      "anchor_site": "pi_amino",
+      "linker_residues": 8,
+      "return_site": "pi_carboxy",
+      "return_residues": 32,
+      "scaffold_variant": "",
+      "label": "scaffold_perturbed",
+      "readout_class": "sanger_deconvolution",
+      "occluding_spheres": 1508,
+      "chains_sampled": 400000,
+      "chains_surviving": 1009,
+      "effective_conformations": 678.7,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": 0.0,
+      "peak_capture": 0.001961,
+      "saturation_index": 0.0033,
+      "mode": 10,
+      "window": [
+        9,
+        10
+      ],
+      "width": 2,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.5,
+      "window_over_all_positions": [
+        9,
+        10
+      ],
+      "window_after_link": [
+        9,
+        10
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          9,
+          10
+        ],
+        "5.0": [
+          12,
+          12
+        ],
+        "10.0": [
+          12,
+          12
+        ]
+      },
+      "observed_window": null,
+      "observed_width": 11,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0001,
+        "8": 0.1035,
+        "9": 0.5871,
+        "10": 1.0,
+        "11": 0.3407,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0001,
+        "8": 0.1035,
+        "9": 0.5871,
+        "10": 1.0,
+        "11": 0.3407
+      },
+      "width_error": -9
+    },
+    {
+      "entry_id": "bepigs-ruvc-16",
+      "source_key": "bepigs2019",
+      "editor": "BE-RuvCGE",
+      "anchor_site": "ruvc_amino",
+      "linker_residues": 16,
+      "return_site": "ruvc_carboxy",
+      "return_residues": 32,
+      "scaffold_variant": "",
+      "label": "scaffold_perturbed",
+      "readout_class": "sanger_deconvolution",
+      "occluding_spheres": 1508,
+      "chains_sampled": 140000,
+      "chains_surviving": 9074,
+      "effective_conformations": 3931.7,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": 0.0,
+      "peak_capture": 0.027044,
+      "saturation_index": 1.0706,
+      "mode": 11,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.5,
+      "window_over_all_positions": [
+        9,
+        12
+      ],
+      "window_after_link": [
+        6,
+        13
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          9,
+          12
+        ],
+        "5.0": [
+          9,
+          12
+        ],
+        "10.0": [
+          10,
+          12
+        ]
+      },
+      "observed_window": null,
+      "observed_width": null,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0063,
+        "5": 0.0416,
+        "6": 0.1151,
+        "7": 0.2202,
+        "8": 0.3857,
+        "9": 0.6715,
+        "10": 0.9302,
+        "11": 1.0,
+        "12": 0.7724,
+        "13": 0.0569,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0063,
+        "5": 0.0416,
+        "6": 0.1151,
+        "7": 0.2202,
+        "8": 0.3857,
+        "9": 0.6715,
+        "10": 0.9302,
+        "11": 1.0
+      }
+    },
+    {
+      "entry_id": "huangcp-ABEmax",
+      "source_key": "huangcp",
+      "editor": "ABEmax",
+      "anchor_site": "n_terminal",
+      "linker_residues": 32,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "none",
+      "readout_class": "amplicon_sequencing",
+      "occluding_spheres": 1508,
+      "chains_sampled": 160000,
+      "chains_surviving": 8532,
+      "effective_conformations": 8532.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.000993,
+      "saturation_index": 0.0191,
+      "mode": 5,
+      "window": [
+        5,
+        6
+      ],
+      "width": 2,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 1.0,
+      "window_over_all_positions": [
+        5,
+        6
+      ],
+      "window_after_link": [
+        4,
+        7
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          5,
+          6
+        ],
+        "5.0": [
+          4,
+          7
+        ],
+        "10.0": [
+          1,
+          1
+        ]
+      },
+      "observed_window": [
+        4,
+        7
+      ],
+      "observed_width": 4,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.058,
+        "4": 0.4918,
+        "5": 1.0,
+        "6": 0.9389,
+        "7": 0.4903,
+        "8": 0.23,
+        "9": 0.0934,
+        "10": 0.0125,
+        "11": 0.0015,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.0,
+        "3": 0.058,
+        "4": 0.4918,
+        "5": 1.0,
+        "6": 0.9389,
+        "7": 0.4903,
+        "8": 0.23,
+        "9": 0.0934,
+        "10": 0.0125,
+        "11": 0.0015
+      },
+      "window_overlap": 0.5,
+      "centre_offset": 0.0,
+      "width_error": -2
+    },
+    {
+      "entry_id": "huangcp-CP1012-ABEmax",
+      "source_key": "huangcp",
+      "editor": "CP1012-ABEmax",
+      "anchor_site": "cp1012",
+      "linker_residues": 32,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "scaffold_perturbed",
+      "readout_class": "amplicon_sequencing",
+      "occluding_spheres": 1508,
+      "chains_sampled": 400000,
+      "chains_surviving": 4328,
+      "effective_conformations": 4328.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.004589,
+      "saturation_index": 0.1848,
+      "mode": 6,
+      "window": [
+        5,
+        8
+      ],
+      "width": 4,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.889,
+      "window_over_all_positions": [
+        5,
+        8
+      ],
+      "window_after_link": [
+        4,
+        9
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          5,
+          8
+        ],
+        "5.0": [
+          4,
+          8
+        ],
+        "10.0": [
+          4,
+          8
+        ]
+      },
+      "observed_window": [
+        4,
+        12
+      ],
+      "observed_width": 9,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.091,
+        "4": 0.4749,
+        "5": 0.8778,
+        "6": 1.0,
+        "7": 0.8245,
+        "8": 0.5016,
+        "9": 0.2401,
+        "10": 0.0667,
+        "11": 0.0053,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.0,
+        "3": 0.091,
+        "4": 0.4749,
+        "5": 0.8778,
+        "6": 1.0,
+        "7": 0.8245,
+        "8": 0.5016,
+        "9": 0.2401,
+        "10": 0.0667,
+        "11": 0.0053
+      },
+      "window_overlap": 0.444,
+      "centre_offset": -1.5,
+      "width_error": -5
+    },
+    {
+      "entry_id": "huangcp-CP1028-ABEmax",
+      "source_key": "huangcp",
+      "editor": "CP1028-ABEmax",
+      "anchor_site": "cp1028",
+      "linker_residues": 32,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "scaffold_perturbed",
+      "readout_class": "amplicon_sequencing",
+      "occluding_spheres": 1508,
+      "chains_sampled": 240000,
+      "chains_surviving": 8409,
+      "effective_conformations": 8409.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.003721,
+      "saturation_index": 0.1048,
+      "mode": 10,
+      "window": [
+        7,
+        11
+      ],
+      "width": 5,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.889,
+      "window_over_all_positions": [
+        7,
+        11
+      ],
+      "window_after_link": [
+        6,
+        11
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          7,
+          11
+        ],
+        "5.0": [
+          7,
+          12
+        ],
+        "10.0": [
+          12,
+          12
+        ]
+      },
+      "observed_window": [
+        4,
+        12
+      ],
+      "observed_width": 9,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0047,
+        "4": 0.0919,
+        "5": 0.215,
+        "6": 0.3582,
+        "7": 0.5252,
+        "8": 0.7367,
+        "9": 0.9363,
+        "10": 1.0,
+        "11": 0.728,
+        "12": 0.2237,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.0,
+        "3": 0.0047,
+        "4": 0.0919,
+        "5": 0.215,
+        "6": 0.3582,
+        "7": 0.5252,
+        "8": 0.7367,
+        "9": 0.9363,
+        "10": 1.0,
+        "11": 0.728
+      },
+      "window_overlap": 0.556,
+      "centre_offset": 1.0,
+      "width_error": -4
+    },
+    {
+      "entry_id": "huangcp-CP1041-ABEmax",
+      "source_key": "huangcp",
+      "editor": "CP1041-ABEmax",
+      "anchor_site": "cp1041",
+      "linker_residues": 32,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "scaffold_perturbed",
+      "readout_class": "amplicon_sequencing",
+      "occluding_spheres": 1508,
+      "chains_sampled": 400000,
+      "chains_surviving": 5420,
+      "effective_conformations": 5420.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.004197,
+      "saturation_index": 0.1583,
+      "mode": 7,
+      "window": [
+        5,
+        9
+      ],
+      "width": 5,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.889,
+      "window_over_all_positions": [
+        5,
+        9
+      ],
+      "window_after_link": [
+        4,
+        11
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          5,
+          9
+        ],
+        "5.0": [
+          5,
+          9
+        ],
+        "10.0": [
+          12,
+          12
+        ]
+      },
+      "observed_window": [
+        4,
+        12
+      ],
+      "observed_width": 9,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.066,
+        "4": 0.2589,
+        "5": 0.6115,
+        "6": 0.9155,
+        "7": 1.0,
+        "8": 0.8557,
+        "9": 0.6937,
+        "10": 0.4341,
+        "11": 0.2717,
+        "12": 0.044,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.0,
+        "3": 0.066,
+        "4": 0.2589,
+        "5": 0.6115,
+        "6": 0.9155,
+        "7": 1.0,
+        "8": 0.8557,
+        "9": 0.6937,
+        "10": 0.4341,
+        "11": 0.2717
+      },
+      "window_overlap": 0.556,
+      "centre_offset": -1.0,
+      "width_error": -4
+    },
+    {
+      "entry_id": "huangcp-CP1249-ABEmax",
+      "source_key": "huangcp",
+      "editor": "CP1249-ABEmax",
+      "anchor_site": "cp1249",
+      "linker_residues": 32,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "scaffold_perturbed",
+      "readout_class": "amplicon_sequencing",
+      "occluding_spheres": 1508,
+      "chains_sampled": 140000,
+      "chains_surviving": 9192,
+      "effective_conformations": 9192.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.001874,
+      "saturation_index": 0.04,
+      "mode": 10,
+      "window": [
+        9,
+        11
+      ],
+      "width": 3,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.889,
+      "window_over_all_positions": [
+        9,
+        11
+      ],
+      "window_after_link": [
+        8,
+        11
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          9,
+          11
+        ],
+        "5.0": [
+          9,
+          12
+        ],
+        "10.0": [
+          12,
+          13
+        ]
+      },
+      "observed_window": [
+        4,
+        12
+      ],
+      "observed_width": 9,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0139,
+        "6": 0.0724,
+        "7": 0.1823,
+        "8": 0.386,
+        "9": 0.7032,
+        "10": 1.0,
+        "11": 0.9052,
+        "12": 0.3484,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0139,
+        "6": 0.0724,
+        "7": 0.1823,
+        "8": 0.386,
+        "9": 0.7032,
+        "10": 1.0,
+        "11": 0.9052
+      },
+      "window_overlap": 0.333,
+      "centre_offset": 2.0,
+      "width_error": -6
+    },
+    {
+      "entry_id": "tan2019-xten-16",
+      "source_key": "tan2019",
+      "editor": "BE3",
+      "anchor_site": "n_terminal",
+      "linker_residues": 16,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "none",
+      "readout_class": "functional_selection",
+      "occluding_spheres": 1508,
+      "chains_sampled": 160000,
+      "chains_surviving": 8529,
+      "effective_conformations": 8529.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.002229,
+      "saturation_index": 0.2003,
+      "mode": 5,
+      "window": [
+        3,
+        7
+      ],
+      "width": 5,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.5,
+      "window_over_all_positions": [
+        3,
+        7
+      ],
+      "window_after_link": [
+        3,
+        7
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          3,
+          7
+        ],
+        "5.0": [
+          3,
+          7
+        ],
+        "10.0": [
+          1,
+          1
+        ]
+      },
+      "observed_window": null,
+      "observed_width": 9,
+      "capture_profile": {
+        "1": 0.1052,
+        "2": 0.134,
+        "3": 0.5316,
+        "4": 0.8648,
+        "5": 1.0,
+        "6": 0.9114,
+        "7": 0.5873,
+        "8": 0.3257,
+        "9": 0.101,
+        "10": 0.0267,
+        "11": 0.0009,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.134,
+        "3": 0.5316,
+        "4": 0.8648,
+        "5": 1.0,
+        "6": 0.9114,
+        "7": 0.5873,
+        "8": 0.3257,
+        "9": 0.101,
+        "10": 0.0267,
+        "11": 0.0009
+      },
+      "width_error": -4
+    },
+    {
+      "entry_id": "tan2019-pap-3",
+      "source_key": "tan2019",
+      "editor": "BE3 PAP",
+      "anchor_site": "n_terminal",
+      "linker_residues": 3,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "tether_varied",
+      "readout_class": "functional_selection",
+      "occluding_spheres": 1508,
+      "chains_sampled": 220000,
+      "chains_surviving": 8581,
+      "effective_conformations": 8581.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.00061,
+      "saturation_index": 0.0157,
+      "mode": 6,
+      "window": [
+        5,
+        6
+      ],
+      "width": 2,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 0.5,
+      "window_over_all_positions": [
+        5,
+        6
+      ],
+      "window_after_link": [
+        5,
+        6
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          5,
+          6
+        ],
+        "5.0": [
+          4,
+          7
+        ],
+        "10.0": [
+          1,
+          1
+        ]
+      },
+      "observed_window": null,
+      "observed_width": null,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.1219,
+        "4": 0.4106,
+        "5": 0.7408,
+        "6": 1.0,
+        "7": 0.4195,
+        "8": 0.0753,
+        "9": 0.0018,
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.0,
+        "3": 0.1219,
+        "4": 0.4106,
+        "5": 0.7408,
+        "6": 1.0,
+        "7": 0.4195,
+        "8": 0.0753,
+        "9": 0.0018,
+        "10": 0.0,
+        "11": 0.0
+      }
+    },
+    {
+      "entry_id": "tan2019-papap-5",
+      "source_key": "tan2019",
+      "editor": "BE3 PAPAP",
+      "anchor_site": "n_terminal",
+      "linker_residues": 5,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "tether_varied",
+      "readout_class": "functional_selection",
+      "occluding_spheres": 1508,
+      "chains_sampled": 160000,
+      "chains_surviving": 8289,
+      "effective_conformations": 8289.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.000877,
+      "saturation_index": 0.0507,
+      "mode": 6,
+      "window": [
+        4,
+        7
+      ],
+      "width": 4,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 1.0,
+      "window_over_all_positions": [
+        4,
+        7
+      ],
+      "window_after_link": [
+        4,
+        7
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          4,
+          7
+        ],
+        "5.0": [
+          4,
+          7
+        ],
+        "10.0": [
+          1,
+          1
+        ]
+      },
+      "observed_window": [
+        5,
+        7
+      ],
+      "observed_width": 3,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0016,
+        "3": 0.2952,
+        "4": 0.6526,
+        "5": 0.9765,
+        "6": 1.0,
+        "7": 0.6205,
+        "8": 0.1898,
+        "9": 0.0133,
+        "10": 0.0001,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.0016,
+        "3": 0.2952,
+        "4": 0.6526,
+        "5": 0.9765,
+        "6": 1.0,
+        "7": 0.6205,
+        "8": 0.1898,
+        "9": 0.0133,
+        "10": 0.0001,
+        "11": 0.0
+      },
+      "window_overlap": 0.75,
+      "centre_offset": -0.5,
+      "width_error": 1
+    },
+    {
+      "entry_id": "tan2019-papapap-7",
+      "source_key": "tan2019",
+      "editor": "BE3 PAPAPAP",
+      "anchor_site": "n_terminal",
+      "linker_residues": 7,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "tether_varied",
+      "readout_class": "functional_selection",
+      "occluding_spheres": 1508,
+      "chains_sampled": 140000,
+      "chains_surviving": 8752,
+      "effective_conformations": 8752.0,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.001962,
+      "saturation_index": 0.0939,
+      "mode": 5,
+      "window": [
+        3,
+        7
+      ],
+      "width": 5,
+      "window_source": "sampled positions",
+      "positions_sampled": 10,
+      "reported_window_sampled": 1.0,
+      "window_over_all_positions": [
+        3,
+        7
+      ],
+      "window_after_link": [
+        3,
+        7
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          3,
+          7
+        ],
+        "5.0": [
+          3,
+          7
+        ],
+        "10.0": [
+          1,
+          1
+        ]
+      },
+      "observed_window": [
+        5,
+        6
+      ],
+      "observed_width": 2,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.1066,
+        "3": 0.5025,
+        "4": 0.8,
+        "5": 1.0,
+        "6": 0.9279,
+        "7": 0.588,
+        "8": 0.2297,
+        "9": 0.0551,
+        "10": 0.0023,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0
+      },
+      "sampled_profile": {
+        "2": 0.1066,
+        "3": 0.5025,
+        "4": 0.8,
+        "5": 1.0,
+        "6": 0.9279,
+        "7": 0.588,
+        "8": 0.2297,
+        "9": 0.0551,
+        "10": 0.0023,
+        "11": 0.0
+      },
+      "window_overlap": 0.4,
+      "centre_offset": -0.5,
+      "width_error": 3
+    },
+    {
+      "entry_id": "communbiol-dCas12a-A3A",
+      "source_key": "communbiol2022",
+      "editor": "dCas12a-A3A",
+      "anchor_site": "n_terminal",
+      "linker_residues": 16,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "none",
+      "readout_class": "amplicon_sequencing",
+      "occluding_spheres": 1359,
+      "chains_sampled": 60000,
+      "chains_surviving": 8705,
+      "effective_conformations": 8705.0,
+      "held_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        20,
+        21
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.0,
+      "saturation_index": 0.0,
+      "mode": 11,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0,
+      "window_source": "all positions, bias unmitigated",
+      "positions_sampled": 5,
+      "reported_window_sampled": 0.2,
+      "window_over_all_positions": [
+        0,
+        0
+      ],
+      "window_after_link": [
+        0,
+        0
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          0,
+          0
+        ],
+        "5.0": [
+          3,
+          5
+        ],
+        "10.0": [
+          2,
+          5
+        ]
+      },
+      "observed_window": [
+        6,
+        15
+      ],
+      "observed_width": 10,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0,
+        "21": 0.0
+      },
+      "sampled_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0,
+        "21": 0.0
+      },
+      "window_overlap": 0.0,
+      "centre_offset": -10.5,
+      "width_error": -10
+    },
+    {
+      "entry_id": "communbiol-dCas12a-A3A-Y130F",
+      "source_key": "communbiol2022",
+      "editor": "dCas12a-A3A-Y130F",
+      "anchor_site": "n_terminal",
+      "linker_residues": 16,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "effector_varied",
+      "readout_class": "amplicon_sequencing",
+      "occluding_spheres": 1359,
+      "chains_sampled": 60000,
+      "chains_surviving": 8705,
+      "effective_conformations": 8705.0,
+      "held_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        20,
+        21
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.0,
+      "saturation_index": 0.0,
+      "mode": 11,
+      "window": [
+        0,
+        0
+      ],
+      "width": 0,
+      "window_source": "all positions, bias unmitigated",
+      "positions_sampled": 5,
+      "reported_window_sampled": 0.0,
+      "window_over_all_positions": [
+        0,
+        0
+      ],
+      "window_after_link": [
+        0,
+        0
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          0,
+          0
+        ],
+        "5.0": [
+          3,
+          5
+        ],
+        "10.0": [
+          2,
+          5
+        ]
+      },
+      "observed_window": [
+        6,
+        12
+      ],
+      "observed_width": 6,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0,
+        "21": 0.0
+      },
+      "sampled_profile": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0,
+        "21": 0.0
+      },
+      "window_overlap": 0.0,
+      "centre_offset": -9.0,
+      "width_error": -6
+    },
+    {
+      "entry_id": "communbiol-dCas12a-ABE8e",
+      "source_key": "communbiol2022",
+      "editor": "dCas12a-ABE8e",
+      "anchor_site": "n_terminal",
+      "linker_residues": 16,
+      "return_site": "",
+      "return_residues": 0,
+      "scaffold_variant": "",
+      "label": "effector_varied",
+      "readout_class": "amplicon_sequencing",
+      "occluding_spheres": 1359,
+      "chains_sampled": 60000,
+      "chains_surviving": 10170,
+      "effective_conformations": 10170.0,
+      "held_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        20,
+        21
+      ],
+      "substrate_weight_inside_the_inserted_domain": null,
+      "peak_capture": 0.000885,
+      "saturation_index": 0.0,
+      "mode": 4,
+      "window": [
+        3,
+        5
+      ],
+      "width": 3,
+      "window_source": "all positions, bias unmitigated",
+      "positions_sampled": 5,
+      "reported_window_sampled": 0.0,
+      "window_over_all_positions": [
+        3,
+        5
+      ],
+      "window_after_link": [
+        3,
+        5
+      ],
+      "jitter_sweep": {
+        "0.0": [
+          3,
+          5
+        ],
+        "5.0": [
+          3,
+          5
+        ],
+        "10.0": [
+          2,
+          5
+        ]
+      },
+      "observed_window": [
+        8,
+        12
+      ],
+      "observed_width": 5,
+      "capture_profile": {
+        "1": 0.0,
+        "2": 0.1111,
+        "3": 0.6667,
+        "4": 1.0,
+        "5": 0.8889,
+        "6": 0.2222,
+        "7": 0.2222,
+        "8": 0.1111,
+        "9": 0.1111,
+        "10": 0.1111,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0007,
+        "17": 0.0007,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0,
+        "21": 0.0
+      },
+      "sampled_profile": {
+        "1": 0.0,
+        "2": 0.1111,
+        "3": 0.6667,
+        "4": 1.0,
+        "5": 0.8889,
+        "6": 0.2222,
+        "7": 0.2222,
+        "8": 0.1111,
+        "9": 0.1111,
+        "10": 0.1111,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0007,
+        "17": 0.0007,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0,
+        "21": 0.0
+      },
+      "window_overlap": 0.0,
+      "centre_offset": -6.0,
+      "width_error": -2
+    }
+  ],
+  "shifts": [
+    {
+      "source_key": "hnhx2021",
+      "reference": "hnhx-ABEmax7.10",
+      "against": "hnhx-ABEmax7.10-inserted",
+      "predicted_shift": 3.0,
+      "observed_shift": 4.5,
+      "predicted_mode_shift": 3
+    },
+    {
+      "source_key": "bepigs2019",
+      "reference": "bepigs-BE3",
+      "against": "bepigs-pi-16",
+      "predicted_shift": 5.5,
+      "observed_shift": 3.0,
+      "predicted_mode_shift": 6
+    },
+    {
+      "source_key": "huangcp",
+      "reference": "huangcp-ABEmax",
+      "against": "huangcp-CP1012-ABEmax",
+      "predicted_shift": 1.0,
+      "observed_shift": 2.5,
+      "predicted_mode_shift": 1
+    },
+    {
+      "source_key": "huangcp",
+      "reference": "huangcp-ABEmax",
+      "against": "huangcp-CP1028-ABEmax",
+      "predicted_shift": 3.5,
+      "observed_shift": 2.5,
+      "predicted_mode_shift": 5
+    },
+    {
+      "source_key": "huangcp",
+      "reference": "huangcp-ABEmax",
+      "against": "huangcp-CP1041-ABEmax",
+      "predicted_shift": 1.5,
+      "observed_shift": 2.5,
+      "predicted_mode_shift": 2
+    },
+    {
+      "source_key": "huangcp",
+      "reference": "huangcp-ABEmax",
+      "against": "huangcp-CP1249-ABEmax",
+      "predicted_shift": 4.5,
+      "observed_shift": 2.5,
+      "predicted_mode_shift": 5
+    },
+    {
+      "source_key": "communbiol2022",
+      "reference": "communbiol-dCas12a-A3A",
+      "against": "communbiol-dCas12a-A3A-Y130F",
+      "predicted_shift": 0.0,
+      "observed_shift": -1.5,
+      "predicted_mode_shift": 0
+    },
+    {
+      "source_key": "communbiol2022",
+      "reference": "communbiol-dCas12a-A3A",
+      "against": "communbiol-dCas12a-ABE8e",
+      "predicted_shift": 4.0,
+      "observed_shift": -0.5,
+      "predicted_mode_shift": -7
+    }
+  ],
+  "skipped": [
+    {
+      "entry_id": "bepigs-pi-3",
+      "reason": "every conformation of xten-3 clashes with the editor, over 400000 chains"
+    }
+  ]
+}

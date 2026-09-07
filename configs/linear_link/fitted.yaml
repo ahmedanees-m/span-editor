@@ -1,0 +1,12 @@
+fitted:
+  capture_radius: 20.0
+  ssdna_persistence: 8.0
+  link_alpha: 0.5004228763960425
+fit_loss: 0.063922586791955
+status: linear link, two effective parameters
+objective: profile_shape
+note: >-
+  Parameters refitted with the link held at the linear end, produced by
+  analysis/link_decision.py. Used as a sensitivity comparison against the
+  three-parameter fit; results/leave_one_out_linear.json scores the corpus
+  under it.

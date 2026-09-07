@@ -1,0 +1,33 @@
+# Structures used for anchor frames, excluded volume and the substrate ensemble.
+# One accession per line followed by the role it serves, taken from the deposited
+# title and entity descriptions. analysis/map_protospacer.py reproduces the chain
+# and protospacer index assignments that follow.
+#
+# accession  role
+
+5F9R   SpCas9 primed for cleavage. Supplies the SpCas9 anchor frame, excluded
+       volume and substrate ensemble. The displaced strand carries coordinates
+       for protospacer positions 12 to 20 only, so the window region is
+       predicted rather than pinned
+6VPC   SpCas9 with ABE8e bound. Falsification check only: the resolved
+       catalytic pose must not be sterically forbidden. Not used to pin the
+       substrate ensemble, because the deaminase is what orders the
+       PAM-distal nucleotides there
+5CZZ   SaCas9 with sgRNA and target DNA. The displaced strand is eight
+       nucleotides of PAM duplex, so a fuller SaCas9 R-loop is still needed
+4UN3   SpCas9 bound to PAM-containing DNA
+4OO8   SpCas9 with guide RNA and target DNA; target strand only, no displaced
+       strand
+6O0X   Cas9 ternary complex, cleaved product state
+6O0Y   Cas9 ternary complex, cleaved product state
+6O0Z   Cas9 ternary complex, cleaved product state
+7S38   Cas9 forming a three base pair R-loop; an R-loop intermediate
+6I1K   FnCas12a R-loop. Supplies the Cas12a anchor frame, excluded volume and
+       substrate ensemble. The displaced strand carries coordinates for
+       protospacer positions 1 to 13 and 19 to 21, so both ends of the R-loop
+       bubble are observed
+5NFV   FnCas12a bound to an R-loop with a pre-crRNA mimic. Same register as
+       6I1K but less of the displaced strand ordered
+5XUS   LbCas12a with crRNA and target DNA at a TTTA PAM, the same PAM 6I1K
+       carries. Used only to bound how much of the Cas12a miss the substitution
+       of FnCas12a geometry for LbCas12a could account for

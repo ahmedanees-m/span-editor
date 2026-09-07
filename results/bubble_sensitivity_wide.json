@@ -1,0 +1,147 @@
+{
+  "arms": [
+    {
+      "treatment": "resolved nucleotides pinned",
+      "observed_spread": null,
+      "pinned": true,
+      "held_positions": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "sampled_positions": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "capture_radius": 22.0,
+      "ssdna_persistence": 12.0,
+      "link_alpha": 740.568,
+      "loss": 0.015176
+    },
+    {
+      "treatment": "sampled, coordinates believed to 48 angstrom",
+      "observed_spread": 48.0,
+      "pinned": false,
+      "held_positions": [
+        1,
+        20
+      ],
+      "sampled_positions": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "capture_radius": 22.0,
+      "ssdna_persistence": 8.0,
+      "link_alpha": 0.01,
+      "loss": 0.299377
+    },
+    {
+      "treatment": "sampled, coordinates believed to 96 angstrom",
+      "observed_spread": 96.0,
+      "pinned": false,
+      "held_positions": [
+        1,
+        20
+      ],
+      "sampled_positions": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "capture_radius": 22.0,
+      "ssdna_persistence": 6.0,
+      "link_alpha": 0.01,
+      "loss": 0.790422
+    },
+    {
+      "treatment": "sampled, coordinates ignored",
+      "observed_spread": 0.0,
+      "pinned": false,
+      "held_positions": [
+        1,
+        20
+      ],
+      "sampled_positions": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "capture_radius": 22.0,
+      "ssdna_persistence": 6.0,
+      "link_alpha": 0.01,
+      "loss": 0.906444
+    }
+  ],
+  "best": "resolved nucleotides pinned",
+  "loss_ratio_to_best": {
+    "resolved nucleotides pinned": 1.0,
+    "sampled, coordinates believed to 48 angstrom": 19.73,
+    "sampled, coordinates believed to 96 angstrom": 52.08,
+    "sampled, coordinates ignored": 59.73
+  },
+  "fitting_entries": [
+    "kissling-SpCas9-ABE8e-HEK-Plasmid-5d",
+    "kissling-SpCas9-ABE8e-HEK-Plasmid-10d"
+  ]
+}

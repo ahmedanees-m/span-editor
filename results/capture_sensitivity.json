@@ -1,0 +1,518 @@
+{
+  "fitted_capture_radius": 22.0,
+  "radii": [
+    8.0,
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    25.0
+  ],
+  "held": {
+    "ssdna_persistence": 22.0,
+    "link_alpha": 588.2841016079846
+  },
+  "entries": [
+    {
+      "entry_id": "hnhx-ABEmax7.10",
+      "ortholog": "SpCas9",
+      "observed_mode": 6,
+      "observed_window": [
+        4,
+        8
+      ],
+      "by_radius": {
+        "8.0": {
+          "mode": 6,
+          "window": [
+            6,
+            6
+          ],
+          "degenerate": false
+        },
+        "10.0": {
+          "mode": 5,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "12.0": {
+          "mode": 5,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "14.0": {
+          "mode": 5,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "16.0": {
+          "mode": 5,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "18.0": {
+          "mode": 5,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "20.0": {
+          "mode": 5,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "22.0": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "25.0": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        }
+      }
+    },
+    {
+      "entry_id": "komor-linker-16",
+      "ortholog": "SpCas9",
+      "observed_mode": 6,
+      "observed_window": [
+        4,
+        8
+      ],
+      "by_radius": {
+        "8.0": {
+          "mode": 6,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "10.0": {
+          "mode": 6,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "12.0": {
+          "mode": 6,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "14.0": {
+          "mode": 6,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "16.0": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "18.0": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "20.0": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "22.0": {
+          "mode": 5,
+          "window": [
+            3,
+            7
+          ],
+          "degenerate": false
+        },
+        "25.0": {
+          "mode": 5,
+          "window": [
+            2,
+            8
+          ],
+          "degenerate": false
+        }
+      }
+    },
+    {
+      "entry_id": "huangcp-ABEmax",
+      "ortholog": "SpCas9",
+      "observed_mode": 6,
+      "observed_window": [
+        4,
+        7
+      ],
+      "by_radius": {
+        "8.0": {
+          "mode": 6,
+          "window": [
+            6,
+            6
+          ],
+          "degenerate": false
+        },
+        "10.0": {
+          "mode": 5,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "12.0": {
+          "mode": 5,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "14.0": {
+          "mode": 5,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "16.0": {
+          "mode": 5,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "18.0": {
+          "mode": 5,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "20.0": {
+          "mode": 5,
+          "window": [
+            5,
+            6
+          ],
+          "degenerate": false
+        },
+        "22.0": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        },
+        "25.0": {
+          "mode": 5,
+          "window": [
+            4,
+            7
+          ],
+          "degenerate": false
+        }
+      }
+    },
+    {
+      "entry_id": "communbiol-dCas12a-A3A",
+      "ortholog": "Cas12a",
+      "observed_mode": 10,
+      "observed_window": [
+        6,
+        15
+      ],
+      "by_radius": {
+        "8.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "10.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "12.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "14.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "16.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "18.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "20.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "22.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "25.0": {
+          "mode": 4,
+          "window": [
+            4,
+            5
+          ],
+          "degenerate": false
+        }
+      }
+    },
+    {
+      "entry_id": "communbiol-dCas12a-A3A-Y130F",
+      "ortholog": "Cas12a",
+      "observed_mode": 9,
+      "observed_window": [
+        6,
+        12
+      ],
+      "by_radius": {
+        "8.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "10.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "12.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "14.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "16.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "18.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "20.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "22.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "25.0": {
+          "mode": 4,
+          "window": [
+            4,
+            5
+          ],
+          "degenerate": false
+        }
+      }
+    },
+    {
+      "entry_id": "communbiol-dCas12a-ABE8e",
+      "ortholog": "Cas12a",
+      "observed_mode": 10,
+      "observed_window": [
+        8,
+        12
+      ],
+      "by_radius": {
+        "8.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "10.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "12.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "14.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "16.0": {
+          "mode": null,
+          "window": [
+            0,
+            0
+          ],
+          "degenerate": true
+        },
+        "18.0": {
+          "mode": 4,
+          "window": [
+            4,
+            5
+          ],
+          "degenerate": false
+        },
+        "20.0": {
+          "mode": 4,
+          "window": [
+            3,
+            5
+          ],
+          "degenerate": false
+        },
+        "22.0": {
+          "mode": 4,
+          "window": [
+            3,
+            5
+          ],
+          "degenerate": false
+        },
+        "25.0": {
+          "mode": 4,
+          "window": [
+            2,
+            6
+          ],
+          "degenerate": false
+        }
+      }
+    }
+  ]
+}

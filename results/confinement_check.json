@@ -1,0 +1,625 @@
+{
+  "near": 6.3,
+  "persistence": 8.0,
+  "entries": {
+    "kissling-SpCas9-ABE8e-HEK-Plasmid-5d": {
+      "structure": "5F9R",
+      "resolved_bubble_positions": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "arms": [
+        {
+          "positions": 8,
+          "median_mean_to_deposited": 24.7,
+          "median_weight_within_a_rise": 0.0027,
+          "rows": [
+            {
+              "index": 12,
+              "mean_to_deposited": 37.69,
+              "closest": 8.16,
+              "weight_within_a_rise": 0.0
+            },
+            {
+              "index": 13,
+              "mean_to_deposited": 33.02,
+              "closest": 4.2,
+              "weight_within_a_rise": 0.002
+            },
+            {
+              "index": 14,
+              "mean_to_deposited": 29.29,
+              "closest": 3.26,
+              "weight_within_a_rise": 0.0033
+            },
+            {
+              "index": 15,
+              "mean_to_deposited": 25.97,
+              "closest": 2.62,
+              "weight_within_a_rise": 0.0022
+            },
+            {
+              "index": 16,
+              "mean_to_deposited": 23.42,
+              "closest": 2.97,
+              "weight_within_a_rise": 0.0049
+            },
+            {
+              "index": 17,
+              "mean_to_deposited": 17.25,
+              "closest": 3.91,
+              "weight_within_a_rise": 0.0019
+            },
+            {
+              "index": 18,
+              "mean_to_deposited": 13.3,
+              "closest": 0.88,
+              "weight_within_a_rise": 0.0287
+            },
+            {
+              "index": 19,
+              "mean_to_deposited": 8.67,
+              "closest": 0.73,
+              "weight_within_a_rise": 0.1206
+            }
+          ],
+          "surface_distance": 0.0,
+          "occupancy_resolution": "residue",
+          "occluding_spheres": 1508
+        },
+        {
+          "positions": 8,
+          "median_mean_to_deposited": 24.93,
+          "median_weight_within_a_rise": 0.0037,
+          "rows": [
+            {
+              "index": 12,
+              "mean_to_deposited": 36.96,
+              "closest": 8.42,
+              "weight_within_a_rise": 0.0
+            },
+            {
+              "index": 13,
+              "mean_to_deposited": 32.64,
+              "closest": 6.43,
+              "weight_within_a_rise": 0.0
+            },
+            {
+              "index": 14,
+              "mean_to_deposited": 29.22,
+              "closest": 4.7,
+              "weight_within_a_rise": 0.0022
+            },
+            {
+              "index": 15,
+              "mean_to_deposited": 26.17,
+              "closest": 2.61,
+              "weight_within_a_rise": 0.0031
+            },
+            {
+              "index": 16,
+              "mean_to_deposited": 23.68,
+              "closest": 3.2,
+              "weight_within_a_rise": 0.0066
+            },
+            {
+              "index": 17,
+              "mean_to_deposited": 17.52,
+              "closest": 5.54,
+              "weight_within_a_rise": 0.0044
+            },
+            {
+              "index": 18,
+              "mean_to_deposited": 13.53,
+              "closest": 1.22,
+              "weight_within_a_rise": 0.0271
+            },
+            {
+              "index": 19,
+              "mean_to_deposited": 8.8,
+              "closest": 0.45,
+              "weight_within_a_rise": 0.1136
+            }
+          ],
+          "surface_distance": 12.0,
+          "occupancy_resolution": "residue",
+          "occluding_spheres": 1508
+        },
+        {
+          "positions": 8,
+          "median_mean_to_deposited": 22.78,
+          "median_weight_within_a_rise": 0.0101,
+          "rows": [
+            {
+              "index": 12,
+              "mean_to_deposited": 37.55,
+              "closest": 4.8,
+              "weight_within_a_rise": 0.0007
+            },
+            {
+              "index": 13,
+              "mean_to_deposited": 31.8,
+              "closest": 2.77,
+              "weight_within_a_rise": 0.0101
+            },
+            {
+              "index": 14,
+              "mean_to_deposited": 28.22,
+              "closest": 1.85,
+              "weight_within_a_rise": 0.0102
+            },
+            {
+              "index": 15,
+              "mean_to_deposited": 24.09,
+              "closest": 1.43,
+              "weight_within_a_rise": 0.0134
+            },
+            {
+              "index": 16,
+              "mean_to_deposited": 21.47,
+              "closest": 1.2,
+              "weight_within_a_rise": 0.0068
+            },
+            {
+              "index": 17,
+              "mean_to_deposited": 15.67,
+              "closest": 2.52,
+              "weight_within_a_rise": 0.0086
+            },
+            {
+              "index": 18,
+              "mean_to_deposited": 12.46,
+              "closest": 0.85,
+              "weight_within_a_rise": 0.0372
+            },
+            {
+              "index": 19,
+              "mean_to_deposited": 8.57,
+              "closest": 1.14,
+              "weight_within_a_rise": 0.1366
+            }
+          ],
+          "surface_distance": 0.0,
+          "occupancy_resolution": "atom",
+          "occluding_spheres": 13256
+        },
+        {
+          "positions": 8,
+          "median_mean_to_deposited": 22.66,
+          "median_weight_within_a_rise": 0.0091,
+          "rows": [
+            {
+              "index": 12,
+              "mean_to_deposited": 37.01,
+              "closest": 5.26,
+              "weight_within_a_rise": 0.0022
+            },
+            {
+              "index": 13,
+              "mean_to_deposited": 31.51,
+              "closest": 3.0,
+              "weight_within_a_rise": 0.0092
+            },
+            {
+              "index": 14,
+              "mean_to_deposited": 27.85,
+              "closest": 3.94,
+              "weight_within_a_rise": 0.0082
+            },
+            {
+              "index": 15,
+              "mean_to_deposited": 23.95,
+              "closest": 2.45,
+              "weight_within_a_rise": 0.0084
+            },
+            {
+              "index": 16,
+              "mean_to_deposited": 21.37,
+              "closest": 2.18,
+              "weight_within_a_rise": 0.009
+            },
+            {
+              "index": 17,
+              "mean_to_deposited": 15.45,
+              "closest": 2.02,
+              "weight_within_a_rise": 0.023
+            },
+            {
+              "index": 18,
+              "mean_to_deposited": 12.24,
+              "closest": 1.06,
+              "weight_within_a_rise": 0.0575
+            },
+            {
+              "index": 19,
+              "mean_to_deposited": 8.41,
+              "closest": 0.38,
+              "weight_within_a_rise": 0.1536
+            }
+          ],
+          "surface_distance": 12.0,
+          "occupancy_resolution": "atom",
+          "occluding_spheres": 13256
+        }
+      ]
+    },
+    "communbiol-dCas12a-ABE8e": {
+      "structure": "6I1K",
+      "resolved_bubble_positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "arms": [
+        {
+          "positions": 13,
+          "median_mean_to_deposited": 9.58,
+          "median_weight_within_a_rise": 0.1074,
+          "rows": [
+            {
+              "index": 1,
+              "mean_to_deposited": 2.8,
+              "closest": 0.68,
+              "weight_within_a_rise": 0.6887
+            },
+            {
+              "index": 2,
+              "mean_to_deposited": 9.58,
+              "closest": 0.9,
+              "weight_within_a_rise": 0.1279
+            },
+            {
+              "index": 3,
+              "mean_to_deposited": 10.54,
+              "closest": 1.11,
+              "weight_within_a_rise": 0.1074
+            },
+            {
+              "index": 4,
+              "mean_to_deposited": 10.59,
+              "closest": 1.73,
+              "weight_within_a_rise": 0.0804
+            },
+            {
+              "index": 5,
+              "mean_to_deposited": 9.56,
+              "closest": 0.44,
+              "weight_within_a_rise": 0.0931
+            },
+            {
+              "index": 6,
+              "mean_to_deposited": 5.35,
+              "closest": 0.91,
+              "weight_within_a_rise": 0.1662
+            },
+            {
+              "index": 7,
+              "mean_to_deposited": 1.99,
+              "closest": 0.83,
+              "weight_within_a_rise": 0.201
+            },
+            {
+              "index": 8,
+              "mean_to_deposited": 6.94,
+              "closest": 0.97,
+              "weight_within_a_rise": 0.1543
+            },
+            {
+              "index": 9,
+              "mean_to_deposited": 8.63,
+              "closest": 1.06,
+              "weight_within_a_rise": 0.1436
+            },
+            {
+              "index": 10,
+              "mean_to_deposited": 10.39,
+              "closest": 1.17,
+              "weight_within_a_rise": 0.0985
+            },
+            {
+              "index": 11,
+              "mean_to_deposited": 13.28,
+              "closest": 0.77,
+              "weight_within_a_rise": 0.0311
+            },
+            {
+              "index": 12,
+              "mean_to_deposited": 13.54,
+              "closest": 1.95,
+              "weight_within_a_rise": 0.0343
+            },
+            {
+              "index": 13,
+              "mean_to_deposited": 18.41,
+              "closest": 1.98,
+              "weight_within_a_rise": 0.0156
+            }
+          ],
+          "surface_distance": 0.0,
+          "occupancy_resolution": "residue",
+          "occluding_spheres": 1359
+        },
+        {
+          "positions": 13,
+          "median_mean_to_deposited": 9.64,
+          "median_weight_within_a_rise": 0.1122,
+          "rows": [
+            {
+              "index": 1,
+              "mean_to_deposited": 2.97,
+              "closest": 0.68,
+              "weight_within_a_rise": 0.6759
+            },
+            {
+              "index": 2,
+              "mean_to_deposited": 9.64,
+              "closest": 0.9,
+              "weight_within_a_rise": 0.1393
+            },
+            {
+              "index": 3,
+              "mean_to_deposited": 10.68,
+              "closest": 1.11,
+              "weight_within_a_rise": 0.1098
+            },
+            {
+              "index": 4,
+              "mean_to_deposited": 10.72,
+              "closest": 1.73,
+              "weight_within_a_rise": 0.0986
+            },
+            {
+              "index": 5,
+              "mean_to_deposited": 9.64,
+              "closest": 0.44,
+              "weight_within_a_rise": 0.1188
+            },
+            {
+              "index": 6,
+              "mean_to_deposited": 5.71,
+              "closest": 0.91,
+              "weight_within_a_rise": 0.1744
+            },
+            {
+              "index": 7,
+              "mean_to_deposited": 3.3,
+              "closest": 0.93,
+              "weight_within_a_rise": 0.2093
+            },
+            {
+              "index": 8,
+              "mean_to_deposited": 8.1,
+              "closest": 0.97,
+              "weight_within_a_rise": 0.1254
+            },
+            {
+              "index": 9,
+              "mean_to_deposited": 9.51,
+              "closest": 1.48,
+              "weight_within_a_rise": 0.1122
+            },
+            {
+              "index": 10,
+              "mean_to_deposited": 11.36,
+              "closest": 0.87,
+              "weight_within_a_rise": 0.0723
+            },
+            {
+              "index": 11,
+              "mean_to_deposited": 13.68,
+              "closest": 1.94,
+              "weight_within_a_rise": 0.0279
+            },
+            {
+              "index": 12,
+              "mean_to_deposited": 14.01,
+              "closest": 1.31,
+              "weight_within_a_rise": 0.0376
+            },
+            {
+              "index": 13,
+              "mean_to_deposited": 18.84,
+              "closest": 2.27,
+              "weight_within_a_rise": 0.0155
+            }
+          ],
+          "surface_distance": 12.0,
+          "occupancy_resolution": "residue",
+          "occluding_spheres": 1359
+        },
+        {
+          "positions": 13,
+          "median_mean_to_deposited": 10.62,
+          "median_weight_within_a_rise": 0.0957,
+          "rows": [
+            {
+              "index": 1,
+              "mean_to_deposited": 2.87,
+              "closest": 0.72,
+              "weight_within_a_rise": 0.6354
+            },
+            {
+              "index": 2,
+              "mean_to_deposited": 9.42,
+              "closest": 0.85,
+              "weight_within_a_rise": 0.1555
+            },
+            {
+              "index": 3,
+              "mean_to_deposited": 10.62,
+              "closest": 0.48,
+              "weight_within_a_rise": 0.106
+            },
+            {
+              "index": 4,
+              "mean_to_deposited": 10.95,
+              "closest": 0.9,
+              "weight_within_a_rise": 0.0855
+            },
+            {
+              "index": 5,
+              "mean_to_deposited": 10.23,
+              "closest": 2.23,
+              "weight_within_a_rise": 0.0957
+            },
+            {
+              "index": 6,
+              "mean_to_deposited": 6.51,
+              "closest": 0.93,
+              "weight_within_a_rise": 0.1681
+            },
+            {
+              "index": 7,
+              "mean_to_deposited": 4.54,
+              "closest": 1.01,
+              "weight_within_a_rise": 0.1552
+            },
+            {
+              "index": 8,
+              "mean_to_deposited": 9.03,
+              "closest": 1.68,
+              "weight_within_a_rise": 0.0965
+            },
+            {
+              "index": 9,
+              "mean_to_deposited": 11.47,
+              "closest": 1.16,
+              "weight_within_a_rise": 0.064
+            },
+            {
+              "index": 10,
+              "mean_to_deposited": 13.13,
+              "closest": 2.09,
+              "weight_within_a_rise": 0.05
+            },
+            {
+              "index": 11,
+              "mean_to_deposited": 15.0,
+              "closest": 0.62,
+              "weight_within_a_rise": 0.0223
+            },
+            {
+              "index": 12,
+              "mean_to_deposited": 15.08,
+              "closest": 0.6,
+              "weight_within_a_rise": 0.0208
+            },
+            {
+              "index": 13,
+              "mean_to_deposited": 19.6,
+              "closest": 1.72,
+              "weight_within_a_rise": 0.0112
+            }
+          ],
+          "surface_distance": 0.0,
+          "occupancy_resolution": "atom",
+          "occluding_spheres": 12311
+        },
+        {
+          "positions": 13,
+          "median_mean_to_deposited": 10.72,
+          "median_weight_within_a_rise": 0.0885,
+          "rows": [
+            {
+              "index": 1,
+              "mean_to_deposited": 2.83,
+              "closest": 0.68,
+              "weight_within_a_rise": 0.6461
+            },
+            {
+              "index": 2,
+              "mean_to_deposited": 9.54,
+              "closest": 0.92,
+              "weight_within_a_rise": 0.1384
+            },
+            {
+              "index": 3,
+              "mean_to_deposited": 10.72,
+              "closest": 0.48,
+              "weight_within_a_rise": 0.1119
+            },
+            {
+              "index": 4,
+              "mean_to_deposited": 10.9,
+              "closest": 1.34,
+              "weight_within_a_rise": 0.083
+            },
+            {
+              "index": 5,
+              "mean_to_deposited": 10.19,
+              "closest": 1.98,
+              "weight_within_a_rise": 0.0885
+            },
+            {
+              "index": 6,
+              "mean_to_deposited": 6.45,
+              "closest": 1.39,
+              "weight_within_a_rise": 0.1567
+            },
+            {
+              "index": 7,
+              "mean_to_deposited": 4.43,
+              "closest": 1.01,
+              "weight_within_a_rise": 0.1486
+            },
+            {
+              "index": 8,
+              "mean_to_deposited": 8.76,
+              "closest": 1.68,
+              "weight_within_a_rise": 0.1298
+            },
+            {
+              "index": 9,
+              "mean_to_deposited": 11.04,
+              "closest": 1.48,
+              "weight_within_a_rise": 0.0771
+            },
+            {
+              "index": 10,
+              "mean_to_deposited": 12.72,
+              "closest": 1.39,
+              "weight_within_a_rise": 0.0572
+            },
+            {
+              "index": 11,
+              "mean_to_deposited": 14.24,
+              "closest": 2.75,
+              "weight_within_a_rise": 0.0312
+            },
+            {
+              "index": 12,
+              "mean_to_deposited": 14.65,
+              "closest": 1.45,
+              "weight_within_a_rise": 0.0283
+            },
+            {
+              "index": 13,
+              "mean_to_deposited": 19.35,
+              "closest": 2.34,
+              "weight_within_a_rise": 0.0153
+            }
+          ],
+          "surface_distance": 12.0,
+          "occupancy_resolution": "atom",
+          "occluding_spheres": 12311
+        }
+      ]
+    }
+  }
+}

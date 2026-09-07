@@ -1,0 +1,275 @@
+{
+  "site": "n_terminal",
+  "reference_entry": "hnhx-ABEmax7.10",
+  "structure": "5F9R",
+  "effector": "abemax",
+  "capture_radius": 22.0,
+  "target_source": "the unreachable set in results/inversion.json",
+  "helix_rise": 1.5,
+  "specifications": [
+    {
+      "index": 1,
+      "sterically_allowed": 0.3308,
+      "span_mean": 40.77,
+      "span_range": [
+        23.21,
+        57.54
+      ],
+      "direction": [
+        0.9511,
+        -0.1946,
+        0.2398
+      ],
+      "mean_resultant_length": 0.7739,
+      "tolerance_68": 42.6,
+      "tolerance_90": 58.7,
+      "solid_angle_fraction_68": 0.1321,
+      "active_site_offset": 20.62,
+      "residues_xten": 37,
+      "residues_gs": 50,
+      "residues_polyproline": 16,
+      "residues_helical": 29,
+      "residues_alpha_helix": 28
+    },
+    {
+      "index": 2,
+      "sterically_allowed": 0.3422,
+      "span_mean": 40.77,
+      "span_range": [
+        23.46,
+        57.47
+      ],
+      "direction": [
+        0.9354,
+        -0.2696,
+        0.2288
+      ],
+      "mean_resultant_length": 0.7568,
+      "tolerance_68": 43.8,
+      "tolerance_90": 61.2,
+      "solid_angle_fraction_68": 0.139,
+      "active_site_offset": 20.62,
+      "residues_xten": 37,
+      "residues_gs": 50,
+      "residues_polyproline": 16,
+      "residues_helical": 29,
+      "residues_alpha_helix": 28
+    },
+    {
+      "index": 8,
+      "sterically_allowed": 0.5033,
+      "span_mean": 53.68,
+      "span_range": [
+        33.14,
+        74.89
+      ],
+      "direction": [
+        0.7116,
+        -0.4422,
+        -0.5459
+      ],
+      "mean_resultant_length": 0.8276,
+      "tolerance_68": 36.0,
+      "tolerance_90": 54.3,
+      "solid_angle_fraction_68": 0.0954,
+      "active_site_offset": 20.62,
+      "residues_xten": 63,
+      "residues_gs": 86,
+      "residues_polyproline": 22,
+      "residues_helical": 38,
+      "residues_alpha_helix": 36
+    },
+    {
+      "index": 13,
+      "sterically_allowed": 0.361,
+      "span_mean": 50.13,
+      "span_range": [
+        32.37,
+        67.12
+      ],
+      "direction": [
+        0.6257,
+        -0.065,
+        -0.7774
+      ],
+      "mean_resultant_length": 0.8689,
+      "tolerance_68": 31.9,
+      "tolerance_90": 46.4,
+      "solid_angle_fraction_68": 0.0753,
+      "active_site_offset": 20.62,
+      "residues_xten": 55,
+      "residues_gs": 75,
+      "residues_polyproline": 20,
+      "residues_helical": 36,
+      "residues_alpha_helix": 34
+    },
+    {
+      "index": 14,
+      "sterically_allowed": 0.3139,
+      "span_mean": 49.25,
+      "span_range": [
+        31.92,
+        66.5
+      ],
+      "direction": [
+        0.6323,
+        0.064,
+        -0.7721
+      ],
+      "mean_resultant_length": 0.8609,
+      "tolerance_68": 33.5,
+      "tolerance_90": 46.6,
+      "solid_angle_fraction_68": 0.0832,
+      "active_site_offset": 20.62,
+      "residues_xten": 53,
+      "residues_gs": 73,
+      "residues_polyproline": 20,
+      "residues_helical": 35,
+      "residues_alpha_helix": 33
+    },
+    {
+      "index": 15,
+      "sterically_allowed": 0.2656,
+      "span_mean": 46.33,
+      "span_range": [
+        29.23,
+        62.33
+      ],
+      "direction": [
+        0.686,
+        0.1613,
+        -0.7095
+      ],
+      "mean_resultant_length": 0.8207,
+      "tolerance_68": 36.7,
+      "tolerance_90": 53.4,
+      "solid_angle_fraction_68": 0.0993,
+      "active_site_offset": 20.62,
+      "residues_xten": 48,
+      "residues_gs": 65,
+      "residues_polyproline": 19,
+      "residues_helical": 33,
+      "residues_alpha_helix": 31
+    },
+    {
+      "index": 16,
+      "sterically_allowed": 0.2427,
+      "span_mean": 45.41,
+      "span_range": [
+        28.62,
+        61.42
+      ],
+      "direction": [
+        0.769,
+        0.2242,
+        -0.5986
+      ],
+      "mean_resultant_length": 0.8132,
+      "tolerance_68": 37.4,
+      "tolerance_90": 54.7,
+      "solid_angle_fraction_68": 0.1027,
+      "active_site_offset": 20.62,
+      "residues_xten": 46,
+      "residues_gs": 62,
+      "residues_polyproline": 18,
+      "residues_helical": 32,
+      "residues_alpha_helix": 31
+    },
+    {
+      "index": 17,
+      "sterically_allowed": 0.2486,
+      "span_mean": 47.9,
+      "span_range": [
+        30.69,
+        64.09
+      ],
+      "direction": [
+        0.7827,
+        0.4139,
+        -0.4648
+      ],
+      "mean_resultant_length": 0.8467,
+      "tolerance_68": 34.1,
+      "tolerance_90": 50.3,
+      "solid_angle_fraction_68": 0.086,
+      "active_site_offset": 20.62,
+      "residues_xten": 51,
+      "residues_gs": 69,
+      "residues_polyproline": 19,
+      "residues_helical": 34,
+      "residues_alpha_helix": 32
+    },
+    {
+      "index": 18,
+      "sterically_allowed": 0.2516,
+      "span_mean": 49.21,
+      "span_range": [
+        31.2,
+        66.39
+      ],
+      "direction": [
+        0.6752,
+        0.5609,
+        -0.479
+      ],
+      "mean_resultant_length": 0.8635,
+      "tolerance_68": 32.5,
+      "tolerance_90": 47.6,
+      "solid_angle_fraction_68": 0.0782,
+      "active_site_offset": 20.62,
+      "residues_xten": 53,
+      "residues_gs": 73,
+      "residues_polyproline": 20,
+      "residues_helical": 35,
+      "residues_alpha_helix": 33
+    },
+    {
+      "index": 19,
+      "sterically_allowed": 0.293,
+      "span_mean": 52.33,
+      "span_range": [
+        34.15,
+        70.11
+      ],
+      "direction": [
+        0.6263,
+        0.6222,
+        -0.4697
+      ],
+      "mean_resultant_length": 0.8887,
+      "tolerance_68": 28.9,
+      "tolerance_90": 44.0,
+      "solid_angle_fraction_68": 0.0623,
+      "active_site_offset": 20.62,
+      "residues_xten": 60,
+      "residues_gs": 82,
+      "residues_polyproline": 21,
+      "residues_helical": 37,
+      "residues_alpha_helix": 35
+    },
+    {
+      "index": 20,
+      "sterically_allowed": 0.3307,
+      "span_mean": 55.95,
+      "span_range": [
+        37.57,
+        72.82
+      ],
+      "direction": [
+        0.5937,
+        0.7141,
+        -0.371
+      ],
+      "mean_resultant_length": 0.9116,
+      "tolerance_68": 26.1,
+      "tolerance_90": 37.9,
+      "solid_angle_fraction_68": 0.0508,
+      "active_site_offset": 20.62,
+      "residues_xten": 68,
+      "residues_gs": 93,
+      "residues_polyproline": 23,
+      "residues_helical": 40,
+      "residues_alpha_helix": 38
+    }
+  ]
+}

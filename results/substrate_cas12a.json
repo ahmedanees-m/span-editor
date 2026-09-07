@@ -1,0 +1,238 @@
+{
+  "ortholog": "cas12a",
+  "structure": "6I1K",
+  "numbering": "pam_proximal",
+  "spacer_length": 21,
+  "linker_residues": 32,
+  "effector": "apobec1",
+  "persistence": 15.0,
+  "samples": 4000,
+  "n_occluding_spheres": 1359,
+  "pinned_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    19,
+    20,
+    21
+  ],
+  "max_spread_pinned": 2.851324424948112e-12,
+  "max_weight_inside_protein": 0.0,
+  "min_effective_samples": 940.3258556330842,
+  "rows": [
+    {
+      "index": 1,
+      "pinned": true,
+      "spread": 7.607122429152608e-13,
+      "distance_from_anchor": 45.523541745981255,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 2,
+      "pinned": true,
+      "spread": 1.405200716762113e-12,
+      "distance_from_anchor": 39.02185198630567,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 3,
+      "pinned": true,
+      "spread": 1.144914715219446e-12,
+      "distance_from_anchor": 35.495551182324796,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 4,
+      "pinned": true,
+      "spread": 1.9396088748455602e-13,
+      "distance_from_anchor": 33.23254826960561,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 5,
+      "pinned": true,
+      "spread": 2.2055287221364512e-12,
+      "distance_from_anchor": 32.4821261294161,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 6,
+      "pinned": true,
+      "spread": 1.6093930210494482e-12,
+      "distance_from_anchor": 34.881391287260044,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 7,
+      "pinned": true,
+      "spread": 1.5007547892920185e-12,
+      "distance_from_anchor": 38.86638396193235,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 8,
+      "pinned": true,
+      "spread": 9.510134916252103e-13,
+      "distance_from_anchor": 38.54222572565805,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 9,
+      "pinned": true,
+      "spread": 6.28492929827315e-13,
+      "distance_from_anchor": 38.382125405562235,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 10,
+      "pinned": true,
+      "spread": 1.5089512419837683e-12,
+      "distance_from_anchor": 39.96097610234733,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 11,
+      "pinned": true,
+      "spread": 2.6225296402641552e-12,
+      "distance_from_anchor": 35.92683554747284,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 12,
+      "pinned": true,
+      "spread": 2.826580620560722e-12,
+      "distance_from_anchor": 39.78917981006296,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 13,
+      "pinned": true,
+      "spread": 2.376298746530086e-12,
+      "distance_from_anchor": 43.972802410446484,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 14,
+      "pinned": false,
+      "spread": 5.10007240103568,
+      "distance_from_anchor": 45.27263470992595,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 940.3258556330842
+    },
+    {
+      "index": 15,
+      "pinned": false,
+      "spread": 7.873535568437063,
+      "distance_from_anchor": 47.08123616054052,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 940.3258556330842
+    },
+    {
+      "index": 16,
+      "pinned": false,
+      "spread": 8.712629916178251,
+      "distance_from_anchor": 48.54422998791032,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 940.3258556330842
+    },
+    {
+      "index": 17,
+      "pinned": false,
+      "spread": 7.944557308056107,
+      "distance_from_anchor": 49.96749416621213,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 940.3258556330842
+    },
+    {
+      "index": 18,
+      "pinned": false,
+      "spread": 5.700317534004061,
+      "distance_from_anchor": 50.94128241370886,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 940.3258556330842
+    },
+    {
+      "index": 19,
+      "pinned": true,
+      "spread": 1.869436452423136e-12,
+      "distance_from_anchor": 51.19809430567353,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 20,
+      "pinned": true,
+      "spread": 8.440592755981063e-13,
+      "distance_from_anchor": 52.691262665234014,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    },
+    {
+      "index": 21,
+      "pinned": true,
+      "spread": 2.851324424948112e-12,
+      "distance_from_anchor": 56.05827223995757,
+      "weight_inside_the_protein": 0.0,
+      "effective_samples": 3999.999999999999
+    }
+  ],
+  "reach": {
+    "parameters": {
+      "capture_radius": 8.0,
+      "ssdna_persistence": 15.0,
+      "link_alpha": 1.0
+    },
+    "fitted": false,
+    "surviving_tether_conformations": 3284,
+    "sampled_tether_conformations": 20000,
+    "tether_survival": 0.1642,
+    "closest_approach": {
+      "1": 29.280592010517694,
+      "2": 23.89386422421842,
+      "3": 21.784739909737517,
+      "4": 20.262567895966193,
+      "5": 20.72066747338716,
+      "6": 23.640887148233816,
+      "7": 25.52584750558409,
+      "8": 26.432328324800583,
+      "9": 21.961049787075996,
+      "10": 20.925698950273265,
+      "11": 18.195266598333685,
+      "12": 21.516396729240302,
+      "13": 25.726147900725824,
+      "14": 20.15822684052775,
+      "15": 21.95439493251598,
+      "16": 27.3063654239878,
+      "17": 23.93497330699204,
+      "18": 28.68451719812119,
+      "19": 40.22627270065805,
+      "20": 37.65610361057472,
+      "21": 33.73563058753105
+    },
+    "most_reachable_index": 11,
+    "nearest_index_by_straight_line": 5
+  }
+}

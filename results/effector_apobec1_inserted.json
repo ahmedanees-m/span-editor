@@ -1,0 +1,35 @@
+{
+  "chain": "A",
+  "terminus": "n_terminal",
+  "junction_residue": 1015,
+  "active_site_residue": 1301,
+  "modelled_residues": [
+    1015,
+    1236
+  ],
+  "body_residues": [
+    1015,
+    1229
+  ],
+  "resolved_tail": 0,
+  "tail_cutoff": 1.5,
+  "active_site_offset": [
+    -5.56,
+    2.96,
+    20.41
+  ],
+  "offset_magnitude": 21.36,
+  "exit_residue": 1229,
+  "exit_offset": [
+    -10.75,
+    35.54,
+    19.39
+  ],
+  "exit_offset_magnitude": 41.89,
+  "exit_tail": 7,
+  "radius_of_gyration": 16.96,
+  "bounding_radius": 25.93,
+  "body_radius": 16.96,
+  "accession": "6X91",
+  "effector": "APOBEC1 inserted"
+}

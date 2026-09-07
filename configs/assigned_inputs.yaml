@@ -1,0 +1,508 @@
+# Inputs that are assigned rather than fitted.
+#
+# The fitted parameter count does not capture the flexibility of the model.
+# These entries do: they are numerous, they are set by judgment, and they are
+# where knowledge of published held-out results would leak in if it leaked in
+# anywhere. The file is therefore fixed and hashed before held-out evaluation
+# begins, in one reviewable place rather than scattered through the code.
+#
+# Every entry carries a status. provisional means the value is dimensionally
+# reasonable but has not been read from the cited source or measured from the
+# cited structure, and it must be resolved before any run that carries a claim.
+
+linker_compositions:
+  # persistence and rise are in angstrom. range gives the span of published
+  # values; where that span is wide the class is marked banded and predictions
+  # for it are reported across the range rather than at the central value.
+  xten:
+    persistence: 6.4
+    rise: 3.6
+    departure_cone: 180.0
+    rigid: false
+    range: [4.5, 6.4]
+    reference: >-
+      No direct measurement of XTEN persistence length was found. The closest
+      primaries are worm-like-chain fits to FRET across a glycine series of
+      flexible linkers, which give 4.5 angstrom at 33 percent glycine, 4.8 at 17
+      percent and 6.2 with no glycine at all (van Rosmalen, Krom and Merkx,
+      Biochemistry 2017, doi 10.1021/acs.biochem.7b00902), the first of those
+      agreeing with the earlier fit to GlyGlySer repeats (Evers, van Dongen,
+      Faesen, Meijer and Merkx, Biochemistry 2006, doi 10.1021/bi061288t). The
+      sixteen-residue XTEN, SGSETPGTSESATPES, is 19 percent glycine, which puts
+      it near the 4.8 measurement, but it also carries two prolines in sixteen
+      residues and proline stiffens the backbone. The assigned value sits at the
+      stiff end of the bracketing measurements on that reasoning, and the whole
+      bracket is carried as the band. This value is what the fit ran on, so it is
+      held rather than moved, and the band is reported as an input uncertainty by
+      analysis/composition_sensitivity.py.
+    status: banded
+
+  gs:
+    persistence: 4.5
+    rise: 3.6
+    departure_cone: 180.0
+    rigid: false
+    range: [4.5, 4.8]
+    reference: >-
+      Worm-like-chain fits to FRET between fluorescent domains joined by
+      GlyGlySer repeats give 4.5 angstrom (Evers, van Dongen, Faesen, Meijer and
+      Merkx, Biochemistry 2006, doi 10.1021/bi061288t), reproduced at 4.5 for a
+      33 percent glycine linker and 4.8 at 17 percent by van Rosmalen, Krom and
+      Merkx, Biochemistry 2017, doi 10.1021/acs.biochem.7b00902. This class is
+      measured directly, unlike the others.
+    status: measured
+
+  polyproline:
+    persistence: 44.0
+    rise: 3.1
+    departure_cone: 90.0
+    rigid: true
+    range: [20.0, 130.0]
+    reference: >-
+      Published estimates span nearly an order of magnitude and depend on
+      method: about 44 angstrom from single-molecule FRET, 20 to 40 from FRET
+      analysed under a worm-like chain, and 90 to 130 from all-atom simulation.
+      The older textbook figure of 220 is not supported by the FRET work.
+    status: banded
+
+  helical:
+    persistence: 180.0
+    rise: 1.5
+    departure_cone: 60.0
+    rigid: true
+    range: [150.0, 250.0]
+    reference: >-
+      Alpha-helical poly-L-lysine is reported at 150 to 210 angstrom and single
+      alpha-helical domains above 200.
+    status: banded
+
+# Direction in which a rigid linker leaves the fusion junction is set by
+# backbone geometry that no structure resolves, so rigid classes are given a
+# wide departure cone and their predictions are reported with wider uncertainty.
+
+effectors:
+  # active_site_offset runs from the fusion junction to the catalytic centre, in
+  # the effector's own frame, in angstrom. Only its magnitude reaches the
+  # prediction, because a flexible linker leaves the domain rotationally
+  # decorrelated from the anchor and the orientation is sampled uniformly. The
+  # direction is kept for a future rigid-linker treatment.
+  #
+  # The junction is the last residue of the folded body, not the last residue
+  # modelled. Residues beyond it, whether disordered or resolved as an extended
+  # tail, are counted in flexible_tail and added to the linker, since they behave
+  # as chain rather than as part of a rigid domain. The body is separated at 1.5
+  # radii of gyration from the centroid, applied twice.
+  #
+  # analysis/measure_effector.py reproduces every measured row.
+  tada8e:
+    active_site_offset: [16.53, -10.83, 5.87]   # magnitude 20.62
+    body_radius: 13.97
+    flexible_tail: 8            # residue 160 resolved and extended, 161 to 167 absent
+    motif: flat
+    structure: 6VPC
+    chain: F
+    body_residues: [5, 159]
+    active_site: catalytic zinc, residue 201
+    status: measured
+
+  abemax:
+    active_site_offset: [15.98, -12.23, 4.51]   # magnitude 20.62
+    body_radius: 19.16                          # radius of gyration over both TadA copies
+    flexible_tail: 8
+    motif: flat
+    structure: 6VPC
+    chain: F
+    body_residues: [5, 159]
+    active_site: catalytic zinc, residue 201
+    note: >-
+      ABEmax carries a covalent TadA heterodimer where ABE8e carries one domain.
+      The offset is taken from the copy engaging the DNA, which is the one the
+      linker leaves from in both constructs, and the body radius is measured over
+      both copies resolved in 6VPC. It is a substitution for the wild-type and
+      evolved TadA pair rather than that construct itself.
+    status: measured
+
+  tada_inserted:
+    # The same domain as tada8e, measured from its other end. A domain inserted
+    # into the editor is reached by a linker arriving at its N terminus and
+    # leaves by its C terminus, so both offsets are taken from the N-terminal
+    # junction: one to the catalytic centre, one to the far junction the return
+    # linker departs from.
+    active_site_offset: [8.55, -15.0, -21.76]   # magnitude 27.78
+    exit_offset: [-7.43, -2.76, -26.26]         # magnitude 27.43
+    body_radius: 13.97
+    flexible_tail: 4            # residues 1 to 4 ahead of the folded body
+    exit_tail: 8                # residue 160 resolved and extended, 161 to 167 absent
+    motif: flat
+    structure: 6VPC
+    chain: F
+    body_residues: [5, 159]
+    active_site: catalytic zinc, residue 201
+    note: >-
+      Stands for TadA7.10 and TadA8e alike. The two differ in catalytic
+      efficiency rather than in fold, and the model carries no term that
+      separates them, so an entry using one is predicted the same as an entry
+      using the other.
+    status: measured
+
+  apobec1:
+    active_site_offset: [23.4, -20.1, 10.6]     # magnitude 33.01
+    body_radius: 16.96
+    flexible_tail: 7            # residues 1230 to 1236, resolved but running off the fold
+    motif: apobec
+    structure: 6X91
+    chain: A
+    body_residues: [1015, 1229]
+    active_site: catalytic zinc, residue 1301
+    note: >-
+      Human APOBEC1 from an MBP fusion, standing in for the rat enzyme used in
+      the BE3 and BE4 families. The two are close homologues but this is a
+      substitution, not the construct itself.
+    status: measured
+
+  apobec1_inserted:
+    # APOBEC1 measured from its other end, for a domain inlaid into the editor
+    # rather than fused to a terminus. Residue 1015 of the deposited chimera is
+    # residue 1 of the deaminase, so nothing precedes the folded body.
+    active_site_offset: [-5.56, 2.96, 20.41]    # magnitude 21.36
+    exit_offset: [-10.75, 35.54, 19.39]         # magnitude 41.89
+    body_radius: 16.96
+    flexible_tail: 0
+    exit_tail: 7                # residues 1230 to 1236, resolved but running off the fold
+    motif: apobec
+    structure: 6X91
+    chain: A
+    body_residues: [1015, 1229]
+    active_site: catalytic zinc, residue 1301
+    note: >-
+      The same substitution of human for rat APOBEC1 that the terminal-fusion
+      entry carries.
+    status: measured
+
+  ha3a:
+    active_site_offset: [15.9, -13.4, 6.4]      # magnitude 21.86
+    body_radius: 15.27
+    flexible_tail: 0
+    motif: apobec
+    structure: 5KEG
+    chain: A
+    body_residues: [10, 196]
+    active_site: catalytic zinc, residue 201
+    status: measured
+
+motifs:
+  # Intrinsic preference of the effector for the base 5' of the edited position.
+  # Corpus entries that aggregate over thousands of targets are evaluated with
+  # the term left flat; it is applied only where a defined target is modelled.
+  apobec:
+    base_weights: { T: 1.0, C: 0.6, A: 0.4, G: 0.2 }
+    reference: published characterisation of APOBEC family preference
+    status: to_verify
+
+  flat:
+    base_weights: {}
+    reference: no reported preference applied
+    status: assigned
+
+coarse_radii:
+  # One sphere per residue. Amino acids sit on CB where present and CA
+  # otherwise, with a radius by size class. Nucleotides sit on C1' and are
+  # larger, since a whole nucleotide is being represented by one sphere.
+  glycine: 2.4
+  small: 2.8
+  medium: 3.2
+  large: 3.6
+  nucleotide: 4.5
+  default: 3.0
+
+# Nucleotides of the displaced non-target strand that are ordered in the
+# deposited file, and where the model attaches. Every value below was read from
+# the deposition rather than assumed: chain roles from the entity descriptions,
+# the protospacer span by aligning the spacer segment of the guide against the
+# displaced strand, and the ordered set from which nucleotides carry
+# coordinates. analysis/map_protospacer.py reproduces all of it.
+#
+# occluding_chains lists what a tethered domain has to get around. It excludes
+# the displaced strand itself, which is the substrate rather than an obstacle,
+# and in 6VPC it excludes both deaminase copies.
+structure_geometry:
+  5F9R:
+    anchor_chain: B
+    anchor_residue: 3          # first modelled amino acid; residues 1 and 2 absent
+    c_terminal_residue: 1364   # last modelled amino acid
+    anchor_sites:
+      # Residues a tether can leave the protein from. The two termini, and the
+      # pair of residues flanking the HNH domain that constructs replacing it
+      # join to. Chain B is modelled continuously from 3 to 1364, so all four
+      # carry coordinates.
+      n_terminal: 3
+      c_terminal: 1364
+      hnh_amino: 793
+      hnh_carboxy: 919
+      # Loops in RuvC3 and the PAM-interacting domain that constructs inlay a
+      # deaminase into, between G1054 and E1055 and between G1246 and S1247.
+      ruvc_amino: 1054
+      ruvc_carboxy: 1055
+      pi_amino: 1246
+      pi_carboxy: 1247
+      # New amino termini of the circular permutants. A permutant carries the
+      # deaminase on one terminus only, so these are ordinary attachment sites
+      # rather than halves of an insertion.
+      cp1012: 1012
+      cp1028: 1028
+      cp1041: 1041
+      cp1249: 1249
+      cp1300: 1300
+    strand_chain: D
+    protospacer_residues: [1, 20]
+    pam: TGG
+    occluding_chains: [A, B, C]
+    distal_closure:
+      # Protospacer index 1 re-anneals with target strand residue 30, which is
+      # resolved even though index 1 itself is not. Anchoring there bounds the
+      # R-loop bubble. Without it the PAM-distal end wanders about 40 A and the
+      # predicted window collapses onto index 1.
+      #
+      # The anchor sits one base-pair separation from residue 30 rather than on
+      # it. pairing_sum gives the pairing, the partner of n being pairing_sum
+      # minus n. Separation and direction are measured from the nine duplex
+      # pairs this structure resolves: 10.62 angstrom with a spread of 0.21, and
+      # a mean resultant length of 0.74 on the direction.
+      chain: C
+      residue: 30
+      index: 1
+      pairing_sum: 31
+    # Nucleotides of the displaced strand that lie inside the R-loop bubble,
+    # measured by analysis/strand_pairing.py as the run whose sugars sit far
+    # from any sugar of the target strand. A nucleotide in here is
+    # single-stranded whether or not the deposition resolved it, so it is
+    # sampled rather than held. Residues 12 to 19 carry coordinates and are in
+    # the bubble; residue 20 sits 10.8 angstrom from a target sugar, against 14
+    # to 19 for its neighbours, and is read as stacking on the duplex that
+    # starts at 21.
+    strand_residue_to_index:
+      12: 12
+      13: 13
+      14: 14
+      15: 15
+      16: 16
+      17: 17
+      18: 18
+      19: 19
+      20: 20
+    note: >-
+      Deaminase-free SpCas9 R-loop. Only the nine PAM-proximal nucleotides of
+      the displaced strand carry coordinates, so indices 1 to 11, which is where
+      the SpCas9 window sits, are predicted rather than pinned. That is the
+      the PAM-distal resolution limit of R-loop structures, and it is why this
+      structure and not 6VPC supplies the substrate ensemble.
+
+  6VPC:
+    anchor_chain: B
+    anchor_residue: 201        # author numbering runs 197 ahead of canonical SpCas9
+    c_terminal_residue: 1561
+    strand_chain: D
+    protospacer_residues: [20, 39]
+    pam: AGG
+    occluding_chains: [A, B, C]
+    strand_residue_to_index: {}
+    note: >-
+      ABE8e bound to SpCas9. Indices 1 to 11 carry coordinates here, but they are
+      ordered by the deaminase that is bound to them, so pinning the substrate
+      ensemble on them would place the strand where the effector put it and then
+      ask whether the effector can reach it. Reserved for the falsification
+      check; strand_residue_to_index is deliberately empty.
+
+  6I1K:
+    anchor_chain: A
+    anchor_residue: 1          # first modelled amino acid of FnCas12a
+    c_terminal_residue: 1300
+    anchor_sites:
+      n_terminal: 1
+      c_terminal: 1300
+    strand_chain: D
+    target_chain: C
+    protospacer_residues: [1, 21]
+    pam: TTTA
+    pam_side: 5prime
+    numbering: pam_proximal
+    occluding_chains: [A, B, C]
+    # Residues 1 to 13 sit 13.7 to 25.8 angstrom from the nearest target sugar
+    # and 19 onward come back to 10.5 to 11.4, so the bubble runs 1 to 18 and
+    # the deposition resolves thirteen nucleotides inside it. Those are sampled.
+    # Residue 0 is the last base of the PAM duplex and bounds the bubble on that
+    # side, which is why it is mapped to index 0: it anchors the bridge without
+    # being a protospacer position anything is scored at.
+    strand_residue_to_index:
+      0: 0
+      1: 1
+      2: 2
+      3: 3
+      4: 4
+      5: 5
+      6: 6
+      7: 7
+      8: 8
+      9: 9
+      10: 10
+      11: 11
+      12: 12
+      13: 13
+      19: 19
+      20: 20
+      21: 21
+    note: >-
+      FnCas12a R-loop. The displaced strand in this deposition is not
+      complementary to the target strand, which stops the R-loop re-annealing
+      during crystallisation, so the register comes from the author numbering
+      rather than from aligning the spacer. Three things corroborate it: the
+      four nucleotides ending at residue 0 read TTTA, a canonical Cas12a PAM;
+      residues -8 to 0 sit at base-pairing distance from the target strand while
+      1 to 13 do not; and 19 to 21 pair again, which is the R-loop closing. Both
+      ends of the bubble are therefore observed here rather than inferred, and
+      no separate closure anchor is needed. Corpus entries use LbCas12a and
+      AsCas12a, so this is a within-family structural substitution.
+
+  5CZZ:
+    anchor_chain: null
+    anchor_residue: null
+    strand_chain: null
+    strand_residue_to_index: {}
+    occluding_chains: []
+    note: >-
+      SaCas9 with sgRNA and target DNA. The displaced strand is only eight
+      nucleotides of PAM duplex, so this file cannot pin a substrate ensemble
+      and a fuller SaCas9 R-loop structure is needed.
+
+# Architectures that alter the Cas protein itself. Removing a domain from the
+# occupancy map is the whole of the change: the volume it filled becomes
+# available and nothing else moves, so a predicted difference in the window
+# comes from steric relief alone and nothing is refitted.
+scaffold_variants:
+  delta_hnh:
+    remove:
+      B: [[775, 908]]
+    note: >-
+      The HNH nuclease domain of SpCas9, taken as residues 775 to 908 of the
+      chain the model anchors on. Architectures that replace it leave that
+      volume open to a tethered domain.
+
+  hnh_excised:
+    remove:
+      B: [[794, 918]]
+    note: >-
+      The excision an inserted deaminase actually leaves. Constructs that put a
+      domain in place of HNH keep the residues they join to, so the segment
+      removed runs between the two junctions rather than over the domain
+      boundaries. 125 residues, against 134 for the domain itself.
+
+structures:
+  # Structure chosen per ortholog, from the deposited titles and entity
+  # descriptions.
+  spcas9: 5F9R
+  sacas9: 5CZZ
+  spry: null
+  cas12a: 6I1K
+  nme2cas9: null
+  iscb: null
+
+# The pose of the effector resolved in this structure is a necessary condition
+# on the model, never a calibration target. Tuning the capture volume until the
+# observed pose fell inside it would calibrate the null on the one architecture
+# declared not to be null.
+# Distances measured in 6VPC between the engaged nucleotide and the catalytic
+# centre. They set what a capture radius has to mean when it is applied to a
+# strand path that has not engaged.
+capture_criterion:
+  structure: 6VPC
+  engaged_sugar_to_catalytic_centre: 6.75    # angstrom, residue 26 C1' to the zinc
+  reacting_atom_to_catalytic_centre: 2.12    # the O6 of the transition-state analogue
+  neighbour_sugars_to_catalytic_centre: [13.55, 14.33, 19.41, 20.20]
+  note: >-
+    The engaged nucleotide brings its own sugar 7 to 13 angstrom closer than its
+    neighbours, so engagement moves the backbone locally. A criterion applied to
+    an unengaged path is therefore measuring a longer distance than the
+    reaction geometry alone would suggest.
+
+falsification_check:
+  accession: 6VPC
+  effector_chain: F           # the copy engaging the DNA; chain E sits 20 A away
+  active_site_residue: 201    # the catalytic zinc, 2.1 A from the modified base
+  target_residue: 26          # 8-azanebularine, protospacer index 7
+  occluding_chains: [A, B, C]
+  note: >-
+    The transition-state analogue at index 7 falls inside the reported ABE
+    window of positions 4 to 8, which is the third leg of the index check.
+
+substrate_rise: 6.3           # angstrom per nucleotide of displaced strand
+
+# How loosely to believe a coordinate for a nucleotide inside the R-loop bubble.
+#
+# Such a nucleotide is single-stranded, so it is not held where the deposition
+# found it, but the coordinate is still evidence about the path the strand takes
+# and discarding it replaces a measurement with a free bridge. Sampled
+# conformations are therefore weighted by how closely they pass the resolved
+# positions, with this spread.
+#
+# Zero ignores the coordinates and samples a free bridge. Pinning is the other
+# extreme, expressed by declaring no bubble at all, which is what the first
+# earlier treatment did, and what makes the ensemble do different amounts of work for
+# different structures.
+#
+# Nothing in between is both informative and even-handed, and the reason is
+# measured rather than argued. Weighting is applied after the chains are
+# sampled, so following the resolved positions is rare and gets rarer the
+# longer the bubble. The usable fraction of the sample, for the two structures
+# the corpus turns on:
+#
+#   spread 24    5F9R 1.8 per cent    6I1K 23.7 per cent
+#   spread 48    5F9R 39.0            6I1K 38.0
+#   spread 0     5F9R 43.5            6I1K 40.7
+#
+# and raising the chain count does not close the gap at 24, which stays at 2.7
+# against 24.1. So a tolerance tight enough to use the coordinates puts the two
+# structures on quite different statistical footing, which is the fault the
+# whole bubble treatment exists to remove.
+#
+# 48 is therefore the tightest setting that keeps them level, and it is set
+# here for that reason and not because the coordinates deserve so little
+# weight. Using them properly needs the sampler to steer through them rather
+# than be reweighted afterwards, which is the same distinction that forced
+# excluded volume into chain growth, and it is not implemented.
+# Not in use. Resolved nucleotides are anchors again, and leave-one-out
+# scoring is what keeps that fair: analysis/leave_one_out.py drops the anchor
+# at every position it scores, so no position answers for itself. The
+# reweighting below stays for the sensitivity analysis that measured it.
+observed_spread: 0.0
+observed_spread_range: [48.0, 96.0]
+
+# How far the displaced strand may stray from the protein it was unwound from.
+#
+# The occupancy map only repelled until now, so nothing stopped an unconstrained
+# bubble spreading out into solvent, and a nineteen-nucleotide one spreads far
+# enough to reach most of the protospacer whatever the tether does. That showed
+# up as a predicted window with the right mode and far too fat a PAM-proximal
+# tail.
+#
+# The physical statement is that the strand runs along the surface. It is set as
+# a distance from the nearest occupied sphere, applies to every structure by
+# construction, and uses no deposited coordinate, which is what the tolerance on
+# resolved coordinates could not manage.
+#
+# analysis/confinement_check.py asks whether a confined ensemble reproduces the
+# strand path 5F9R resolves without being told it, which is what decides whether
+# this is physics or another dial.
+# Measured to be non-binding and left off. The strand already runs within 2 to
+# 4 angstrom of the nearest sphere without being told to, so a band along the
+# surface excludes nothing. Its excess freedom is tangential, sliding along
+# the surface, which no radial constraint reaches.
+surface_distance: 0.0
+surface_distance_range: [8.0, 20.0]
+
+sampling:
+  tether_chains: 20000
+  substrate_samples: 8000
+  # Survival through excluded volume varies with linker length, so batches are
+  # drawn until this many conformations survive rather than fixing the count.
+  target_surviving: 8000
+  seed: 20260101

@@ -1,0 +1,27 @@
+{
+  "chain": "A",
+  "terminus": "c_terminal",
+  "junction_residue": 196,
+  "active_site_residue": 201,
+  "modelled_residues": [
+    10,
+    196
+  ],
+  "body_residues": [
+    10,
+    196
+  ],
+  "resolved_tail": 0,
+  "tail_cutoff": 1.5,
+  "active_site_offset": [
+    -20.77,
+    -1.14,
+    -6.74
+  ],
+  "offset_magnitude": 21.86,
+  "radius_of_gyration": 15.27,
+  "bounding_radius": 22.87,
+  "body_radius": 15.27,
+  "accession": "5KEG",
+  "effector": "ha3a"
+}

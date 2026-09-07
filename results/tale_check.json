@@ -1,0 +1,171 @@
+{
+  "tale_scaffolds": {
+    "C40": 43,
+    "C11": 20,
+    "C0": 3
+  },
+  "tale_shortest_that_edits": 20,
+  "shortest_buildable": {
+    "c_terminal/polyproline": 4,
+    "c_terminal/xten": 4,
+    "cp1012/polyproline": 4,
+    "cp1012/xten": 4,
+    "cp1028/polyproline": 4,
+    "cp1028/xten": 4,
+    "cp1041/polyproline": 4,
+    "cp1041/xten": 4,
+    "cp1249/polyproline": 4,
+    "cp1249/xten": 4,
+    "cp1300/polyproline": 4,
+    "cp1300/xten": 4,
+    "hnh_amino/helical": 4,
+    "hnh_amino/polyproline": 4,
+    "hnh_amino/xten": 4,
+    "hnh_carboxy/polyproline": 8,
+    "hnh_carboxy/xten": 12,
+    "n_terminal/polyproline": 4,
+    "n_terminal/xten": 4,
+    "pi_amino/polyproline": 4,
+    "pi_amino/xten": 4,
+    "pi_carboxy/polyproline": 4,
+    "pi_carboxy/xten": 4,
+    "ruvc_amino/polyproline": 4,
+    "ruvc_amino/xten": 4,
+    "ruvc_carboxy/polyproline": 4,
+    "ruvc_carboxy/xten": 4
+  },
+  "lengths_with_no_conformation": {
+    "c_terminal/helical": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48
+    ],
+    "cp1012/helical": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48
+    ],
+    "cp1028/helical": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48
+    ],
+    "cp1041/helical": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48
+    ],
+    "cp1249/helical": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48
+    ],
+    "cp1300/helical": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48
+    ],
+    "hnh_carboxy/helical": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48
+    ],
+    "hnh_carboxy/polyproline": [
+      4
+    ],
+    "hnh_carboxy/xten": [
+      4,
+      8,
+      24
+    ],
+    "n_terminal/helical": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48
+    ],
+    "pi_amino/helical": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48
+    ],
+    "pi_carboxy/helical": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48
+    ],
+    "ruvc_amino/helical": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48
+    ],
+    "ruvc_carboxy/helical": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48
+    ]
+  },
+  "shortest_buildable_flexible": {
+    "c_terminal/xten": 4,
+    "cp1012/xten": 4,
+    "cp1028/xten": 4,
+    "cp1041/xten": 4,
+    "cp1249/xten": 4,
+    "cp1300/xten": 4,
+    "hnh_amino/xten": 4,
+    "hnh_carboxy/xten": 12,
+    "n_terminal/xten": 4,
+    "pi_amino/xten": 4,
+    "pi_carboxy/xten": 4,
+    "ruvc_amino/xten": 4,
+    "ruvc_carboxy/xten": 4
+  },
+  "status": "qualitative, secondary, both connectors varied together in the source"
+}

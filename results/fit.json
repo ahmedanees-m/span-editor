@@ -1,0 +1,23 @@
+{
+  "parameters": {
+    "capture_radius": 22.0,
+    "ssdna_persistence": 22.0,
+    "link_alpha": 588.2841016079846
+  },
+  "loss": 0.013825446062519533,
+  "n_entries": 2,
+  "grid_shape": [
+    10,
+    20,
+    25
+  ],
+  "scale": "least_squares",
+  "freeze_record": {
+    "recorded_at": "2026-09-05T07:58:56+00:00",
+    "files": {
+      "configs/params.yaml": "d23d6574907132605345224765ac3f92872b8bb646eebee9ec97646d5c3459ae",
+      "configs/assigned_inputs.yaml": "4d5290dcc5a3a4be0c327096e23edb26ba0437fe4661fa7ea63854738984402e",
+      "configs/fitted.yaml": "e5cddb767ca475f9126401455b8b5421b2f559d373d704ee7d621939608b9bbd"
+    }
+  }
+}
