@@ -3,7 +3,7 @@ WORKBOOK ?= corpus/af4.xlsx
 WORKDIR ?= $(CURDIR)
 DOCKER  ?= docker run --rm -v $(WORKDIR):/work -w /work -u $(shell id -u):$(shell id -g) -e MPLCONFIGDIR=/tmp/matplotlib $(IMAGE)
 
-.PHONY: image shell test count power calibration recovery structures substrate curate context fit link evaluate transfer invert residuals connector tale ortholog provenance pairing sensitivity bubble confinement leaveout stability margin substitution construct clean
+.PHONY: image shell test count power calibration recovery structures substrate curate context fit link evaluate transfer invert residuals connector tale ortholog provenance pairing sensitivity bubble confinement leaveout stability margin substitution construct geometry scene clean
 
 image:
 	docker build -t $(IMAGE) docker
@@ -31,6 +31,12 @@ structures:
 
 substrate:
 	$(DOCKER) python analysis/substrate_check.py
+
+geometry:
+	$(DOCKER) python analysis/fig1_geometry.py
+
+scene:
+	$(DOCKER) python analysis/fig1_scene.py
 
 curate:
 	$(DOCKER) python analysis/curate_kissling.py --workbook $(WORKBOOK)
@@ -110,6 +116,9 @@ biasseeds:
 
 seeds:
 	$(DOCKER) python analysis/seed_stability.py
+
+reach:
+	$(DOCKER) python analysis/tether_reach.py
 
 bias:
 	$(DOCKER) python analysis/directional_bias.py

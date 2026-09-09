@@ -60,9 +60,15 @@ linker_compositions:
     range: [20.0, 130.0]
     reference: >-
       Published estimates span nearly an order of magnitude and depend on
-      method: about 44 angstrom from single-molecule FRET, 20 to 40 from FRET
-      analysed under a worm-like chain, and 90 to 130 from all-atom simulation.
-      The older textbook figure of 220 is not supported by the FRET work.
+      method: 44 plus or minus 9 angstrom from a worm-like-chain fit to
+      single-molecule FRET, Schuler, Lipman, Steinbach, Kumke and Eaton, PNAS
+      2005, doi 10.1073/pnas.0408164102, which is the value assigned; an
+      apparent 20 to 40 from FRET analysed under a worm-like chain, Doose,
+      Neuweiler, Barsch and Sauer, PNAS 2007, doi 10.1073/pnas.0705605104; and
+      90 to 130 for the all-trans form from all-atom simulation, Best,
+      Merchant, Gopich, Schuler, Bax and Eaton, PNAS 2007,
+      doi 10.1073/pnas.0709567104. The last two set the band. The older
+      textbook figure of 220 is not supported by the FRET work.
     status: banded
 
   helical:
@@ -72,8 +78,12 @@ linker_compositions:
     rigid: true
     range: [150.0, 250.0]
     reference: >-
-      Alpha-helical poly-L-lysine is reported at 150 to 210 angstrom and single
-      alpha-helical domains above 200.
+      Light scattering on alpha-helical poly-L-lysine gives 150 to 210 angstrom,
+      Wilcox, Dingle, Saha, Hore and Morozova, Soft Matter 2022,
+      doi 10.1039/d2sm00921h, and NMR on the single alpha-helical domain of
+      myosin-VI gives 224 plus or minus 10, Barnes, Shen, Ying, Takagi,
+      Torchia, Sellers and Bax, JACS 2019, doi 10.1021/jacs.9b03116. The band
+      is widened to 250 so that it brackets both.
     status: banded
 
 # Direction in which a rigid linker leaves the fusion junction is set by

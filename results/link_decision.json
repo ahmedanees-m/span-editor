@@ -6,13 +6,13 @@
   "entries_at_or_above_ceiling": 0,
   "ceiling_per_cent": 60.0,
   "highest_measured_efficiency": 45.77,
-  "loss_with_the_link": 0.025010561625642656,
-  "loss_with_the_link_held_linear": 0.063922586791955,
-  "loss_penalty_without_the_link": 2.555823725542288,
+  "loss_with_the_link": 0.013825446062519533,
+  "loss_with_the_link_held_linear": 0.057761521638291485,
+  "loss_penalty_without_the_link": 4.177913781377488,
   "parameters_with_the_link_held_linear": {
-    "capture_radius": 20.0,
+    "capture_radius": 22.0,
     "ssdna_persistence": 8.0,
-    "link_alpha": 0.5004228763960425
+    "link_alpha": 0.5882841016079846
   },
   "threshold_and_loss_disagree": true,
   "decision": "keep the link"

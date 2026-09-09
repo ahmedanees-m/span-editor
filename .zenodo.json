@@ -1,6 +1,6 @@
 {
   "title": "SPAN: a geometric model of effector tethering in R-loop genome editors",
-  "description": "<p>SPAN predicts the activity window of a tethered-effector genome editor from linker statistics, steric exclusion and R-loop geometry. Three parameters are fitted to two published editing profiles and held fixed; all further predictions are made without adjustment. Predictions are scored with each substrate position's deposited coordinate withheld.</p><p>The deposit contains the model, the analysis scripts that produce the reported results, and a corpus of 50 published architectures drawn from seven publications, with linker lengths recorded in residues read from construct maps rather than by linker name, and a source register giving the status of every publication examined.</p><p>Results: contour length does not move the predicted window across a sixteen-fold range, whereas attachment site does; across 185 buildable terminal-tether designs the predicted peak never falls outside protospacer positions 3 to 12 and reliably falls within 5 to 11, and the span, direction and rigidity a connector would need to reach the remaining positions are given; predicted window position agrees with measurement to within one nucleotide for most SpCas9-family architectures but does not exceed a constant predictor on this corpus; transfer to Cas12a fails by five to six nucleotides, with reach, capture radius, steric map, substrate treatment, fitted parameters and structural substitution eliminated in turn; and the displaced strand's path is not recoverable from linker statistics and steric exclusion, with a median error of 22.8 angstrom in SpCas9 at atomic resolution.</p>",
+  "description": "<p>SPAN predicts the activity window of a tethered-effector genome editor from linker statistics, steric exclusion and R-loop geometry. Three parameters are fitted to two published editing profiles and held fixed; all further predictions are made without adjustment. Predictions are scored with each substrate position's deposited coordinate withheld.</p><p>The deposit contains the model, the analysis scripts that produce every reported number, the recorded results those scripts write, the container definition they run in, and a corpus of 50 published architectures drawn from seven publications, with linker lengths recorded in residues read from construct maps rather than by linker name, and a source register giving the status of every publication examined. Sampled conformational ensembles are not deposited: they are 20,000 linker chains and 8,000 substrate samples per entry and regenerate deterministically from the recorded seed using this code. Structural coordinates are not redistributed; <code>data/fetch_structures.py</code> retrieves them by accession from the Protein Data Bank.</p><p>Results: contour length does not move the predicted window across a sixteen-fold range, whereas attachment site does; across 185 buildable single-linker designs the predicted peak never falls outside protospacer positions 3 to 12 and lies within 5 to 11 across all sampling conditions, and the span, direction and rigidity a connector would need to reach the remaining positions are given; predicted window position agrees with measurement to within one nucleotide for most SpCas9-family architectures but does not improve on a constant predictor on this corpus; transfer to Cas12a fails by five to six nucleotides, with reach, capture radius, steric map, substrate treatment, fitted parameters and structural substitution eliminated in turn; and the displaced strand's path is not recoverable from linker statistics and steric exclusion, with a median error of 22.8 angstrom in SpCas9 at atomic resolution.</p>",
   "upload_type": "software",
   "license": "MIT",
   "access_right": "open",
@@ -8,10 +8,6 @@
     {
       "name": "Mahaboob Ali, Anees Ahmed",
       "affiliation": "School of Bio Sciences and Technology, VIT Vellore"
-    },
-    {
-      "name": "Delhibabu, Radhakrishnan",
-      "affiliation": "VIT Vellore"
     },
     {
       "name": "Nelson, Everette Jacob Remington",
@@ -36,5 +32,6 @@
       "relation": "isSupplementTo",
       "scheme": "url"
     }
-  ]
+  ],
+  "version": "v0.1.0"
 }
