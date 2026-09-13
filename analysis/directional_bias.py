@@ -52,13 +52,13 @@ def report(label: str, values: list[float], clusters: list[str], unit: str) -> d
         # would be an error, so it is withheld.
         print(
             f"  {label:18s} n={array.size:2d}  mean {array.mean():+6.2f} {unit}  "
-            f"one publication, no interval"
+            f"one study, no interval"
         )
         return record
     interval = cluster_bootstrap(array, np.asarray(clusters))
     print(
         f"  {label:18s} n={array.size:2d}  mean {interval.estimate:+6.2f} {unit}  "
-        f"[{interval.lower:+6.2f}, {interval.upper:+6.2f}] over {len(groups)} publications  "
+        f"[{interval.lower:+6.2f}, {interval.upper:+6.2f}] over {len(groups)} studies  "
         f"{'excludes zero' if interval.excludes_zero else 'includes zero'}"
     )
     record.update(

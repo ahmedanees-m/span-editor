@@ -223,11 +223,11 @@ def main(argv: list[str] | None = None) -> int:
     # length at most attachment sites, so many lengths are consistent with the
     # same target and the inverse problem is not identified by position alone.
     # Reporting a single proposal would hide that behind whichever tie-break was
-    # chosen, so both are reported: whether the published length is among the
+    # chosen, so both are reported: whether the reported length is among the
     # lengths consistent with the target, and how many lengths that leaves.
     #
-    # The comparison is against always proposing the commonest published length,
-    # which is strong here because published linkers cluster.
+    # The comparison is against always proposing the commonest reported length,
+    # which is strong here because reported linkers cluster.
     lengths_in_corpus = Counter(entry.linker_residues for entry in corpus)
     modal_length = lengths_in_corpus.most_common(1)[0][0]
 
@@ -328,11 +328,11 @@ def main(argv: list[str] | None = None) -> int:
     print(f"grid holds up to {max(row['lengths_on_the_grid'] for row in recovery)} lengths per entry")
     print(
         f"position alone narrows the set below the whole grid in {identified} of {len(recovery)}, "
-        f"and the published length is in it in {consistent_count}"
+        f"and the reported length is in it in {consistent_count}"
     )
     print(
         f"position and width narrow it in {identified_with_width} of {len(recovery)}, "
-        f"and the published length is in it in {with_width}"
+        f"and the reported length is in it in {with_width}"
     )
     print(f"nearest single proposal within {args.tolerance} residues: {within} of {len(recovery)}")
     print(

@@ -145,7 +145,7 @@ class Profile:
     def window(self, threshold: float = 0.5) -> tuple[int, int]:
         """First and last index of the run around the mode above the threshold.
 
-        This is what a published editing window is: the stretch of positions
+        This is what a reported editing window is: the stretch of positions
         carrying activity worth reporting. The threshold makes the convention
         explicit, since papers rarely state one.
         """

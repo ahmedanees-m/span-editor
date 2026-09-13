@@ -42,7 +42,7 @@ class CompositionClass:
     anchor in a direction set by backbone geometry that no structure resolves, so
     it is given a wide cone and flagged rather than pinned to a guess.
 
-    persistence_range gives the span of published values. Where that span is
+    persistence_range gives the span of reported values. Where that span is
     wide, as it is for the ordered classes, predictions are reported across it
     rather than at the central value alone.
     """
@@ -57,7 +57,7 @@ class CompositionClass:
 
     @property
     def spread_in_persistence(self) -> float:
-        """Ratio of the widest to the narrowest published persistence length."""
+        """Ratio of the widest to the narrowest reported persistence length."""
         if not self.persistence_range:
             return 1.0
         low, high = self.persistence_range

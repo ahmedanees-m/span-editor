@@ -1,7 +1,7 @@
-"""What margin the corpus can resolve, given the number of source publications.
+"""What margin the corpus can resolve, given the number of source studies.
 
-Entries cluster by laboratory, publication, deaminase and scaffold, so the
-resampling unit is the publication and not the architecture. With around ten
+Entries cluster by laboratory, study, deaminase and scaffold, so the
+resampling unit is the study and not the architecture. With around ten
 independent clusters the interval on a paired difference in window-position
 accuracy is wide, and this module exists to find out how wide before anything is
 built on it.

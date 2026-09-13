@@ -3,14 +3,15 @@
 [![tests](https://github.com/ahmedanees-m/span-editor/actions/workflows/tests.yml/badge.svg)](https://github.com/ahmedanees-m/span-editor/actions/workflows/tests.yml)
 [![licence](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
 [![python](https://img.shields.io/badge/python-3.11-blue.svg)](pyproject.toml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22736738.svg)](https://doi.org/10.5281/zenodo.22736738)
 
 A geometric model of effector tethering in R-loop genome editors.
 
 SPAN predicts the activity window of a tethered-effector editor from linker
 statistics, steric exclusion and R-loop geometry. Three parameters are fitted to
-two published editing profiles and held fixed; all other predictions are made
+two previously reported editing profiles and held fixed; all other predictions are made
 without adjustment. The package includes the model, a curated corpus of 50
-published architectures with provenance for every entry, and the analysis
+architectures drawn from the literature with provenance for every entry, and the analysis
 scripts that produce the reported results.
 
 ## Install
@@ -51,7 +52,7 @@ make connector    # connector geometry for the unreachable positions
 `Makefile` lists every target, and each script accepts `--help` for its own
 options. Results are written to `results/` as JSON.
 
-Reproducing the published analysis in order:
+Reproducing the reported analysis in order:
 
 ```bash
 make count calibration power        # corpus register and design sensitivity
@@ -82,7 +83,7 @@ literature and recorded in `configs/assigned_inputs.yaml` with their sources.
 
 Fitting uses per-position profile shape rather than window position, since window
 position is invariant under any monotone link. Reporting scales differ between
-publications, so profiles are compared as shapes with the multiplicative constant
+studies, so profiles are compared as shapes with the multiplicative constant
 solved by least squares.
 
 Deposited strand coordinates are an input to the model rather than an output, so
@@ -105,7 +106,7 @@ src/span_editor/   the model
   invert.py        candidate tethers for a target window position
   synthetic.py     generated geometries for parameter recovery
   io.py            corpus, configuration and fit record
-  power.py         detectable margin against the number of source publications
+  power.py         detectable margin against the number of source studies
 analysis/          one script per analysis, each with a make target
 configs/           fitted parameters, search bounds, assigned inputs
 data/              corpus, source register, structure list, data dictionary
@@ -116,8 +117,8 @@ docker/            container definition
 
 ## Data
 
-`data/architectures.tsv` holds 50 architectures from seven publications.
-`data/sources.tsv` registers every publication examined, including those not
+`data/architectures.tsv` holds 50 architectures from seven studies.
+`data/sources.tsv` registers every study examined, including those not
 curated and the reason. `data/DATA_DICTIONARY.md` defines every column.
 
 Linker length is recorded in residues read from construct maps rather than by
@@ -129,22 +130,26 @@ pipeline in tests and is not suitable for analysis.
 
 ## Baselines
 
-Five, all implemented before the model was scored: a marginal baseline
+Five: a marginal baseline
 predicting the corpus mean, a substrate-only baseline using R-loop exposure with
 the tether ignored, distance plus sterics fitted with the same freedom as the
 model, a linear-in-length baseline, and a modal-linker baseline for the inverse
 problem.
 
-Intervals resample source publications rather than entries, since entries cluster
-by laboratory, publication, deaminase and scaffold. The construction is a
+Intervals resample source studies rather than entries, since entries cluster
+by laboratory, study, deaminase and scaffold. The construction is a
 studentised wild cluster bootstrap. A percentile cluster bootstrap is available
 and is not used for reporting: at these cluster counts it rejects a true null
 roughly twice as often as its nominal rate.
 
 ## Citation
 
-If you use this software or the corpus, please cite it using the metadata in
-`CITATION.cff`.
+Version 0.1.0 is archived at Zenodo under DOI
+[10.5281/zenodo.22736738](https://doi.org/10.5281/zenodo.22736738). Cite that
+DOI for a specific version, or the concept DOI
+[10.5281/zenodo.22736737](https://doi.org/10.5281/zenodo.22736737) for whichever
+version is current. `CITATION.cff` carries the same metadata in machine-readable
+form.
 
 ## Licence
 

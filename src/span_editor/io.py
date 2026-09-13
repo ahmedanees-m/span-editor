@@ -1,6 +1,6 @@
 """Reading the corpus, the configuration files and the fit record.
 
-Two tables carry the data. sources.tsv is the register of publications counted
+Two tables carry the data. sources.tsv is the register of studies counted
 in step 0; architectures.tsv is the corpus itself, one row per architecture and
 readout. Observed profiles are stored inline as index:value pairs so that a row
 stays legible in a diff.
@@ -48,7 +48,7 @@ SPLITS = {"fit", "held_out"}
 
 @dataclass(frozen=True)
 class SourceRecord:
-    """One publication in the step 0 register."""
+    """One study in the step 0 register."""
 
     key: str
     citation: str
@@ -74,7 +74,7 @@ class SourceRecord:
 
 @dataclass
 class CorpusEntry:
-    """One architecture as measured in one publication."""
+    """One architecture as measured in one study."""
 
     entry_id: str
     source_key: str

@@ -50,7 +50,7 @@ def shape_loss(predicted: np.ndarray, observed: np.ndarray, scale: str) -> np.nd
     scale they use. Two ways of removing that scale are available.
 
     Dividing by the peak is the obvious one and is what reading a window off a
-    published figure amounts to. It is also biased: the observed peak is one
+    source figure amounts to. It is also biased: the observed peak is one
     order statistic and noise inflates it, so every other point is pushed down
     and the profile looks flatter than it is.
 

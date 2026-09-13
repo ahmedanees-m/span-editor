@@ -1,7 +1,7 @@
 """Score architectures whose window is reported as a span rather than a profile.
 
 Predictions are compared as shifts relative to a reference architecture from the
-same publication, which removes the per-source reporting scale.
+same study, which removes the per-source reporting scale.
 """
 
 from __future__ import annotations

@@ -37,7 +37,7 @@ def add_noise(
     """Additive noise on the normalised profile, matched to replicate dispersion.
 
     The two normalisations differ in whether the noisy profile is divided by its
-    own peak. Dividing by it is what curating a window from a published figure
+    own peak. Dividing by it is what curating a window from a source figure
     amounts to, and it is biased: the peak is one order statistic and noise
     inflates it. Leaving the generating peak in place matches what the fit
     assumes, so comparing the two isolates how much of any recovery error comes

@@ -1,4 +1,4 @@
-"""Detectable margin as a function of the number of source publications."""
+"""Detectable margin as a function of the number of source studies."""
 
 from __future__ import annotations
 

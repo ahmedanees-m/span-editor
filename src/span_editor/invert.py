@@ -3,7 +3,7 @@
 Given a target window, the model is run forward over a grid of candidate
 linkers and the candidates are ranked by how closely the predicted profile
 matches. The comparison that matters is against the modal linker, since
-published constructs cluster on a few lengths and proposing the most common one
+reported constructs cluster on a few lengths and proposing the most common one
 already scores well against a loose tolerance.
 """
 

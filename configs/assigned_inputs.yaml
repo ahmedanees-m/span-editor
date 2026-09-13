@@ -2,7 +2,7 @@
 #
 # The fitted parameter count does not capture the flexibility of the model.
 # These entries do: they are numerous, they are set by judgment, and they are
-# where knowledge of published held-out results would leak in if it leaked in
+# where knowledge of reported held-out results would leak in if it leaked in
 # anywhere. The file is therefore fixed and hashed before held-out evaluation
 # begins, in one reviewable place rather than scattered through the code.
 #
@@ -11,7 +11,7 @@
 # cited structure, and it must be resolved before any run that carries a claim.
 
 linker_compositions:
-  # persistence and rise are in angstrom. range gives the span of published
+  # persistence and rise are in angstrom. range gives the span of reported
   # values; where that span is wide the class is marked banded and predictions
   # for it are reported across the range rather than at the central value.
   xten:
@@ -59,7 +59,7 @@ linker_compositions:
     rigid: true
     range: [20.0, 130.0]
     reference: >-
-      Published estimates span nearly an order of magnitude and depend on
+      Reported estimates span nearly an order of magnitude and depend on
       method: 44 plus or minus 9 angstrom from a worm-like-chain fit to
       single-molecule FRET, Schuler, Lipman, Steinbach, Kumke and Eaton, PNAS
       2005, doi 10.1073/pnas.0408164102, which is the value assigned; an
@@ -206,7 +206,7 @@ motifs:
   # the term left flat; it is applied only where a defined target is modelled.
   apobec:
     base_weights: { T: 1.0, C: 0.6, A: 0.4, G: 0.2 }
-    reference: published characterisation of APOBEC family preference
+    reference: reported characterisation of APOBEC family preference
     status: to_verify
 
   flat:
@@ -369,8 +369,8 @@ structure_geometry:
       four nucleotides ending at residue 0 read TTTA, a canonical Cas12a PAM;
       residues -8 to 0 sit at base-pairing distance from the target strand while
       1 to 13 do not; and 19 to 21 pair again, which is the R-loop closing. Both
-      ends of the bubble are therefore observed here rather than inferred, and
-      no separate closure anchor is needed. Corpus entries use LbCas12a and
+      ends of the bubble are resolved in this structure, so no separate closure
+      anchor is needed. Corpus entries use LbCas12a and
       AsCas12a, so this is a within-family structural substitution.
 
   5CZZ:

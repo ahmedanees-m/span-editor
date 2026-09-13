@@ -1,6 +1,6 @@
 # Data dictionary
 
-Two tables. `sources.tsv` registers the publications counted before curation
+Two tables. `sources.tsv` registers the studies counted before curation
 began. `architectures.tsv` is the corpus: one row per architecture per readout.
 
 Every value in `architectures.tsv` is read from a primary figure or
@@ -16,7 +16,7 @@ another paper's result.
 | `citation` | free text | Author, journal, year, volume and pages where known |
 | `doi` | DOI or blank | Present once the bibliographic record has been resolved against Crossref. A resolved record settles the author line and the venue; it says nothing about the values, which are read from the primary figure |
 | `role` | `architecture`, `profile`, `external` | Architecture sources vary the tether and are the scarce resource. Profile sources supply per-position windows but vary deaminase or PAM variant. External sources are TALE-system work used as a check |
-| `tether_variation` | free text, `none` | What the publication varies |
+| `tether_variation` | free text, `none` | What the study varies |
 | `readout_class` | `amplicon_sequencing`, `functional_selection`, `plant_system`, `in_vitro_deamination`, `sanger_deconvolution` | Determines whether entries from this source may be fitted. Only amplicon sequencing may. A gel-based deamination assay on purified protein and a Sanger trace deconvolved by EditR are quantitative enough to give a window and not enough to fit against |
 | `status` | `confirmed`, `verify_primary`, `to_retrieve`, `not_open_access`, `linker_lengths_unavailable`, `insertion_residues_unavailable`, `effector_geometry_missing`, `no_tether_variation` | Whether the entry has been checked against the primary, and where it has, what stopped it being curated. The three unavailable states all mean the same thing in practice: the geometry the model needs is in a figure panel rather than in the text or a table |
 | `notes` | free text | Restrictions that apply to entries drawn from this source |
@@ -27,7 +27,7 @@ another paper's result.
 |---|---|---|
 | `entry_id` | short identifier | Unique per row |
 | `source_key` | key from `sources.tsv` | Bootstrap resampling is over this column, not over architectures |
-| `editor` | free text | Construct name as published |
+| `editor` | free text | Construct name as reported |
 | `ortholog` | `SpCas9`, `SaCas9`, `SpG`, `SpRY`, `Cas12a`, `Nme2Cas9`, `IscB` | Cas protein family |
 | `anchor_site` | key from `anchor_sites` in `configs/assigned_inputs.yaml` | Which residue of the Cas protein the linker leaves from. The names are per structure, so a site with no entry for the structure the row cites is an error rather than a fall back |
 | `linker_residues` | integer | Contour length in residues. Zero means the source reports none. See below for where each value comes from |
@@ -90,12 +90,11 @@ fold. All of these alter DNA binding, R-loop kinetics and residence time, which
 enter the model through the global activity scale.
 
 Every architecture in this corpus that moves the effector off a terminus carries
-this label, and that is not an accident of curation. A tether cannot leave the
-protein anywhere except a terminus without the backbone being cut, so anchor
-transfer and scaffold perturbation are confounded by construction in the
-published literature. The subset of anchor transfers with the Cas protein
-untouched is empty, and anchor-transfer results are reported as what they are
-rather than split into a clean half that does not exist.
+this label. A tether cannot leave the protein anywhere except a terminus without
+the backbone being cut, so anchor transfer and scaffold perturbation are
+confounded by construction in the published literature. No anchor transfer in
+this corpus leaves the Cas protein untouched, so anchor-transfer results are not
+separated from scaffold perturbation.
 
 `both` covers entries where tether and effector change together, such as a
 linker removal that accompanies a new deaminase.
@@ -122,9 +121,9 @@ the terminal-fusion geometry departs from.
 
 ### Profiles
 
-Values are per-position editing as published, on whatever scale the source
+Values are per-position editing as reported, on whatever scale the source
 reports. Comparisons normalise within a profile, so the absolute scale does not
-need to be uniform across sources. Positions absent from a published panel are
+need to be uniform across sources. Positions absent from a source panel are
 left out of the string rather than entered as zero.
 
 ## Configuration
@@ -147,7 +146,7 @@ different indices under different searches.
 
 `link.profile_scale` fixes how the reporting scale of a source is removed before
 profiles are compared. Dividing by the peak is the obvious choice and is what
-reading a window off a published figure amounts to, but the peak is one order
+reading a window off a source figure amounts to, but the peak is one order
 statistic and noise inflates it, which flattens everything else. On generated
 profiles that biases the recovered saturation index down by about a third and
 puts the generating value outside the interval. Solving for the multiplicative

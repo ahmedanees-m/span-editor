@@ -122,7 +122,7 @@ def main(argv: list[str] | None = None) -> int:
     if linker == XTEN_16 and ortholog:
         print(
             f"  So the deaminase is amino-terminal, joined to {ortholog} by a "
-            f"{len(XTEN_16)}-residue XTEN. Both were read here rather than inferred."
+            f"{len(XTEN_16)}-residue XTEN."
         )
     else:
         print("  The construct does not match what the corpus records. Check the entries.")

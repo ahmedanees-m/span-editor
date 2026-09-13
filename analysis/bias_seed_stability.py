@@ -133,7 +133,7 @@ def main(argv: list[str] | None = None) -> int:
                 continue
             summary[str(seed)][label] = rec
             span = (f"[{rec['lower']:+.3f}, {rec['upper']:+.3f}]"
-                    if "lower" in rec else "one publication")
+                    if "lower" in rec else "one study")
             print(f"{seed:5d} {label:16s} {rec['n']:3d} {rec['publications']:5d} "
                   f"{rec['mean']:+8.3f} {span:>20s}  "
                   f"{rec.get('excludes_zero', '')}")

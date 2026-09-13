@@ -189,7 +189,7 @@ class DistanceStericsBaseline(Baseline):
 class LinearLinkerBaseline(Baseline):
     """Window mode as a straight line in linker contour length.
 
-    Published length series are close to linear, so this is a strong baseline
+    Reported length series are close to linear, so this is a strong baseline
     for the linker-length hypothesis and a weak one everywhere else.
     """
 
@@ -227,7 +227,7 @@ class LinearLinkerBaseline(Baseline):
 class ModalLinkerBaseline:
     """The linker the field already uses, for scoring the inverse problem only.
 
-    Published constructs cluster on a small number of linkers, so proposing the
+    Reported constructs cluster on a small number of linkers, so proposing the
     most common one scores well against any loose tolerance. An inversion result
     only means something if it beats this.
     """

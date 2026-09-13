@@ -1,7 +1,7 @@
 """Scoring, margins and the cluster bootstrap.
 
-Entries cluster by laboratory, publication, deaminase and scaffold, so every
-interval is taken by resampling source publications rather than architectures.
+Entries cluster by laboratory, study, deaminase and scaffold, so every
+interval is taken by resampling source studies rather than architectures.
 Thresholds are margins over the marginal baseline, not absolute hit rates: most
 SpCas9 editors peak in a narrow band of positions, so a high absolute hit rate
 can be had for nothing.
@@ -220,7 +220,7 @@ def cluster_bootstrap(
     seed: int = 0,
     method: str = WILD,
 ) -> BootstrapInterval:
-    """Interval on a mean, resampling source publications."""
+    """Interval on a mean, resampling source studies."""
     labels, sums, sizes = cluster_totals(values, clusters)
     if method == WILD:
         lower, upper = wild_cluster_interval(sums, sizes, n_bootstrap, level, seed)

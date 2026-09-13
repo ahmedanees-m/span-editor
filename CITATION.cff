@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: If you use this software, please cite it as below.
-title: SPAN
+title: "SPAN: a geometric model of effector tethering in R-loop genome editors"
 abstract: >-
   A geometric model of effector tethering in R-loop genome editors. Editing
   windows are computed from linker statistics, steric occlusion and R-loop
@@ -8,8 +8,17 @@ abstract: >-
   held fixed across orthologs.
 type: software
 version: 0.1.0
+doi: 10.5281/zenodo.22736738
+date-released: 2026-09-13
 license: MIT
 repository-code: https://github.com/ahmedanees-m/span-editor
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22736738
+    description: Archived release, version 0.1.0
+  - type: doi
+    value: 10.5281/zenodo.22736737
+    description: Concept DOI, always resolving to the latest version
 authors:
   - family-names: Mahaboob Ali
     given-names: Anees Ahmed

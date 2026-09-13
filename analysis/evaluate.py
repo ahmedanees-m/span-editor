@@ -88,7 +88,7 @@ def score(model, parameters, baselines, contexts):
 
 
 def margins(rows, baseline_names, label):
-    """Margin of the model over each baseline, resampling source publications."""
+    """Margin of the model over each baseline, resampling source studies."""
     if not rows:
         return []
     clusters = np.asarray([row["source_key"] for row in rows])
@@ -204,7 +204,7 @@ def main(argv: list[str] | None = None) -> int:
         json.dump(report, handle, indent=2)
         handle.write("\n")
 
-    print(f"entries {len(rows)} across {report['n_clusters']} source publications")
+    print(f"entries {len(rows)} across {report['n_clusters']} source studies")
     print(f"held out {len(held_out)}")
     print(f"written to {args.out}")
     return 0

@@ -123,7 +123,7 @@ def test_configuration_files_load():
     assert np.asarray(assigned.effectors["apobec1"].active_site_offset).shape == (3,)
 
 
-def test_every_composition_carries_a_published_range():
+def test_every_composition_carries_a_reported_range():
     assigned = load_assigned_inputs(ROOT / "configs" / "assigned_inputs.yaml")
     for name, composition in assigned.compositions.items():
         assert composition.persistence_range, name

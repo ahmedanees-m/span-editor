@@ -1,7 +1,7 @@
 """Hit rate against a marginal baseline on the architecture entries.
 
 The profile source the parameters were fitted on is excluded, since every
-architecture in it peaks at the same position. Intervals resample publications.
+architecture in it peaks at the same position. Intervals resample studies.
 """
 
 from __future__ import annotations
@@ -60,7 +60,7 @@ def main(argv: list[str] | None = None) -> int:
           f"{sorted(Counter(observed_mode(e) for e in profiles))}")
     print(f"the marginal baseline therefore predicts {marginal} everywhere")
     print(f"architecture entries: {len(architectures)} from "
-          f"{len({e.source_key for e in architectures})} publications")
+          f"{len({e.source_key for e in architectures})} studies")
     print()
 
     sampler = TetherSampler(
@@ -128,7 +128,7 @@ def main(argv: list[str] | None = None) -> int:
         marginal_hits = np.asarray([row["marginal_hit"] for row in chosen])
         interval = cluster_bootstrap(model_hits - marginal_hits, clusters)
         print()
-        print(f"{scope}: n={len(chosen)}, publications={len(set(clusters))}")
+        print(f"{scope}: n={len(chosen)}, studies={len(set(clusters))}")
         print(f"  model    {model_hits.mean():.3f}")
         print(f"  marginal {marginal_hits.mean():.3f}")
         print(
