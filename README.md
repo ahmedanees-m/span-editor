@@ -3,7 +3,7 @@
 [![tests](https://github.com/ahmedanees-m/span-editor/actions/workflows/tests.yml/badge.svg)](https://github.com/ahmedanees-m/span-editor/actions/workflows/tests.yml)
 [![licence](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
 [![python](https://img.shields.io/badge/python-3.11-blue.svg)](pyproject.toml)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22736738.svg)](https://doi.org/10.5281/zenodo.22736738)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22736738-blue)](https://doi.org/10.5281/zenodo.22736738)
 
 A geometric model of effector tethering in R-loop genome editors.
 
