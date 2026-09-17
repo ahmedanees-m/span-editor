@@ -27,3 +27,18 @@ authors:
   - family-names: Nelson
     given-names: Everette Jacob Remington
     affiliation: School of Bio Sciences and Technology, VIT Vellore
+
+preferred-citation:
+  type: article
+  title: >-
+    Attachment site, not linker length, bounds tethered base editor windows
+  authors:
+    - family-names: Mahaboob Ali
+      given-names: Anees Ahmed
+    - family-names: Nelson
+      given-names: Everette Jacob Remington
+  journal: bioRxiv
+  year: 2026
+  month: 9
+  doi: 10.64898/2026.09.16.751980
+  notes: Preprint

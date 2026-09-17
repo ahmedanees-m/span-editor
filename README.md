@@ -4,6 +4,7 @@
 [![licence](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
 [![python](https://img.shields.io/badge/python-3.11-blue.svg)](pyproject.toml)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22736738-blue)](https://doi.org/10.5281/zenodo.22736738)
+[![bioRxiv](https://img.shields.io/badge/bioRxiv-10.64898%2F2026.09.16.751980-b31b1b)](https://doi.org/10.64898/2026.09.16.751980)
 
 A geometric model of effector tethering in R-loop genome editors.
 
@@ -144,12 +145,17 @@ roughly twice as often as its nominal rate.
 
 ## Citation
 
-Version 0.1.0 is archived at Zenodo under DOI
-[10.5281/zenodo.22736738](https://doi.org/10.5281/zenodo.22736738). Cite that
-DOI for a specific version, or the concept DOI
-[10.5281/zenodo.22736737](https://doi.org/10.5281/zenodo.22736737) for whichever
-version is current. `CITATION.cff` carries the same metadata in machine-readable
-form.
+To cite the work, cite the paper:
+
+> Mahaboob Ali, A. A.; Nelson, E. J. R. Attachment site, not linker length,
+> bounds tethered base editor windows. *bioRxiv*, September 17, 2026.
+> DOI: [10.64898/2026.09.16.751980](https://doi.org/10.64898/2026.09.16.751980)
+
+To cite the software itself, cite the archived release,
+[10.5281/zenodo.22736738](https://doi.org/10.5281/zenodo.22736738), or the
+concept DOI [10.5281/zenodo.22736737](https://doi.org/10.5281/zenodo.22736737)
+for whichever version is current. `CITATION.cff` carries both in
+machine-readable form, with the paper as the preferred citation.
 
 ## Licence
 
